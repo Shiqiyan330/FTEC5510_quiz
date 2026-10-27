@@ -1,0 +1,5858 @@
+// 自动生成，请勿手改：编辑 quiz_database.json 后运行 python merge_questions.py
+window.QUIZ_DATA = {
+  "schemaVersion": 3,
+  "title": "FTEC5510 Financial Services Technology 题库",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Chapter 01 - Introduction"
+    },
+    {
+      "id": "ch02",
+      "title": "Chapter 02 - Business Process Management"
+    },
+    {
+      "id": "ch03",
+      "title": "Chapter 03 - Architecture"
+    },
+    {
+      "id": "ch04",
+      "title": "Chapter 04 - Technology Solution Delivery"
+    },
+    {
+      "id": "ch05",
+      "title": "Chapter 05 - Technology Infrastructure and Operations"
+    },
+    {
+      "id": "ch07",
+      "title": "Chapter 07 - Banking Contexts"
+    },
+    {
+      "id": "ch11",
+      "title": "Chapter 11 - Trade Services and Finance"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch01-b2-001",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following statements regarding the introduction to Financial Services Technology is INCORRECT?",
+      "options": [
+        "IT adds value primarily by addressing the needs of key stakeholders.",
+        "New customer-focused solutions can make financial institutions more competitive.",
+        "An inability to deliver IT solutions rarely hinders a financial institution's growth if its balance sheet is strong.",
+        "Creating IT-based solutions in financial institutions is a complicated process."
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "选项 C 说法错误（符合选非题要求）：p.2 明确指出 'Inability to deliver IT solutions can hinder growth'（无法交付 IT 解决方案会阻碍增长），且并未提及资产负债表强大就能豁免。选项 A、B、D 均与 p.2 原文完全一致。",
+      "difficulty": "easy",
+      "tags": [
+        "Introduction",
+        "IT Value"
+      ],
+      "source": "p.2: 'Inability to deliver IT solutions can hinder growth'"
+    },
+    {
+      "id": "ch01-b2-002",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "In the case study 'Reducing Costs by Reengineering Technology and Processes at HSBC', which of the following questions are raised for discussion?",
+      "options": [
+        "How might these change initiatives affect customers' experiences with the bank's services?",
+        "How could management overcome resistance within an organization to the rationalization of business processes and the consolidation of IT systems?",
+        "Why would redundant processes and systems remain after banks merge or are acquired?",
+        "What are the disadvantages of allowing overlapping business processes and systems to persist?",
+        "How can HSBC utilize marketplace lending to replace traditional net interest margin revenue?"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.3 列出了关于 HSBC 案例研究的 4 个讨论问题，分别对应选项 A（对客户体验的影响）、B（克服业务流程合理化与 IT 系统整合的内部阻力）、C（并购后冗余流程和系统留存的原因）和 D（允许重叠业务流程和系统持续存在的劣势）。选项 E 中的 marketplace lending 和 net interest margin 属于后续页面的知识点，不在 p.3 案例问题中。",
+      "difficulty": "medium",
+      "tags": [
+        "Case Study",
+        "HSBC",
+        "Process Reengineering"
+      ],
+      "source": "p.3: 'Reducing Costs by Reengineering Technology and Processes at HSBC - Questions 1-4'"
+    },
+    {
+      "id": "ch01-b2-003",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "What is the primary purpose of maintaining a separation of duties（职责分离）between different functional areas within a financial institution?",
+      "options": [
+        "To help prevent internal fraud",
+        "To eliminate the need for standalone databases",
+        "To maximize net interest margin across business cycles",
+        "To enable straight-through processing without middleware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 明确指出 'Separation of duties between functions helps prevent internal fraud'（职能之间的职责分离有助于防止内部欺诈）。选项 B、C、D 混淆了数据管理、收入来源和业务流程方向的概念，均非职责分离的目的。",
+      "difficulty": "easy",
+      "tags": [
+        "Structure of Financial Institutions",
+        "Separation of Duties",
+        "Internal Fraud"
+      ],
+      "source": "p.4: 'Separation of duties between functions helps prevent internal fraud'"
+    },
+    {
+      "id": "ch01-b2-004",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Consider the following pairings of organizational offices and their sub-functions in a financial institution:\n① Front Office: Sales, Trading, Marketing\n② Middle Office: Risk Management, Compliance, Accounting\n③ Back Office: Fulfillment, Support, Accounting\n④ Separate Function: Audit\nWhich of the above pairings are completely accurate?",
+      "options": [
+        "① and ② only",
+        "①, ③, and ④ only",
+        "②, ③, and ④ only",
+        "①, ②, ③, and ④"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "根据 p.4 的架构图：Front Office 包含 Sales, Trading, Marketing（①正确）；Middle Office 仅包含 Risk Management 和 Compliance，而 Accounting 属于 Back Office（②错误）；Back Office 包含 Fulfillment, Support, Accounting（③正确）；Audit 是独立于前中后台之外的职能模块（④正确）。因此选 B。",
+      "difficulty": "medium",
+      "tags": [
+        "Structure of Financial Institutions",
+        "Front Office",
+        "Middle Office",
+        "Back Office",
+        "Audit"
+      ],
+      "source": "p.4: 'Front Office / Middle Office / Back Office / Audit'"
+    },
+    {
+      "id": "ch01-b2-005",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "According to the Business Drivers causal diagram, which of the following sets of intermediate drivers directly points to 'Changing Revenue Sources'?",
+      "options": [
+        "Demographic Changes, Increased Competition, and Increased Scale",
+        "Technology Innovation, Mergers and Acquisitions, and Global Expansion",
+        "New Channels, Regulatory Changes, and Technology Innovation",
+        "Mergers and Acquisitions, Demographic Changes, and Regulatory Changes"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "根据 p.5 的 Business Drivers 因果关系图，指向 'Changing Revenue Sources' 的三个箭头分别直接来自 'Demographic Changes'、'Increased Competition' 和 'Increased Scale'（选项 A 正确）。其他选项中的驱动因素并未直接指向 Changing Revenue Sources。",
+      "difficulty": "hard",
+      "tags": [
+        "Business Drivers",
+        "Changing Revenue Sources"
+      ],
+      "source": "p.5: 'Business Drivers diagram arrows to Changing Revenue Sources'"
+    },
+    {
+      "id": "ch01-b2-006",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "In the Business Drivers causal diagram, which four factors have arrows pointing directly to 'Increased Complexity'?",
+      "options": [
+        "Technology Innovation",
+        "New Channels",
+        "Regulatory Changes",
+        "Changing Revenue Sources",
+        "Demographic Changes",
+        "Global Expansion"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "观察 p.5 的图表，直接指向最右侧 'Increased Complexity' 的四个框分别是：'Technology Innovation'、'New Channels'、'Regulatory Changes' 以及 'Changing Revenue Sources'（即 A、B、C、D）。Demographic Changes 和 Global Expansion 是通过中间节点间接传导的。",
+      "difficulty": "hard",
+      "tags": [
+        "Business Drivers",
+        "Increased Complexity"
+      ],
+      "source": "p.5: 'Business Drivers diagram arrows to Increased Complexity'"
+    },
+    {
+      "id": "ch01-b2-007",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following statements about Mergers and Acquisitions (M&A) as a business driver is FALSE?",
+      "options": [
+        "Mergers within home markets have increased banks' scale.",
+        "Acquisition of foreign banks has enabled global growth.",
+        "In some developed markets, the M&A cycle has reached its limits.",
+        "Current regulation has become increasingly favorable to bank growth through mergers."
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "选项 D 错误（符合选非题要求）：p.6 明确指出 'Regulation is now less favorable to bank growth through mergers'（如今的监管对银行通过并购实现增长不再那么有利），而非越来越有利。选项 A、B、C 均与 p.6 原文完全一致。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Drivers",
+        "Mergers and Acquisitions"
+      ],
+      "source": "p.6: 'Regulation is now less favorable to bank growth through mergers'"
+    },
+    {
+      "id": "ch01-b2-008",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Based on the timeline of the consolidation of banks in the United Kingdom (1960–2010), which of the following historical merger paths is CORRECT?",
+      "options": [
+        "Barclays was formed through the consolidation of Barclays, Martins, and Woolwich.",
+        "HSBC's UK consolidation path consisted of merging Coutts, District, and Westminster.",
+        "RBS was formed by merging Midland, Clydesdale, and Halifax.",
+        "Lloyds Banking Group resulted from the consolidation of Williams-Deacon's, Glyn Mills, and Woolwich."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "根据 p.7 的英国银行整合时间线图：Barclays 在 1960-1970 年间整合了 Martins，并在 2000 年整合了 Woolwich（选项 A 正确）。Midland 和 Clydesdale 最终归入 HSBC；Coutts、District、Westminster、Williams-Deacon's、Glyn Mills 等最终归入 RBS；British Linen Bank、Bank of Scotland、Halifax、Lloyds、C&G、TSB 最终在 2000-2010 年间合并为 Lloyds Banking Group。",
+      "difficulty": "hard",
+      "tags": [
+        "UK Bank Consolidation",
+        "M&A"
+      ],
+      "source": "p.7: 'Consolidation of banks in the United Kingdom (1960-2010)'"
+    },
+    {
+      "id": "ch01-b2-009",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "According to the UK bank consolidation chart (1960–2010), which of the following institutions eventually became part of Lloyds Banking Group?",
+      "options": [
+        "British Linen Bank and Bank of Scotland",
+        "Lloyds, C&G, and TSB",
+        "Halifax",
+        "National Provincial and Westminster",
+        "Midland and Clydesdale"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "根据 p.7 图表最下方的分支：British Linen Bank 与 Bank of Scotland 合并后，与 Halifax 结合，再与 Lloyds、C&G、TSB 分支汇合，最终形成 Lloyds Banking Group（A、B、C 正确）。National Provincial 和 Westminster 归入 RBS，Midland 和 Clydesdale 归入 HSBC。",
+      "difficulty": "medium",
+      "tags": [
+        "UK Bank Consolidation",
+        "Lloyds Banking Group"
+      ],
+      "source": "p.7: 'Consolidation of banks in the United Kingdom - Lloyds Banking Group'"
+    },
+    {
+      "id": "ch01-b2-010",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "What characteristics distinguish newly emerged Fintech companies from traditional financial institutions as competitors?",
+      "options": [
+        "They are technology-focused.",
+        "They are not encumbered by legacy business lines and technology.",
+        "They are not subject to the same regulatory requirements.",
+        "They rely primarily on universal banking models to cross-sell insurance and derivatives."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.8 指出 Fintech 公司作为新型竞争对手的三大特征：'Technology-focused'（专注于技术）、'Not encumbered by legacy business lines and technology'（不受遗留业务线和技术的拖累）、'Not subject to the same regulatory requirements'（不受相同监管要求的约束），即 A、B、C 正确。universal banking 是大型传统银行的特征（p.9）。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Drivers",
+        "Increased Competition",
+        "Fintech"
+      ],
+      "source": "p.8: 'The emergence of Fintech companies has introduced new types of competitors'"
+    },
+    {
+      "id": "ch01-b2-011",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Consolidation has enabled banks to take advantage of economies of scale（规模经济）. Which of the following are explicitly listed as benefits of economies of scale?\n① Lower unit costs\n② Reduced risk by increasing diversification\n③ Improved returns on large IT infrastructure investments\n④ Complete elimination of regulatory compliance overhead",
+      "options": [
+        "① and ② only",
+        "① and ③ only",
+        "①, ②, and ③ only",
+        "①, ②, ③, and ④"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.9 明确列出规模经济的三个好处：'Lower unit costs'（①）、'Reduced risk by increasing diversification'（②）、'Improved returns on large IT infrastructure investments'（③）。并未提到能够消除监管合规开销（④错误）。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Drivers",
+        "Increased Scale",
+        "Economies of Scale"
+      ],
+      "source": "p.9: 'Consolidation enabled banks to take advantage of economies of scale'"
+    },
+    {
+      "id": "ch01-b2-012",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "The largest banks engaged in universal banking（全能银行）, providing a comprehensive set of financial products and services. Which of the following belong to this comprehensive set?",
+      "options": [
+        "Deposit taking and lending",
+        "Derivatives trading",
+        "Securities trading and underwriting",
+        "Asset management and Insurance",
+        "Mobile telecoms carrier services"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.9 列举了 universal banking 提供的五类综合金融产品与服务：'Deposit taking and lending'、'Derivatives trading'、'Securities trading and underwriting'、'Asset management'、'Insurance'（对应 A、B、C、D）。Mobile telecoms carrier 是 p.29 提到的非金融机构竞争对手。",
+      "difficulty": "easy",
+      "tags": [
+        "Universal Banking",
+        "Increased Scale"
+      ],
+      "source": "p.9: 'The largest banks engaged in universal banking'"
+    },
+    {
+      "id": "ch01-b2-013",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Why has fee-based income（费用收入）grown in importance compared to net interest margin（净息差）for financial institutions?",
+      "options": [
+        "Because fee-based income automatically increases the size of a bank's balance sheet to attract investors.",
+        "Because shifts in interest rates and customers' credit quality usually do not directly impact fee income, and its growth does not require increasing balance sheet size.",
+        "Because net interest margin only measures non-interest operating expenses rather than interest income received and paid out.",
+        "Because fee-based income is highly sensitive to business cycles, allowing banks to amplify returns during low-interest-rate periods."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.10 指出：净息差（net interest margin）是银行收到的利息收入与支付的利息支出之间的差额；费用收入（fee-based income）提供了对利率和商业周期不那么敏感的收入来源（排除 D），利率变动和客户信用质量的变化通常不会直接影响费用收入，且费用收入的增长不需要金融机构扩大其资产负债表规模（选项 B 正确，排除 A、C）。",
+      "difficulty": "medium",
+      "tags": [
+        "Changing Revenue Sources",
+        "Net Interest Margin",
+        "Fee-Based Income"
+      ],
+      "source": "p.10: 'Changing revenue sources - net interest margin vs. Fee-based income'"
+    },
+    {
+      "id": "ch01-b2-014",
+      "chapter": "ch01",
+      "type": "tf",
+      "question": "According to the chart 'Changes in US banks' net interest margin over time (1992–2020)', US banks experienced an overall upward trend in net interest margins from below 3.0% in 1992 to nearly 5.0% in 2020.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "判断为错误。根据 p.11 的折线图和文字说明，美国银行的净息差（net interest margin）在 1992–1994 年间处于约 4.3%–4.9% 的高位，随后经历长期下降趋势，到 2020 年降至 3.0% 以下（约 2.8%），即 'An extended period of low interest rates and shrinking net interest margins put pressure on banks' bottom lines'。题干把趋势完全说反了。",
+      "difficulty": "easy",
+      "tags": [
+        "Net Interest Margin",
+        "US Banks"
+      ],
+      "source": "p.11: 'Changes in US banks' net interest margin over time (1992-2020)'"
+    },
+    {
+      "id": "ch01-b2-015",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Match the following banking delivery channels with their approximate cost of processing a single transaction:\n① Bank branch\n② Call center\n③ Automated teller machine (ATM)\n④ Internet or mobile banking",
+      "options": [
+        "① just over a dollar; ② just over 50 cents; ③ around 30 cents; ④ less than 5 cents",
+        "① just over $5; ② just over $1; ③ around 50 cents; ④ less than 30 cents",
+        "① just over a dollar; ② around 30 cents; ③ just over 50 cents; ④ less than 10 cents",
+        "① around 50 cents; ② just over a dollar; ③ less than 5 cents; ④ around 30 cents"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.12 明确列出了四个渠道的单笔交易处理成本：Bank branch 为 'just over a dollar'；Call center 为 'just over 50 cents'；ATM 为 'around 30 cents'；Internet or mobile banking 为 'less than 5 cents'。选项 A 完全准确。",
+      "difficulty": "medium",
+      "tags": [
+        "New Delivery Channels",
+        "Transaction Costs"
+      ],
+      "source": "p.12: 'The cost of processing a transaction initiated through: Bank branch / Call center / ATM / Internet or mobile banking'"
+    },
+    {
+      "id": "ch01-b2-016",
+      "chapter": "ch01",
+      "type": "tf",
+      "question": "Although actual transaction processing costs across delivery channels vary by country and time period, the relative proportions among bank branches, call centers, ATMs, and internet/mobile banking remain similar.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "判断为正确。p.12 最后一个要点明确指出：'Actual costs vary by country and time period but the proportions are similar'（实际成本因国家和时期而异，但比例相似）。",
+      "difficulty": "easy",
+      "tags": [
+        "New Delivery Channels",
+        "Transaction Costs"
+      ],
+      "source": "p.12: 'Actual costs vary by country and time period but the proportions are similar'"
+    },
+    {
+      "id": "ch01-b2-017",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "How did the Global Financial Crisis alter the trajectory of regulatory changes in the financial services industry?",
+      "options": [
+        "It prompted regulators to break down remaining barriers that limited cross-border expansion.",
+        "It brought into question whether large banks that were 'too big to fail' were a good thing, leading to many new restrictions in recent years.",
+        "It exempted universal banks from compliance deadlines to help them recover net interest margins.",
+        "It shifted regulatory oversight entirely from government auditors to internal front-office teams."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.13 指出，多年来监管变化有利于金融机构增长（打破限制扩张的壁垒），但全球金融危机（Global Financial Crisis）引发了对“大而不倒”（'too big to fail'）的大型银行是否是好事的质疑，并导致近年来通过新法规引入了许多新的限制（选项 B 正确）。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Drivers",
+        "Regulatory Changes",
+        "Global Financial Crisis"
+      ],
+      "source": "p.13: 'The Global Financial Crisis brought into question whether large banks that were \"too big to fail\" were a good thing'"
+    },
+    {
+      "id": "ch01-b2-018",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following accurately describes the Millennial generation（千禧一代）as a demographic business driver?",
+      "options": [
+        "People born between 1980 and 1994, representing the largest age group in the US population, who are more open to nontraditional payment services and marketplace lending.",
+        "People born between 1995 and 2010, who prefer branch-based relationship banking over digital communication channels.",
+        "People born between 1975 and 1989, whose usage of mobile payments exceeds their usage of mobile banking.",
+        "People born between 1980 and 1994, who avoid marketplace lending due to foreign exchange risk."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.14 明确定义：'Millennials - people born between 1980 and 1994'，在美国是人口中最大的年龄群体（largest age group within the population），更愿意使用银行服务的替代方案（如 Nontraditional payment services 和 Marketplace lending），且偏好通过数字渠道沟通（选项 A 正确）。",
+      "difficulty": "medium",
+      "tags": [
+        "Demographic Changes",
+        "Millennials"
+      ],
+      "source": "p.14: 'Millennials - people born between 1980 and 1994... Nontraditional payment services / Marketplace lending'"
+    },
+    {
+      "id": "ch01-b2-019",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "According to the chart showing the 'Use of mobile services in the past 12 months by age', what are the exact percentages of Mobile Banking and Mobile Payments usage for the 30–44 and 45–59 age groups?",
+      "options": [
+        "30–44: 54% Mobile Banking and 31% Mobile Payments; 45–59: 32% Mobile Banking and 16% Mobile Payments",
+        "30–44: 60% Mobile Banking and 34% Mobile Payments; 45–59: 54% Mobile Banking and 31% Mobile Payments",
+        "30–44: 32% Mobile Banking and 16% Mobile Payments; 45–59: 13% Mobile Banking and 7% Mobile Payments",
+        "30–44: 54% Mobile Banking and 34% Mobile Payments; 45–59: 31% Mobile Banking and 13% Mobile Payments"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "根据 p.15 的柱状图数据：18–29 岁为 60%（Mobile Banking）和 34%（Mobile Payments）；30–44 岁为 54% 和 31%；45–59 岁为 32% 和 16%；60+ 岁为 13% 和 7%。因此选项 A 完全正确。",
+      "difficulty": "hard",
+      "tags": [
+        "Demographic Changes",
+        "Mobile Banking",
+        "Mobile Payments"
+      ],
+      "source": "p.15: 'Use of mobile services in the past 12 months by age (18-29: 60%/34%, 30-44: 54%/31%, 45-59: 32%/16%, 60+: 13%/7%)'"
+    },
+    {
+      "id": "ch01-b2-020",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "As technology infrastructure capabilities (hardware, software, networks, user interfaces) have improved dramatically over the past several decades, what changes have occurred?",
+      "options": [
+        "Many technical limitations, such as limited memory for running programs, have disappeared.",
+        "New challenges have arisen, such as choosing among the many options for constructing solutions.",
+        "Financial institutions face a fast rate of technology obsolescence.",
+        "Hardware and network bandwidth costs have increased steadily, forcing a return to centralized mainframes."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.16 指出，随着技术基础设施（hardware, software, networks, user interfaces）的显著改善，许多技术限制已经消失（例如 'limited memory for running programs'，A 正确），同时出现了新挑战，包括 'choosing among the many options for constructing solutions'（B 正确）和 'Fast rate of technology obsolescence'（技术快速过时，C 正确）。D 选项与 p.17 提到的硬件和网络带宽成本下降、从大型机向服务器迁移的事实相反。",
+      "difficulty": "medium",
+      "tags": [
+        "Technology Drivers",
+        "Technology Infrastructure"
+      ],
+      "source": "p.16: 'Many technical limitations have disappeared... New challenges have arisen'"
+    },
+    {
+      "id": "ch01-b2-021",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following statements accurately describes 'Distributed processing'（分布式处理）in banks?",
+      "options": [
+        "It was driven by increases in computer-processing power and reductions in hardware and network bandwidth cost, enabling migration away from centrally located mainframes to servers and desktop workstations.",
+        "It centralized all information capture and processing back into local branch offices rather than remote processing centers.",
+        "It prevented financial institutions from relocating computing resources across different geographical locations.",
+        "It replaced the Internet with proprietary mainframe terminals in customers' homes and offices."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.17 指出，分布式处理受计算机处理能力提升以及硬件和网络带宽成本下降的驱动，使银行从集中式大型机（centrally located mainframe computers）迁移到服务器和桌面工作站（servers and desktop workstations），使金融机构能够轻松迁移计算资源（排除 C）；信息采集和处理去中心化，互联网将访问延伸至客户家中和办公室（排除 D），远程处理中心（remote processing centers）将工作从支行（branch offices）转移出去（排除 B）。",
+      "difficulty": "medium",
+      "tags": [
+        "Technology Drivers",
+        "Distributed Processing"
+      ],
+      "source": "p.17: 'Distributed processing - Migration away from centrally located mainframe computers to servers and desktop workstations'"
+    },
+    {
+      "id": "ch01-b2-022",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Regarding 'Data processing and management', which of the following statements are TRUE?\n① The shift from overnight batch processing to real-time processing enables banks and customers to view current information rather than information from the end of the previous day.\n② Real-time processing enables traders to make decisions based on continuously updated price information rather than having to periodically make queries to check current prices.\n③ An increase in the number of standalone databases provides easier access to information.\n④ Standalone databases eliminate data duplication and simplify enterprise data management.",
+      "options": [
+        "① and ② only",
+        "①, ②, and ③ only",
+        "②, ③, and ④ only",
+        "①, ②, ③, and ④"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.18 指出：从隔夜批处理（overnight batch processing）向实时处理（real-time processing）的转变使银行和客户能查看当前信息而非前一天结束时的信息（①正确），使交易员能基于持续更新的价格信息做决策而不必定期查询当前价格（②正确）；独立数据库（standalone databases）数量的增加提供了更便捷的信息访问（③正确），但同时 'Creates duplication and data management challenges'（造成了数据重复和数据管理挑战，故④错误）。",
+      "difficulty": "medium",
+      "tags": [
+        "Data Processing and Management",
+        "Real-Time Processing",
+        "Standalone Databases"
+      ],
+      "source": "p.18: 'Shift from overnight batch processing to real-time processing... Increase in the number of standalone databases'"
+    },
+    {
+      "id": "ch01-b2-023",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "According to the 'Solution building blocks' evolution chart, how did the dominant approach to constructing IT solutions evolve across the decades along the axes of 'Customized vs. Off the Shelf' and 'Stand-alone Systems vs. Integrated Solutions vs. Open Solutions'?",
+      "options": [
+        "1970-80s 'Build' (Customized, Stand-alone) → 1990s 'Buy' (Off the Shelf) → 2000s 'Assemble' (Integrated Solutions) → 2020s 'Embed' (Open Solutions)",
+        "1970-80s 'Buy' (Off the Shelf) → 1990s 'Build' (Customized) → 2000s 'Embed' (Integrated Solutions) → 2020s 'Assemble' (Open Solutions)",
+        "1970-80s 'Build' (Stand-alone) → 1990s 'Assemble' (Integrated Solutions) → 2000s 'Buy' (Off the Shelf) → 2020s 'Embed' (Open Solutions)",
+        "1970-80s 'Assemble' → 1990s 'Build' → 2000s 'Buy' → 2020s 'Embed'"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 的二维演进图清晰展示了四个时代：1970-80s 为 'Build'（位于左下角：偏向 Customized 和 Stand-alone Systems）；1990s 为 'Buy'（位于左上方：偏向 Off the Shelf）；2000s 为 'Assemble'（位于中间偏下：对应 Integrated Solutions）；2020s 为 'Embed'（位于右侧中间偏上：对应 Open Solutions）。选项 A 完全正确。",
+      "difficulty": "hard",
+      "tags": [
+        "Solution Building Blocks",
+        "Evolution of IT Solutions"
+      ],
+      "source": "p.19: 'Solution building blocks chart: 1970-80s Build, 1990s Buy, 2000s Assemble, 2020s Embed'"
+    },
+    {
+      "id": "ch01-b2-024",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following pairings between a 'Solution building block' category and its corresponding technology example is INCORRECT?",
+      "options": [
+        "Data capture: Image capture software; Data entry: Web browser / HTML5",
+        "Data management: Enterprise data management; Business logic management: Rules engines",
+        "Access to system functions: Business intelligence platforms; Management reporting: Web services / ReST",
+        "Workflow management: Business process management systems"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "选项 C 配对错误（符合选非题要求）：根据 p.20 的对照表，'Access to system functions' 对应的例子是 'Web services / ReST'，而 'Management reporting' 对应的例子是 'Business intelligence platforms'，选项 C 将两者颠倒了。选项 A、B、D 均与 p.20 完全一致。",
+      "difficulty": "medium",
+      "tags": [
+        "Solution Building Blocks",
+        "Rules Engines",
+        "Web Services",
+        "BPMS"
+      ],
+      "source": "p.20: 'Solution building blocks - Examples'"
+    },
+    {
+      "id": "ch01-b2-025",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "In Enterprise Application Integration (EAI), middleware（中间件）is designed to support system-to-system communication. Which of the following are common requirements supported by middleware?",
+      "options": [
+        "Pull-based and request/reply interactions",
+        "Event-driven, asynchronous communication",
+        "Message queuing and guaranteed delivery",
+        "Message translation and transformation facilities",
+        "Direct person-to-person manual activity supervision"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.21 指出，中间件用于支持系统间通信（system-to-system communication），支持的常见需求包括：'Pull-based and request/reply interactions'（A）、'Event-driven, asynchronous communication'（B）、'Message queuing and guaranteed delivery'（C），并且可能提供 'message translation and transformation facilities'（D）。person-to-person 交互属于 p.22 中 BPMS 管理的范畴。",
+      "difficulty": "medium",
+      "tags": [
+        "Enterprise Application Integration",
+        "Middleware"
+      ],
+      "source": "p.21: 'Enterprise application integration - Middleware is designed to support system-to-system communication'"
+    },
+    {
+      "id": "ch01-b2-026",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Business Process Management Systems (BPMS) provide a means of integrating and consistently managing which types of interactions?",
+      "options": [
+        "System-to-system interactions only",
+        "Person-to-person and person-to-system interactions only",
+        "Person-to-person, system-to-system, and person-to-system interactions",
+        "Front-to-middle office interactions exclusively"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.22 明确指出，BPMS 提供了一种整合和一致管理以下三种交互的方式：'person-to-person'、'system-to-system' 和 'person-to-system'（选项 C 正确）。仅支持 system-to-system 的是 p.21 提到的 Middleware。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Process Orientation",
+        "BPMS"
+      ],
+      "source": "p.22: 'Business process management systems (BPMS) provide a means of integrating and consistently managing interactions: person-to-person, system-to-system, person-to-system'"
+    },
+    {
+      "id": "ch01-b2-027",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "Straight-through processing (STP, 直通式处理) is used for financial services processes that do not require people's involvement. Which of the following are explicitly listed as benefits of STP?",
+      "options": [
+        "Efficiency gains",
+        "Reduction in transaction processing time",
+        "Fewer errors",
+        "Better scalability",
+        "Higher foreign exchange yields for term deposits"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.23 指出 STP 适用于不需要人工参与（do not require people's involvement）的流程，其四大优势包括：'Efficiency gains'（A）、'Reduction in transaction processing time'（B）、'Fewer errors'（C）和 'Better scalability'（D）。选项 E 是 p.24 双货币投资（DCIs）的特点。",
+      "difficulty": "easy",
+      "tags": [
+        "Straight-Through Processing",
+        "STP",
+        "Business Process Orientation"
+      ],
+      "source": "p.23: 'Straight-through processing (STP) - Benefits'"
+    },
+    {
+      "id": "ch01-b2-028",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following statements accurately describes Dual Currency Investments (DCIs, 双货币投资) as an example of a new product opportunity?",
+      "options": [
+        "A DCI combines a term deposit and an FX option, providing a higher yield than a term deposit while including foreign exchange risk, making it attractive to risk-tolerant customers when interest rates are low.",
+        "A DCI combines a marketplace loan and an equity derivative, guaranteeing principal protection without foreign exchange risk when interest rates are high.",
+        "A DCI is a digital-only payment service designed for risk-averse customers seeking to avoid foreign exchange fluctuations.",
+        "A DCI is an automated notification service that alerts customers of account status changes via SMS and email."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 以双货币投资（DCIs）作为新产品（对现有产品的增强或扩展）的例子，明确指出其4个特点：'Combination of a term deposit and an FX option'（定期存款与外汇期权的组合）、'Provides higher yield than a term deposit'（提供高于定期存款的收益率）、'Also includes foreign exchange risk'（同时包含外汇风险）、'Attractive to risk-tolerant customers in times when interest rates are low'（在低利率时期对风险承受能力强的客户有吸引力）。选项 A 完整准确。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Opportunities",
+        "New Products",
+        "Dual Currency Investments"
+      ],
+      "source": "p.24: 'Example: dual currency investments (DCIs)'"
+    },
+    {
+      "id": "ch01-b2-029",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Compare the business opportunities presented by 'New services' and 'New channels'. Which of the following statements is CORRECT?",
+      "options": [
+        "New services (such as email and SMS notifications) can help generate fee revenue, increase customer loyalty, and improve operational efficiency, whereas new channels are not usually a source of revenue in themselves.",
+        "New channels directly generate substantial fee revenue on their own, whereas new services only provide indirect marketing benefits.",
+        "Targeted marketing to mobile devices is an example of a new core banking product rather than a use of new low-cost channels.",
+        "Neither new services nor new channels can reduce expenses or improve operational efficiency."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "对比 p.25 和 p.26：p.25 指出 New services（例如利用电子邮件和短信通知提醒客户交易事件和账户状态）可以帮助产生费用收入（generate fee revenue）、提高客户忠诚度（increasing customer loyalty）并提升运营效率（improving operational efficiency）；而 p.26 指出 New channels 为银行提供间接利益（indirect benefits），通常本身不是收入来源（'Are not usually a source of revenue in themselves'），但可通过更便捷的服务和信息访问增加产品销量，或利用低成本渠道（如向移动设备进行定向营销 targeted marketing to mobile devices）降低开支并提高盈利能力。故 A 正确。",
+      "difficulty": "hard",
+      "tags": [
+        "Business Opportunities",
+        "New Services",
+        "New Channels"
+      ],
+      "source": "p.25-26: 'New services vs. New channels'"
+    },
+    {
+      "id": "ch01-b2-030",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "In the context of 'New business models', what disruptive impact did the introduction of online stock trading（在线股票交易）have on the financial services industry?",
+      "options": [
+        "It helped propel discount brokerages to rival established full-service brokerages.",
+        "It forced Fintech companies to abandon digital-only services and open physical bank branches.",
+        "It eliminated counterparty credit risk and market risk for universal banks.",
+        "It replaced Web services / ReST with overnight batch processing."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.27 在介绍 New business models（利用技术在行业中创造颠覆性变革）时，以在线股票交易（online stock trading）为例，指出它 'Helped propel discount brokerages to rival established full-service brokerages'（帮助推动折扣经纪商与成熟的全方位服务经纪商抗衡），同时提到 Fintech 公司许多情况下提供纯数字服务（digital-only services）。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Opportunities",
+        "New Business Models",
+        "Online Stock Trading"
+      ],
+      "source": "p.27: 'Example: online stock trading - Helped propel discount brokerages to rival established full-service brokerages'"
+    },
+    {
+      "id": "ch01-b2-031",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "When improving service levels in existing business processes and IT solutions, what are the specific outcomes of (1) automating paper and voice-based transactions, and (2) streamlining manual activities?",
+      "options": [
+        "(1) Reduces costs and decreases transaction processing time; (2) Removes bottlenecks and reduces delays.",
+        "(1) Increases net interest margins and balance sheet size; (2) Eliminates regulatory changes and technical debt.",
+        "(1) Extends bankers hours and favors incumbents; (2) Decentralizes mainframe hardware.",
+        "(1) Generates direct channel revenue; (2) Replaces internal financial controls with audit functions."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 明确区分了提升服务水平的两个具体举措及其效果：(1) 'Automating paper and voice-based transactions' 能够 'Reduces costs'（降低成本）和 'Decreases transaction processing time'（缩短交易处理时间）；(2) 'Streamlining manual activities' 能够 'Removes bottlenecks'（消除瓶颈）和 'Reduces delays'（减少延误）。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Opportunities",
+        "Improving Service Levels"
+      ],
+      "source": "p.28: 'Improving service levels - Automating paper and voice-based transactions / Streamlining manual activities'"
+    },
+    {
+      "id": "ch01-b2-032",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Which of the following statements about 'Competition' as a business challenge is INCORRECT?",
+      "options": [
+        "'Bankers hours' have been extended by competitive pressures.",
+        "Increased competition generally favors incumbents and threatens newcomers.",
+        "Competition comes not only from financial institutions, but also from Fintech companies and mobile telecoms carriers.",
+        "Competition is good for customers because it drives new product and service offerings and lowers costs."
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "选项 B 错误（符合选非题要求）：p.29 明确指出竞争压力延长了银行营业时间（'Bankers hours' have been extended），并且这种竞争态势 'Favors newcomers, threatens incumbents'（有利于新进入者，威胁现有守成机构），而非有利于守成者。选项 A、C、D 均与 p.29 原文完全一致。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Challenges",
+        "Competition"
+      ],
+      "source": "p.29: 'Favors newcomers, threatens incumbents... Fintech companies / Mobile telecoms carriers'"
+    },
+    {
+      "id": "ch01-b2-033",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "According to the slides on 'Complexity' as a business challenge, which of the following factors have caused complexity levels to increase, and what negative outcomes can complexity lead to?",
+      "options": [
+        "Causes include: Mergers and acquisitions, ongoing regulatory changes, and global expansion.",
+        "Causes include: Use of new technologies, adoption of additional service delivery channels, and addition of new service sourcing options.",
+        "Outcomes include: Increased operational risk and inefficiency.",
+        "Outcomes include: Diseconomies of scale and technical debt.",
+        "Outcomes include: Guaranteed economies of scale and lower unit costs."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.30 列出了导致复杂性增加的 6 个原因：'Mergers and acquisitions'、'Ongoing regulatory changes'、'Use of new technologies'、'Adoption of additional service delivery channels'、'Global expansion'、'Addition of new service sourcing options'（对应 A、B）；以及复杂性可能导致的 4 个负面后果：'Increased operational risk'、'Inefficiency'、'Diseconomies of scale'（规模不经济）、'Technical debt'（技术债）（对应 C、D）。选项 E 中的规模经济是整合的好处而非复杂性的后果。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Challenges",
+        "Complexity",
+        "Technical Debt",
+        "Diseconomies of Scale"
+      ],
+      "source": "p.30: 'Business Challenges - Complexity: Complexity levels have increased due to... Can lead to...'"
+    },
+    {
+      "id": "ch01-b2-034",
+      "chapter": "ch01",
+      "type": "tf",
+      "question": "As illustrated by the network diagrams comparing 4 nodes, 8 nodes, and 12 nodes, the number of interconnections and overall complexity grows slowly and linearly as more nodes are added to a system.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "判断为错误。p.31 通过 4 nodes（6条连线）、8 nodes（28条连线）和 12 nodes（66条连线）的全连接网格图直观说明：'Complexity grows quickly'（复杂性快速增长，呈非线性激增），而非缓慢线性增长。",
+      "difficulty": "easy",
+      "tags": [
+        "Business Challenges",
+        "Complexity"
+      ],
+      "source": "p.31: 'Complexity grows quickly: 4 nodes, 8 nodes, 12 nodes'"
+    },
+    {
+      "id": "ch01-b2-035",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "In managing 'Risk' as a business challenge to achieve effective risk-adjusted returns, what are the three key risks explicitly identified, and how is operational risk defined?",
+      "options": [
+        "Key risks: Market, Counterparty credit, and Operational; Operational risk is defined as losses that an institution may incur due to operational failures (with cybersecurity continuing to grow as a concern).",
+        "Key risks: Interest rate, Foreign exchange, and Liquidity; Operational risk is defined as losses caused by shrinking net interest margins.",
+        "Key risks: Strategic, Tactical, and Maintenance; Operational risk is defined as migration overhead during IT system upgrades.",
+        "Key risks: Front office, Middle office, and Back office; Operational risk is defined as non-compliance with optional regulatory guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.32 明确指出：挑战在于实现有效的风险调整后收益（effective risk-adjusted returns），需要管理的三大关键风险是 'Market'（市场风险）、'Counterparty credit'（交易对手信用风险）和 'Operational'（操作风险）；其中操作风险定义为机构因操作失误可能遭受的损失（'Losses that an institution may incur losses due to operational failures'），且网络安全（Cybersecurity）作为关注点持续增长。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Challenges",
+        "Risk",
+        "Operational Risk",
+        "Cybersecurity"
+      ],
+      "source": "p.32: 'Key risks to be managed: Market, Counterparty credit, Operational... Cybersecurity continues to grow as a concern'"
+    },
+    {
+      "id": "ch01-b2-036",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Evaluate the following statements regarding 'Regulatory change' as a business challenge:\n① The number of regulatory changes per year increased from around 8,000 in 2008 to over 14,000 in 2011.\n② By 2011, the volume of regulatory changes amounted to over 60 per working day.\n③ Regulatory changes are optional if they conflict with strategic revenue-generating initiatives.\n④ Addressing regulatory changes draws resources away from revenue-generating and cost-saving initiatives.\nWhich of the above statements are CORRECT?",
+      "options": [
+        "① and ② only",
+        "①, ②, and ④ only",
+        "②, ③, and ④ only",
+        "①, ②, ③, and ④"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.33 指出：每年监管变更数量稳步增加，2008 年约为 8,000 项，2011 年超过 14,000 项（①正确），相当于每个工作日超过 60 项（'Over 60 per working day'，②正确）；监管变更不是可选的，且有硬性的合规截止期限（'Are not optional and have hard deadlines for compliance'，故③错误）；应对监管变更会抽走原本用于创收和节约成本项目的资源（④正确）。",
+      "difficulty": "medium",
+      "tags": [
+        "Business Challenges",
+        "Regulatory Change"
+      ],
+      "source": "p.33: '2008: around 8,000 / 2011: over 14,000 / Over 60 per working day / Are not optional'"
+    },
+    {
+      "id": "ch01-b2-037",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "According to Stakeholder Alignment, IT solutions are successful when aligned with the needs of five key stakeholder groups (Management, Customer, Operations, Technology, and Compliance). What are the primary concerns of 'Management'?",
+      "options": [
+        "Ensuring IT solutions are aligned with strategy and future direction, allocating resources to strategic, tactical, and maintenance-related solutions, and ensuring IT solutions are flexible enough to adapt quickly to market and regulatory changes.",
+        "Maintaining internal financial controls, managing exceptions, and overcoming short-term migration overhead to meet KPIs and SLAs.",
+        "Managing total cost of ownership (TCO), standardization, and geographical logistics of where users and systems are deployed.",
+        "Evaluating regulatory showstoppers up front and educating auditors on rules engines."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.34 展示了五大关键利益相关者（Management, Customer, Operations, Technology, Compliance）。p.35 专门阐述了 Management concerns：(1) 确保 IT 解决方案与战略和未来方向保持一致（aligned with strategy and future direction）；(2) 将资源分配给不同类型的解决方案：Strategic（战略性）、Tactical（战术性）和 Maintenance-related（维护相关）；(3) 确保 IT 解决方案具有灵活性（flexible），能够快速调整以适应市场和监管变化。选项 B 是 Operational concerns（p.37），选项 C 是 Information technology concerns（p.38），选项 D 是 Regulatory and compliance concerns（p.39）。",
+      "difficulty": "medium",
+      "tags": [
+        "Stakeholder Alignment",
+        "Management Concerns"
+      ],
+      "source": "p.34-35: 'Stakeholder Alignment - Management concerns: Strategic, Tactical, Maintenance-related'"
+    },
+    {
+      "id": "ch01-b2-038",
+      "chapter": "ch01",
+      "type": "multi",
+      "question": "In Stakeholder Alignment, who comprises the 'Customer' stakeholder group, and what are their specific concerns regarding an IT solution?",
+      "options": [
+        "Internal customers are bank employees that use the solution.",
+        "External customers are external customers that use the solution.",
+        "Customer concerns include Cost, Convenience, and Ease of use.",
+        "Customer concerns include Quality of service and Security.",
+        "Customer concerns primarily center on software standardization and total cost of ownership (TCO) maintenance ratios."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.36 指出，Customer 既包括使用该解决方案的内部客户（Internal customers: Bank employees that use the solution，A 正确），也包括外部客户（External customers，B 正确）；其关注的五个方面是：'Cost'、'Convenience'、'Ease of use'、'Quality of service' 和 'Security'（C、D 正确）。Standardization 和 TCO 属于 p.38 的 IT 部门关注点。",
+      "difficulty": "easy",
+      "tags": [
+        "Stakeholder Alignment",
+        "Customer Concerns"
+      ],
+      "source": "p.36: 'Customer concerns - Internal customers / External customers / Cost, Convenience, Ease of use, Quality of service, Security'"
+    },
+    {
+      "id": "ch01-b2-039",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "When evaluating an IT solution from an 'Operational' stakeholder perspective, why might a solution that provides long-term benefits still raise operational concerns in the short term, and what specific factors do operations teams focus on?",
+      "options": [
+        "It may negatively impact short-term performance (and hinder meeting KPIs and SLAs) due to migration overhead; specific concerns include maintenance of internal financial controls, efficiency, flexibility, exception management, and consistency and continuity.",
+        "It immediately eliminates the need for KPIs and SLAs; specific concerns are limited to marketing channels and derivatives underwriting.",
+        "It increases long-term total cost of ownership (TCO) by integrating Tech and Ops (T&O) into a single unit.",
+        "It forces engineers to become auditors, halting all front-office sales activities permanently."
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.37 指出，运营关注点首先在于解决方案会帮助还是阻碍实现 KPIs 和 SLAs（'Will the solution help or hinder meeting KPIs and SLAs?'）；尽管解决方案可能提供长期效益，但可能因迁移开销对短期绩效产生负面影响（'may negatively impact short-term performance due to migration overhead'）。具体关注点包括 5 项：'Maintenance of internal financial controls'、'Efficiency'、'Flexibility'、'Exception management'、'Consistency and continuity'。选项 A 完全正确。",
+      "difficulty": "hard",
+      "tags": [
+        "Stakeholder Alignment",
+        "Operational Concerns",
+        "KPIs and SLAs",
+        "Migration Overhead"
+      ],
+      "source": "p.37: 'Operational concerns - KPIs and SLAs / migration overhead / internal financial controls, Efficiency, Flexibility, Exception management, Consistency and continuity'"
+    },
+    {
+      "id": "ch01-b2-040",
+      "chapter": "ch01",
+      "type": "single",
+      "question": "Compare 'Information technology concerns' and 'Regulatory and compliance concerns' in Stakeholder Alignment. Which of the following statements is INCORRECT?",
+      "options": [
+        "For IT stakeholders, maintenance cost is a major part of the Total Cost of Ownership (TCO), and geographical logistics involves where users and systems are deployed.",
+        "IT and operations are sometimes integrated and managed as a single functional unit called 'Tech and Ops (T&O)'.",
+        "Regulatory and compliance concerns can be 'showstoppers', meaning potential issues must be identified and evaluated up front.",
+        "Generally, engineers are well-versed in compliance regulations, while regulators and auditors possess a deep understanding of technology architectures."
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "选项 D 说法错误（符合选非题要求）：p.39 明确指出监管与合规方面的核心挑战是知识鸿沟——'Engineers are not familiar with regulations and compliance'（工程师不熟悉法规和合规），且 'Regulators and auditors usually do not have a good understanding of technology'（监管机构和审计人员通常对技术缺乏良好的理解），因此双方必须互相学习。选项 A、B（来自 p.38：Standardization, Technology risk, Cost of development and maintenance / TCO, Geographical logistics, Tech and Ops (T&O)）和选项 C（来自 p.39：Can be showstoppers, identified and evaluated up front）均完全正确。",
+      "difficulty": "hard",
+      "tags": [
+        "Stakeholder Alignment",
+        "IT Concerns",
+        "Compliance Concerns",
+        "TCO",
+        "Tech and Ops"
+      ],
+      "source": "p.38-39: 'Information technology concerns (TCO, T&O) & Regulatory and compliance concerns (showstoppers)'"
+    },
+    {
+      "id": "ch02-b2-001",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "According to the slides, which of the following is NOT a function of business processes?",
+      "options": [
+        "Define people's functional roles",
+        "Determine the activities people will perform",
+        "Specify how tasks will be carried out",
+        "Guarantee that all risk-related losses are eliminated"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "slides 指出 business processes 定义人员角色、决定活动并规定任务如何执行；p.2 只说 processes 要 robust 以帮助避免 risk-related losses，并没有说能保证消除所有风险损失。",
+      "difficulty": "easy",
+      "tags": [
+        "business processes",
+        "functional roles",
+        "risk-related losses"
+      ],
+      "source": "p.2: 'Define people's functional roles / Determine the activities / Specify how tasks will be carried out' and 'avoid risk-related losses, processes must be robust'"
+    },
+    {
+      "id": "ch02-b2-002",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which statements about business processes as financial controls and institutional memory are correct according to the slides?",
+      "options": [
+        "They help prevent fraud",
+        "They record how past mistakes could have been avoided",
+        "They provide instructions for preventing future mistakes",
+        "They replace the need for robust processes"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.2 说明 business processes implement financial controls、help prevent fraud，并 serve as institutional memory，记录过去错误如何避免并给出未来预防指令；slides 同时强调 processes must be robust，而不是用它们替代 robust processes。",
+      "difficulty": "medium",
+      "tags": [
+        "financial controls",
+        "institutional memory",
+        "fraud prevention"
+      ],
+      "source": "p.2: 'implement financial controls / Help prevent fraud / Serve as an institutional memory / Record of how past mistakes could have been avoided' "
+    },
+    {
+      "id": "ch02-b2-003",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which examples do the slides give for products and services that can be implemented entirely electronically?",
+      "options": [
+        "Loan application processing and credit verification",
+        "Syndicated lending origination and fulfillment",
+        "Foreign exchange trading and online bill payment",
+        "RPA bot maintenance and UI testing"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.3 明确举例 foreign exchange trading and online bill payment 可以完全电子化实施；loan application 是 p.12 的 stateful process 例子，syndicated lending 是 p.28 的 BPM example。",
+      "difficulty": "easy",
+      "tags": [
+        "electronic products",
+        "foreign exchange trading",
+        "online bill payment"
+      ],
+      "source": "p.3: 'E.g. foreign exchange trading and online bill payment' "
+    },
+    {
+      "id": "ch02-b2-004",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT a benefit of straight-through processing (STP) listed in the slides?",
+      "options": [
+        "Reduces processing time",
+        "Allows greater volumes to be processed",
+        "Reduces error rates",
+        "Increases manual intervention"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.3 列出 STP 的三个好处：reduce processing time、allow greater volumes、reduce error rates。增加 manual intervention 与 STP 的自动化方向相反，slides 没有把它列为好处。",
+      "difficulty": "easy",
+      "tags": [
+        "straight-through processing",
+        "STP",
+        "automation benefits"
+      ],
+      "source": "p.3: 'Straight-through processing / Reduces processing time / Allows greater volumes to be processed / Reduces error rates' "
+    },
+    {
+      "id": "ch02-b2-005",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "What distinguishes BPMS from traditional workflow systems according to the slides?",
+      "options": [
+        "BPMS orchestrates process activities performed by both people and IT systems and integrates document content with data stored in IT systems",
+        "Traditional workflow systems are only used for foreign exchange trading",
+        "BPMS is limited to people-to-people interactions and document-based activity management",
+        "Traditional workflow systems always use robotic process automation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 说 BPMS orchestrate process activities performed by both people and IT systems，并 integrate the content of information contained in documents and data stored in IT systems；traditional workflow systems 恰恰 traditionally limited to people-to-people interactions and document-based activity management。",
+      "difficulty": "medium",
+      "tags": [
+        "BPMS",
+        "workflow systems",
+        "orchestration"
+      ],
+      "source": "p.5: 'BPMS orchestrate process activities performed by both people and IT systems' and 'Workflow systems traditionally limited to People-to-people interactions Document-based activity management' "
+    },
+    {
+      "id": "ch02-b2-006",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "The slides state that workflow systems were traditionally limited to people-to-people interactions and document-based activity management.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 原文明确写 'Workflow' systems traditionally limited to People-to-people interactions Document-based activity management，因此该判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "workflow systems",
+        "people-to-people",
+        "document-based activity"
+      ],
+      "source": "p.5: 'Workflow systems traditionally limited to People-to-people interactions Document-based activity management' "
+    },
+    {
+      "id": "ch02-b2-007",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "According to the slides, where is process information often only available before process modeling?",
+      "options": [
+        "In people's heads, procedures manuals, and software components",
+        "Only in regulatory filings and audited financial statements",
+        "Only in BPMS dashboards and simulation results",
+        "In RPA bot logs and UI screenshots"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.6 说 process modeling is critical for understanding what a process does and how it implements its function，并且这类信息 often only available in people's heads、buried in procedures manuals、embedded in software components。regulatory filings、BPMS dashboards 等不是该页列出的来源。",
+      "difficulty": "medium",
+      "tags": [
+        "process modeling",
+        "procedures manuals",
+        "software components"
+      ],
+      "source": "p.6: 'In peoples heads / Buried in procedures manuals / Embedded in software components' "
+    },
+    {
+      "id": "ch02-b2-008",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT a benefit of process modeling listed in the slides?",
+      "options": [
+        "Processes that can be visualized are easier to change",
+        "Helps identify conflicting views and misunderstandings related to process behavior",
+        "Makes processes more portable",
+        "Requires all process knowledge to remain undocumented"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.7 列出 process modeling 的好处包括 visualized processes easier to change、identify conflicting views and misunderstandings、makes processes more portable；相反，slides 强调描述完整、一致、结构化时 process knowledge 更容易转移，而不是要求知识保持 undocumented。",
+      "difficulty": "medium",
+      "tags": [
+        "process modeling benefits",
+        "portability",
+        "conflicting views"
+      ],
+      "source": "p.7: 'Processes that can be visualized are easier to change / Helps identify conflicting views and misunderstandings / Makes processes more portable' "
+    },
+    {
+      "id": "ch02-b2-009",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Process knowledge can be transferred between people and places more easily when the process description is:",
+      "options": [
+        "Complete, consistent, and well-structured",
+        "Manual, automated, and stateless",
+        "Tactical, strategic, and enterprise-wide",
+        "Distributed, centralized, and rules-based"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 原文说 process knowledge can be transferred between people and places more easily when their description is Complete、Consistent、Well-structured。其他选项是本章其他概念，不是该页列出的描述特征。",
+      "difficulty": "medium",
+      "tags": [
+        "process knowledge transfer",
+        "complete",
+        "consistent",
+        "well-structured"
+      ],
+      "source": "p.7: 'Complete Consistent Well-structured' "
+    },
+    {
+      "id": "ch02-b2-010",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "Paper-based methods for capturing process information require modeling tool training or knowledge.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.10 说 paper-based methods 的优势之一是 no modeling tool training or knowledge required，并且 easier for many people to see and easily modify the description。因此题述相反，判断错误。",
+      "difficulty": "easy",
+      "tags": [
+        "paper-based methods",
+        "modeling tool training"
+      ],
+      "source": "p.10: 'No modeling tool training or knowledge required' "
+    },
+    {
+      "id": "ch02-b2-011",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "In process analysis and solution design, which factors can determine where automation is practical according to the slides?",
+      "options": [
+        "Cost of labor",
+        "Whether the process occurs frequently enough to justify automation",
+        "Avoiding or reducing manual processing errors",
+        "The color scheme of the user interface"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.11 说 cost-benefit analysis determines where automation is practical；cost of labor is a major consideration；some processes may not occur frequently enough to justify automation；有时 avoiding or reducing manual processing errors alone may justify automation。UI color scheme 不是该页因素。",
+      "difficulty": "hard",
+      "tags": [
+        "process analysis",
+        "cost-benefit analysis",
+        "automation justification"
+      ],
+      "source": "p.11: 'Cost of labor is a major consideration / Some processes may not occur frequently enough to justify automation / avoiding or reducing manual processing errors alone may justify automation' "
+    },
+    {
+      "id": "ch02-b2-012",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which statement best reflects the slides' view on automating infrequent processes?",
+      "options": [
+        "Automation is always justified regardless of process frequency",
+        "Some processes may not occur frequently enough to justify automation",
+        "Labor cost is irrelevant in cost-benefit analysis",
+        "System integration dependencies should be ignored"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.11 明确说 some processes may not occur frequently enough to justify automation；同时 labor cost is a major consideration，并且 process analysis 要 evaluate system integration dependencies。因此只有第二项符合原文。",
+      "difficulty": "hard",
+      "tags": [
+        "infrequent processes",
+        "automation",
+        "cost-benefit"
+      ],
+      "source": "p.11: 'Some processes may not occur frequently enough to justify automation' "
+    },
+    {
+      "id": "ch02-b2-013",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which example is used in the slides for stateless process execution?",
+      "options": [
+        "Process loan application",
+        "Generate and send payment instruction",
+        "Syndicated lending negotiation",
+        "Credit verification bottleneck monitoring"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.12 将 stateless process execution 描述为 system-oriented、short-lived transactions，例如 generate and send payment instruction，且 no need to persist process state。Process loan application 是 stateful 例子。",
+      "difficulty": "medium",
+      "tags": [
+        "stateless process execution",
+        "payment instruction",
+        "short-lived transactions"
+      ],
+      "source": "p.12: 'Stateless process execution / E.g. Generate and send payment instruction / No need to persist process state' "
+    },
+    {
+      "id": "ch02-b2-014",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which statement about stateful process execution is correct according to the slides?",
+      "options": [
+        "It is system-oriented and has no need to persist process state",
+        "It is typically a short-lived transaction such as sending a payment instruction",
+        "It is people-oriented and must persist process state for hours, days, or months",
+        "It is used only for routing scanned images"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.12 说 stateful process execution 是 people-oriented、long lived transactions，例如 process loan application，must persist process state for hours/days/months。第一、二项描述的是 stateless；第四项是 p.25 的 BPM capability stage，不是 stateful 定义。",
+      "difficulty": "medium",
+      "tags": [
+        "stateful process execution",
+        "loan application",
+        "persist process state"
+      ],
+      "source": "p.12: 'Stateful process execution / People-oriented processes / Long lived transactions / Must persist process state for hours/days/months' "
+    },
+    {
+      "id": "ch02-b2-015",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which statements about centralized business process logic are correct according to the slides?",
+      "options": [
+        "It is stored in a BPMS or a rules engine linked to a BPMS",
+        "It makes the end-to-end process easier to see and understand",
+        "It involves less work to maintain because there are few places where changes have to be applied and tested",
+        "It is embedded only in adapters used to link business applications"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.13 说 centralized business process logic is stored in a BPMS or a rules engine linked to a BPMS；优点是 easier to see and understand end-to-end process、less work to maintain、few places where changes have to be applied and tested。embedded in adapters 是 distributed logic 的描述。",
+      "difficulty": "medium",
+      "tags": [
+        "centralized process logic",
+        "BPMS",
+        "rules engine"
+      ],
+      "source": "p.13: 'Centralized business process logic / Is stored in a BPMS / Or a rules engine linked to a BPMS / Easier to see and understand end-to-end process / Less work to maintain' "
+    },
+    {
+      "id": "ch02-b2-016",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT listed as a location of distributed business process logic?",
+      "options": [
+        "IT systems",
+        "Business applications",
+        "Adapters used to link business applications",
+        "A rules engine linked to a BPMS"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.13 说 distributed business process logic is embedded in IT systems、in business applications、in 'adapters' used to link business applications。rules engine linked to a BPMS 是 centralized logic 的存储位置。",
+      "difficulty": "medium",
+      "tags": [
+        "distributed process logic",
+        "adapters",
+        "business applications"
+      ],
+      "source": "p.13: 'Distributed business process logic / Embedded in IT systems / In business applications / In adapters' "
+    },
+    {
+      "id": "ch02-b2-017",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "According to the slides, what is the relationship between process improvement and process monitoring?",
+      "options": [
+        "Process improvement begins with process monitoring",
+        "Process monitoring begins only after all improvements are complete",
+        "BPMS makes it harder to capture process execution information",
+        "Process monitoring is useful only for fraud prevention"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.16 说 It is hard to improve what you do not measure，并且 Process improvement begins with process monitoring；BPMS makes it easier to capture and analyze process execution information。其他选项与原文相反或缩小了 monitoring 的范围。",
+      "difficulty": "easy",
+      "tags": [
+        "process monitoring",
+        "process improvement",
+        "measurement"
+      ],
+      "source": "p.16: 'It is hard to improve what you do not measure / Process improvement begins with process monitoring' "
+    },
+    {
+      "id": "ch02-b2-018",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which of the following are monitoring examples given in the slides?",
+      "options": [
+        "Real-time monitoring of service levels, such as transaction ID 2315 exceeding its processing time SLOA in less than ten minutes",
+        "Efficiency and performance monitoring, such as a bottleneck at the credit verification step",
+        "RPA bots breaking when user interfaces change during upgrades",
+        "Rule consolidation and management in Stage 4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.16 给出两个 monitoring examples：real-time monitoring of service levels，例如 transaction ID 2315 will exceed its processing time SLOA in less than ten minutes；efficiency and performance monitoring，例如 bottleneck at the credit verification step。RPA UI breakage 是 p.32 的 drawback，Stage 4 是 p.25 的 capability stage。",
+      "difficulty": "medium",
+      "tags": [
+        "process monitoring examples",
+        "service levels",
+        "bottleneck"
+      ],
+      "source": "p.16: 'Real-time monitoring of service levels / transaction ID 2315 will exceed its processing time SLOA in less than ten minutes / bottleneck at the credit verification step' "
+    },
+    {
+      "id": "ch02-b2-019",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT a BPM benefit listed in the slides?",
+      "options": [
+        "Capture and refinement of requirements",
+        "Rapid prototyping",
+        "Solution implementation",
+        "Eliminating all regulatory changes"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.17 说 BPM supports capture and refinement of requirements、rapid prototyping、solution implementation，并且 scope of processes' execution can be gradually expanded；p.18 反而说 modification 是为了 address new regulatory requirements，BPM 并不能消除所有 regulatory changes。",
+      "difficulty": "medium",
+      "tags": [
+        "BPM benefits",
+        "agile development",
+        "rapid prototyping"
+      ],
+      "source": "p.17: 'Capture and refinement of requirements / Rapid prototyping / Solution implementation' "
+    },
+    {
+      "id": "ch02-b2-020",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which statement about change impact analysis and management is correct according to the slides?",
+      "options": [
+        "BPMS cannot support running new and old versions of processes simultaneously",
+        "Process modeling helps identify which processes and systems will be affected by changes",
+        "Changing existing business processes involves little time, cost, or risk",
+        "Process changes are needed only for new regulatory requirements"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.18 说 process modeling helps identify which processes and systems will be affected；BPMS support running new and old versions of processes simultaneously；significant time, cost, and risk are involved；changes address new regulatory requirements and adapt to business environment changes。因此只有第二项正确。",
+      "difficulty": "medium",
+      "tags": [
+        "change impact analysis",
+        "process modeling",
+        "BPMS versions"
+      ],
+      "source": "p.18: 'Process modeling helps identify which processes and systems will be affected / BPMS support running new and old versions of processes simultaneously' "
+    },
+    {
+      "id": "ch02-b2-021",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Why is modifying existing business processes a major activity for financial institutions according to the slides?",
+      "options": [
+        "To address new regulatory requirements",
+        "To adapt to business environment changes",
+        "Because significant time, cost, and risk are involved",
+        "Because process modeling makes it impossible to identify affected systems"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.18 说 modification of existing business processes is a major activity for financial institutions，目的是 address new regulatory requirements、adapt to business environment changes，并且 significant time, cost, and risk are involved。process modeling 的作用是帮助 identify affected processes/systems，而不是使其不可能。",
+      "difficulty": "hard",
+      "tags": [
+        "change management",
+        "regulatory requirements",
+        "business environment"
+      ],
+      "source": "p.18: 'Address new regulatory requirements / Adapt to business environment changes / Significant time, cost, and risk are involved' "
+    },
+    {
+      "id": "ch02-b2-022",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "In the p.19 diagram showing the spectrum from incremental changes to process reengineering, what happens as one moves toward process reengineering?",
+      "options": [
+        "Both return and risk increase",
+        "Return increases while risk decreases",
+        "Return decreases while risk increases",
+        "Both return and risk decrease"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 图中左侧是 Incremental Changes，右侧是 Process Reengineering；上方 Return 箭头向右，下方 Risk 箭头也向右，表示越接近 process reengineering，return 和 risk 都上升。",
+      "difficulty": "hard",
+      "tags": [
+        "process improvement",
+        "process reengineering",
+        "return and risk"
+      ],
+      "source": "p.19: diagram 'Incremental Changes' to 'Process Reengineering' with 'Return' and 'Risk' arrows pointing right"
+    },
+    {
+      "id": "ch02-b2-023",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT a benefit of process standardization listed in the slides?",
+      "options": [
+        "Facilitates enterprise-wide best practices",
+        "Helps create organizational blueprints that support growth",
+        "Provides commonality and consistency between processes",
+        "Encourages the same process to be implemented differently in various locations"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.20 说 process standardization supports rationalization of processes，例如 stops the same process being implemented differently in various locations；因此第四项与 standardization 的目的相反。前三个都是该页列出的好处。",
+      "difficulty": "medium",
+      "tags": [
+        "process standardization",
+        "best practices",
+        "rationalization"
+      ],
+      "source": "p.20: 'Stops the same process being implemented differently in various locations' "
+    },
+    {
+      "id": "ch02-b2-024",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "How does process modeling help manage complexity according to the slides?",
+      "options": [
+        "It hides end-to-end workflows so that differences are ignored",
+        "It prevents any process variants from being created",
+        "It makes the complexity of end-to-end business-process workflows visible and helps define master best-practice processes",
+        "It eliminates the need to understand similarities between processes"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.21 说 process modeling helps make the complexity of end-to-end business-process workflows visible；differences and similarities can be more readily understood；master, best practice processes can be defined；process variants may be implemented based on the master process definition to address special requirements。",
+      "difficulty": "medium",
+      "tags": [
+        "manage complexity",
+        "master process",
+        "process variants"
+      ],
+      "source": "p.21: 'Process modeling helps make the complexity of end-to-end business-process workflows visible / Master, best practice processes can be defined / Process variants may be implemented based on the master process definition' "
+    },
+    {
+      "id": "ch02-b2-025",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which of the following are ways BPM reduces operational risk according to the slides?",
+      "options": [
+        "Prevent users from skipping steps",
+        "Report or alert when exceptions occur",
+        "Enforce authorization and role-based access control to information and functions",
+        "Allow internal controls to be bypassed without visibility"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.22 说 process design visibility helps identify where internal controls may be weak or bypassed；BPMS helps ensure processes are executed as designed，包括 prevent users from skipping steps、report or alert when exceptions occur、enforce authorization and role based access control。第四项与 reduce operational risk 相反。",
+      "difficulty": "medium",
+      "tags": [
+        "operational risk",
+        "internal controls",
+        "role-based access control"
+      ],
+      "source": "p.22: 'Prevent users from skipping steps / Report or alert when exceptions occur / Enforce authorization and role based access control' "
+    },
+    {
+      "id": "ch02-b2-026",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which statement about BPM and flexible sourcing/location operating models is correct according to the slides?",
+      "options": [
+        "BPO and offshoring require that processes are portable",
+        "Process knowledge should remain embedded only in individuals",
+        "BPMS cannot coordinate activities performed in different locations at different times",
+        "Offshoring removes the need for process modeling"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 BPO and offshoring require that processes are 'portable'；process modeling is essential for transferring work between locations；BPMS helps coordinate activities performed in different locations at different times；并提供 repository for financial institutions' knowledge capital rather than have it embedded in individuals。",
+      "difficulty": "medium",
+      "tags": [
+        "BPO",
+        "offshoring",
+        "portable processes",
+        "knowledge capital"
+      ],
+      "source": "p.23: 'BPO and offshoring require that processes are portable / Process modeling is essential for transferring work between locations / Provides a repository for financial institutions knowledge capital' "
+    },
+    {
+      "id": "ch02-b2-027",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which description best matches tactical BPM as defined in the slides?",
+      "options": [
+        "Enterprise-wide implementation using the full range of BPM capabilities",
+        "Project- or department-level implementation with little coordination required but limited returns",
+        "An implementation that always includes process modeling, execution, monitoring, and simulation",
+        "An implementation requiring massive coordination and large investment"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.24 说 tactical BPM 是 project- or department-level BPM implementation，little coordination required, but returns are limited，并且 only basic capabilities used，例如 process execution。其他选项描述的是 strategic BPM。",
+      "difficulty": "medium",
+      "tags": [
+        "tactical BPM",
+        "project-level",
+        "limited returns"
+      ],
+      "source": "p.24: 'Tactical BPM / Project- or department-level BPM implementation / Little coordination required, but returns are limited' "
+    },
+    {
+      "id": "ch02-b2-028",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which statements about strategic BPM are correct according to the slides?",
+      "options": [
+        "It is an enterprise-wide BPM implementation",
+        "It requires large investment and massive coordination",
+        "It takes advantage of the full range of BPM capabilities, including process modeling, process execution, process monitoring, and simulation",
+        "It requires little coordination and uses only basic capabilities"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.24 说 strategic BPM 是 enterprise-wide BPM implementation，large investment and massive coordinate required，并 takes advantage of the full range of BPM capabilities，即 process modeling、process execution、process monitoring、simulation。第四项描述的是 tactical BPM。",
+      "difficulty": "hard",
+      "tags": [
+        "strategic BPM",
+        "enterprise-wide",
+        "full BPM capabilities"
+      ],
+      "source": "p.24: 'Strategic BPM / Enterprise-wide BPM implementation / Large investment and massive coordinate required / Full range of BPM capabilities' "
+    },
+    {
+      "id": "ch02-b2-029",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "In the approach for building up BPM capabilities, which stage involves routing based on elementized information to automate decision making?",
+      "options": [
+        "Stage 1: Use for allocation and tracking",
+        "Stage 2: Use for routing of scanned images",
+        "Stage 3: Route based on elementized information",
+        "Stage 4: Rule consolidation and management"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.25 明确 Stage 3 是 Route based on elementized information，并 Utilize information content to automate decision making。Stage 1 是 wrap BPM around existing processes；Stage 2 是 routing of scanned images；Stage 4 是 rule consolidation and management。",
+      "difficulty": "hard",
+      "tags": [
+        "BPM capability stages",
+        "elementized information",
+        "decision making"
+      ],
+      "source": "p.25: 'Stage 3: Route based on elementized information / Utilize information content to automate decision making' "
+    },
+    {
+      "id": "ch02-b2-030",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which statements about the stages for building up BPM capabilities are correct according to the slides?",
+      "options": [
+        "Stage 1 uses BPM for allocation and tracking by wrapping BPM around existing processes",
+        "Stage 2 uses BPM for routing of scanned images and managing information flow between process steps",
+        "Stage 3 routes based on elementized information and uses information content to automate decision making",
+        "Stage 4 avoids rule consolidation and real-time monitoring"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.25 列出 Stage 1 allocation and tracking、Stage 2 routing scanned images、Stage 3 route based on elementized information；Stage 4 是 rule consolidation and management，manage rules more effectively and leverage real-time monitoring capabilities，因此第四项相反。",
+      "difficulty": "hard",
+      "tags": [
+        "BPM capability stages",
+        "scanned images",
+        "rule consolidation"
+      ],
+      "source": "p.25: 'Stage 1: Use for allocation and tracking / Stage 2: Use for routing of scanned images / Stage 4: Rule consolidation and management' "
+    },
+    {
+      "id": "ch02-b2-031",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which statement about the syndicated lending BPM example is correct according to the slides?",
+      "options": [
+        "It is a simple single-party process",
+        "Origination and fulfillment stages may take many days to complete",
+        "Multiple versions of legal documents never exist during negotiation",
+        "Status tracking is unimportant for preventing process delays"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.28 说 syndicated lending 是 complicated, multiparty process；origination and fulfillment stages may take many days to complete；a number legal documents must be communicated；multiple versions may exist during negotiation；status tracking is important to ensure that the process does not get delayed。",
+      "difficulty": "medium",
+      "tags": [
+        "syndicated lending",
+        "multiparty process",
+        "status tracking"
+      ],
+      "source": "p.28: 'A complicated, multiparty process / Origination and fulfillment stages may take many days / Multiple versions of the documents may exist / Status tracking is important' "
+    },
+    {
+      "id": "ch02-b2-032",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Why is syndicated lending described as a complicated BPM example in the slides?",
+      "options": [
+        "It is a multiparty process",
+        "Many legal documents must be communicated between the parties",
+        "Multiple versions of documents may exist during the negotiation process",
+        "It is only a short-lived stateless transaction"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.28 说 syndicated lending 是 complicated, multiparty process，需要 many legal documents communicated between parties，并且 multiple versions may exist during negotiation；同时 origination and fulfillment may take many days，说明它不是只有 short-lived stateless transaction。",
+      "difficulty": "medium",
+      "tags": [
+        "syndicated lending",
+        "legal documents",
+        "multiparty"
+      ],
+      "source": "p.28: 'A complicated, multiparty process / A number legal documents must be communicated / Multiple versions of the documents may exist' "
+    },
+    {
+      "id": "ch02-b2-033",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT a stated purpose of BPM maturity models?",
+      "options": [
+        "Identify the target level of competence",
+        "Assess the current level of competence",
+        "Enable a roadmap for moving from the current level to the target level",
+        "Guarantee immediate full automation of every process"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.30 说 maturity models help identify target level、assess current level、enables a roadmap、provide a clearer picture of existing capabilities、facilitate communication of goals and direction；并没有保证立即完全自动化所有流程。",
+      "difficulty": "medium",
+      "tags": [
+        "BPM maturity model",
+        "target competence",
+        "roadmap"
+      ],
+      "source": "p.30: 'Identify target level of competence / Assess current level of competence / Enables a roadmap' "
+    },
+    {
+      "id": "ch02-b2-034",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT one of the DBS case study discussion questions listed in the slides?",
+      "options": [
+        "How DBS's process improvement strategy might need to be adjusted for other financial institutions",
+        "What challenges the initiative might have faced without direct backing from top management",
+        "What the advantages and disadvantages would be of relying solely on experts to redesign processes",
+        "What the exact budget and headcount of DBS's process improvement team were"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.4 列出的是关于 DBS process improvement strategy 如何调整、没有高层支持可能遇到什么挑战、仅依赖专家 redesign 的优缺点、如何克服阻力、short and intensive efforts 的好处等讨论题；slides 没有给出 exact budget and headcount 这一问题。",
+      "difficulty": "easy",
+      "tags": [
+        "DBS case study",
+        "process improvement",
+        "discussion questions"
+      ],
+      "source": "p.4: 'Delivering Better Customer Experience by Improving Operational Processes / Questions' "
+    },
+    {
+      "id": "ch02-b2-035",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "RPA automates repetitive tasks that humans perform in applications' user interfaces.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.32 原文明确写 Robotic Process Automation automates repetitive tasks that humans perform in applications' user interfaces，因此该判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "RPA",
+        "repetitive tasks",
+        "user interfaces"
+      ],
+      "source": "p.32: 'Automates repetitive tasks that humans perform in applications user interfaces' "
+    },
+    {
+      "id": "ch02-b2-036",
+      "chapter": "ch02",
+      "type": "single",
+      "question": "Which of the following is NOT an advantage of RPA over BPM listed in the slides?",
+      "options": [
+        "Less invasive because no system integration is required",
+        "Easier and faster to implement",
+        "Lower up-front investment required",
+        "Higher up-front investment required"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.32 列出 RPA advantages over BPM：less invasive - no system integration is required、easier and faster to implement、lower up-front investment required。higher up-front investment 与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "RPA advantages",
+        "system integration",
+        "up-front investment"
+      ],
+      "source": "p.32: 'Less invasive - no system integration is required / Easier and faster to implement / Lower up-front investment required' "
+    },
+    {
+      "id": "ch02-b2-037",
+      "chapter": "ch02",
+      "type": "multi",
+      "question": "Which of the following are drawbacks of RPA listed in the slides?",
+      "options": [
+        "It can break when UIs change during upgrades",
+        "It requires ongoing maintenance and testing",
+        "It has scalability limitations due to the complexity of managing multiple bots",
+        "It never requires maintenance after initial deployment"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.32 列出 RPA drawbacks：can break when UIs change during upgrades、requires ongoing maintenance and testing、scalability limitations due to the complexity of managing multiple bots。第四项与 ongoing maintenance 相反。",
+      "difficulty": "medium",
+      "tags": [
+        "RPA drawbacks",
+        "UI changes",
+        "scalability"
+      ],
+      "source": "p.32: 'Can break when UIs change during upgrades / Requires ongoing maintenance and testing / Scalability limitations' "
+    },
+    {
+      "id": "ch02-b2-038",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "The slides state that the cost of labor is a major consideration in cost-benefit analysis for automation.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.11 原文写 Cost of labor is a major consideration，出现在 cost-benefit analysis determines where automation is practical 的上下文中，因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "cost of labor",
+        "cost-benefit analysis",
+        "automation"
+      ],
+      "source": "p.11: 'Cost of labor is a major consideration' "
+    },
+    {
+      "id": "ch02-b2-039",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "Centralized business process logic is stored in a BPMS or a rules engine linked to a BPMS.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.13 原文写 Centralized business process logic Is stored in a BPMS Or a rules engine linked to a BPMS，因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "centralized process logic",
+        "BPMS",
+        "rules engine"
+      ],
+      "source": "p.13: 'Centralized business process logic / Is stored in a BPMS / Or a rules engine linked to a BPMS' "
+    },
+    {
+      "id": "ch02-b2-040",
+      "chapter": "ch02",
+      "type": "tf",
+      "question": "BPMS cannot support running new and old versions of processes simultaneously.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.18 原文明确说 BPMS support running new and old versions of processes simultaneously，因此题述“cannot support”错误。",
+      "difficulty": "hard",
+      "tags": [
+        "BPMS",
+        "change management",
+        "process versions"
+      ],
+      "source": "p.18: 'BPMS support running new and old versions of processes simultaneously' "
+    },
+    {
+      "id": "ch03-b2-001",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which of the following is NOT listed in the slides as part of IT architecture?",
+      "options": [
+        "The organization of a solution and its components",
+        "The relationships between components and the environment",
+        "The principles guiding the design and evolution of a system",
+        "A guarantee that all nonfunctional concerns are eliminated"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.2 lists organization of solution/components, relationships with environment, and design/evolution principles. It says architecture addresses nonfunctional concerns such as integration and resilience, not that it guarantees eliminating them.",
+      "difficulty": "easy",
+      "tags": [
+        "IT architecture",
+        "components",
+        "nonfunctional concerns"
+      ],
+      "source": "p.2: 'The organization of a solution and its components / The relationships between components and the environment / The principles guiding the design and evolution' "
+    },
+    {
+      "id": "ch03-b2-002",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which pair correctly matches IT architecture's nonfunctional concerns and technical areas as described in the slides?",
+      "options": [
+        "Integration and resilience; hardware, network, and security",
+        "Fraud and liquidity; marketing and sales",
+        "Throughput and latency; HR and payroll",
+        "Escrow and consensus; legal and tax"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 gives integration and resilience as nonfunctional concerns and hardware, network, and security as technical areas. Other pairs mix terms from later pages or outside the listed examples.",
+      "difficulty": "easy",
+      "tags": [
+        "integration",
+        "resilience",
+        "hardware",
+        "network",
+        "security"
+      ],
+      "source": "p.2: 'E.g. integration and resilience / E.g. hardware, network, and security' "
+    },
+    {
+      "id": "ch03-b2-003",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which question is listed in the cloud computing case study on p.3?",
+      "options": [
+        "What specific cost advantages can cloud computing offer to financial institutions?",
+        "How many ATMs does each bank operate?",
+        "Which bank has the largest branch network?",
+        "How can all banks eliminate vendor management processes?"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.3 lists questions about cloud cost advantages, suitable use cases, provider steps, public/private cloud planning, and trade-offs. The other options are not in the case study list.",
+      "difficulty": "easy",
+      "tags": [
+        "cloud computing",
+        "case study",
+        "cost advantages"
+      ],
+      "source": "p.3: 'What specific cost advantages can cloud computing offer to financial institutions?' "
+    },
+    {
+      "id": "ch03-b2-004",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In top-down planning through abstraction, what is the correct order?",
+      "options": [
+        "Begin with the most essential requirements, map onto the simplest design, then gradually add more detail",
+        "Begin with all detailed components, then remove detail until only the simplest design remains",
+        "Begin with physical servers, then add business requirements, then add network hardware",
+        "Begin with standards, then patterns, then guiding principles"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 describes top-down planning as beginning with the most essential requirements, mapping onto the simplest design, and gradually adding more detail. The other orders do not match the slide.",
+      "difficulty": "easy",
+      "tags": [
+        "abstraction",
+        "top-down planning",
+        "essential requirements"
+      ],
+      "source": "p.4: 'Begin with the most essential requirements / Map onto the simplest design / Gradually add more detail' "
+    },
+    {
+      "id": "ch03-b2-005",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that considering all details in a high-level solution design can result in analysis paralysis.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 says the number of details can be overwhelming and considering all the details can result in analysis paralysis, so abstraction helps hide unnecessary detail. The statement matches.",
+      "difficulty": "easy",
+      "tags": [
+        "analysis paralysis",
+        "details",
+        "abstraction"
+      ],
+      "source": "p.4: 'Considering all the details can result in analysis paralysis' "
+    },
+    {
+      "id": "ch03-b2-006",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What is the main purpose of controlling focus in abstraction according to the slides?",
+      "options": [
+        "Decide which aspects should be examined or communicated and hide everything else to avoid distraction",
+        "Include every technical detail so no one can misunderstand the architecture",
+        "Replace business process models with physical diagrams",
+        "Remove all nonfunctional concerns from architecture"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 says controlling focus means deciding which aspects should be examined or communicated and hiding everything else to avoid distraction, summarized as less is more. The other options contradict abstraction.",
+      "difficulty": "easy",
+      "tags": [
+        "controlling focus",
+        "less is more",
+        "distraction"
+      ],
+      "source": "p.5: 'Decide which aspects should be examined or communicated / Hide everything else / Less is more' "
+    },
+    {
+      "id": "ch03-b2-007",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The reference architecture on p.6 includes workflow, process orchestration, data transformation, network communication, management, monitoring, governance, and security.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.6 shows these as simplification components for communication: Workflow, Process Orchestration, Data Transformation, Network Communication, Management, Monitoring, Governance, Security. The statement matches.",
+      "difficulty": "medium",
+      "tags": [
+        "reference architecture",
+        "workflow",
+        "governance",
+        "security"
+      ],
+      "source": "p.6: 'Workflow / Process Orchestration / Data Transformation / Network Communication / Management / Monitoring / Governance / Security' "
+    },
+    {
+      "id": "ch03-b2-008",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What does the phrase 'do not see the forest for the trees' illustrate in the slides?",
+      "options": [
+        "Front-line staff may pay too much attention to details and not appreciate the general situation",
+        "Business users always prefer sequence diagrams",
+        "IT implementers cannot understand middleware",
+        "Physical diagrams are always required before abstraction"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 uses this phrase to explain that it is often difficult to extract knowledge from front-line staff because they pay too much attention to details and do not appreciate the general situation.",
+      "difficulty": "medium",
+      "tags": [
+        "facilitating communication",
+        "front-line staff",
+        "details"
+      ],
+      "source": "p.7: 'They do not see the forest for the trees / Pay too much attention to details' "
+    },
+    {
+      "id": "ch03-b2-009",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the business example, what is the abstracted translation of matching the FET process TRANS_ID field to the SWIFT 31a field?",
+      "options": [
+        "There is a reconciliation process between the front office (trading) and back office (clearing)",
+        "There is a load balancer routing requests to feed handlers",
+        "There is a smart contract holding value in escrow",
+        "There is a physical diagram of servers and network hardware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 shows the detailed field matching and abstracts it to a reconciliation process between front office trading and back office clearing. Other options come from later unrelated slides.",
+      "difficulty": "medium",
+      "tags": [
+        "business example",
+        "reconciliation",
+        "front office",
+        "back office"
+      ],
+      "source": "p.8: 'There is a reconciliation process between the front office (trading) and back office (clearing)' "
+    },
+    {
+      "id": "ch03-b2-010",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the technology example, what is the abstracted translation of the detailed CMPL/SOAP/FIX/IBM MQ description?",
+      "options": [
+        "There is an order routing system that runs on a UNIX platform and makes use of various middleware",
+        "There is a blockchain consensus mechanism using proof-of-stake",
+        "There is a three-tiered channel-services architecture",
+        "There is a static load balancing scheme based on symbol ranges"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 gives the detailed technology stack and abstracts it to an order routing system on a UNIX platform using various middleware. Other options are from different sections.",
+      "difficulty": "medium",
+      "tags": [
+        "technology example",
+        "order routing",
+        "middleware"
+      ],
+      "source": "p.9: 'There is an order routing system that runs on a UNIX platform and makes use of various middleware' "
+    },
+    {
+      "id": "ch03-b2-011",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "According to the slides, which view may business users be more comfortable with, and which may IT implementers find more useful?",
+      "options": [
+        "Business users: process flow diagrams e.g. BPMN; IT implementers: sequence diagrams",
+        "Business users: sequence diagrams; IT implementers: physical diagrams",
+        "Business users: smart contracts; IT implementers: blockchain nodes",
+        "Business users: load balancers; IT implementers: feed handlers"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.10 says business users may be more comfortable with process flow diagrams such as BPMN, while IT implementers may find sequence diagrams more useful.",
+      "difficulty": "easy",
+      "tags": [
+        "multiple views",
+        "BPMN",
+        "sequence diagrams"
+      ],
+      "source": "p.10: 'Business users may be more comfortable with process flow diagrams (e.g. BPMN) / IT implementers may find sequence diagrams more useful' "
+    },
+    {
+      "id": "ch03-b2-012",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that a physical diagram shows the servers and network hardware configuration.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.11 defines physical diagram as showing the servers and network hardware configuration. Logical diagrams show main functional modules and information flows.",
+      "difficulty": "easy",
+      "tags": [
+        "physical diagram",
+        "servers",
+        "network hardware"
+      ],
+      "source": "p.11: 'Physical diagram / Shows the servers and network hardware configuration' "
+    },
+    {
+      "id": "ch03-b2-013",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which layer is NOT shown in the logical channel-services architecture diagram on p.12?",
+      "options": [
+        "Channel Services Layer",
+        "Business Services Layer",
+        "Data Services Layer",
+        "Blockchain Consensus Layer"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.12 shows Channel Services Layer, Business Services Layer, and Data Services Layer. Blockchain consensus is from the DLT section, not this logical diagram.",
+      "difficulty": "easy",
+      "tags": [
+        "channel-services architecture",
+        "logical diagram",
+        "layers"
+      ],
+      "source": "p.12: 'Channel Services Layer / Business Services Layer / Data Services Layer' "
+    },
+    {
+      "id": "ch03-b2-014",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which statements about the three-tiered channel-services architecture are correct according to the slides?",
+      "options": [
+        "It helps identify and communicate where specific functions should reside",
+        "It can help decide whether a software module should implement business logic or channel logic",
+        "A particular module should include both business logic and channel logic",
+        "It is useful for identifying which logical functions different software systems provide"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "p.13 says the three-tiered architecture helps identify/communicate where functions reside and which logical functions different software systems provide. It asks whether a module should implement business or channel logic and says it should not include both, so option C is wrong.",
+      "difficulty": "medium",
+      "tags": [
+        "three-tiered architecture",
+        "business logic",
+        "channel logic"
+      ],
+      "source": "p.13: 'Helps identify and communicate where specific functions should reside / Should not include both' "
+    },
+    {
+      "id": "ch03-b2-015",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What does the channel-services architecture example say about a software module implementing business logic and channel logic?",
+      "options": [
+        "It should implement both to reduce the number of modules",
+        "It should not include both",
+        "It should always be placed in the data services layer",
+        "It should be replaced by a smart contract"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "p.13 says an example is whether a module should implement business logic or channel logic, and it should not include both. Other options are not stated.",
+      "difficulty": "medium",
+      "tags": [
+        "business logic",
+        "channel logic",
+        "module design"
+      ],
+      "source": "p.13: 'Should not include both' "
+    },
+    {
+      "id": "ch03-b2-016",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Why is the three-tiered architecture useful for identifying which logical functions different software systems provide?",
+      "options": [
+        "Because it separates channel, business, and data service concerns so functions can be mapped to layers",
+        "Because it eliminates the need for any logical diagrams",
+        "Because it guarantees that all systems use the same programming language",
+        "Because it replaces process orchestration with static load balancing"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.13 says the architecture helps identify and communicate where functions should reside and which logical functions different software systems provide. This follows from separating channel, business, and data service concerns.",
+      "difficulty": "medium",
+      "tags": [
+        "three-tiered architecture",
+        "logical functions",
+        "software systems"
+      ],
+      "source": "p.13: 'Also useful for identifying which logical functions different software systems provide' "
+    },
+    {
+      "id": "ch03-b2-017",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "In the solution mapping on p.14, which systems are shown in the Business Services Layer?",
+      "options": [
+        "Core Banking System",
+        "Rules Engine",
+        "Treasury System",
+        "Customer Information Database"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.14 shows Core Banking System, Rules Engine, and Treasury System in the Business Services Layer. Customer Information Database is shown in the Data Services Layer.",
+      "difficulty": "medium",
+      "tags": [
+        "solution mapping",
+        "business services",
+        "core banking",
+        "rules engine",
+        "treasury"
+      ],
+      "source": "p.14: diagram 'Business Services Layer' with 'Core Banking System', 'Rules Engine', 'Treasury System' "
+    },
+    {
+      "id": "ch03-b2-018",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the implementation diagram on p.15, which component sits between the channel applications and the Enterprise Service Bus?",
+      "options": [
+        "Business Process Management System",
+        "Customer Information Database",
+        "Blockchain node",
+        "Static Distribution Manager"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.15 shows Branch App, Internet Banking App, and Mobile Banking App connecting via REST API to the Business Process Management System, which then connects via REST API to the Enterprise Service Bus.",
+      "difficulty": "medium",
+      "tags": [
+        "implementation diagram",
+        "BPMS",
+        "enterprise service bus"
+      ],
+      "source": "p.15: diagram 'Business Process Management System' between channel apps and 'Enterprise Service Bus' "
+    },
+    {
+      "id": "ch03-b2-019",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "In the p.15 implementation diagram, the Data Services layer includes adapters to Core Banking System, CRM System, and Risk Management System.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.15 shows Data Services with Adapter boxes leading to Core Banking System, CRM System, and Risk Management System. The statement matches the diagram.",
+      "difficulty": "medium",
+      "tags": [
+        "data services",
+        "adapters",
+        "CRM",
+        "risk management"
+      ],
+      "source": "p.15: diagram 'Adapter / Core Banking System', 'Adapter / CRM System', 'Adapter / Risk Management System' "
+    },
+    {
+      "id": "ch03-b2-020",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What does an architecture roadmap describe according to the slides?",
+      "options": [
+        "The intended architecture end state and the plan to get there based on the current state",
+        "Only the physical servers and network hardware currently installed",
+        "The legal terms of smart contracts",
+        "The exact code in every application module"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.16 says an architecture roadmap describes the intended architecture end state and the plan to get there based on the current state, and defines stages, priorities, and limited scope per phase.",
+      "difficulty": "easy",
+      "tags": [
+        "architecture roadmap",
+        "end state",
+        "current state"
+      ],
+      "source": "p.16: 'Intended architecture end state / The plan to get there based on the current state' "
+    },
+    {
+      "id": "ch03-b2-021",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which of the following is NOT listed as a guiding principle purpose in the slides?",
+      "options": [
+        "Avoid ambiguity",
+        "Simplify decision-making",
+        "Provide architectural consistency",
+        "Guarantee that no future debate will ever occur"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.17 lists avoiding ambiguity, simplifying decision-making, providing architectural consistency, making rationale clear in advance, and avoiding confusion and debate in the future. It does not guarantee that no debate will ever occur.",
+      "difficulty": "medium",
+      "tags": [
+        "guiding principles",
+        "ambiguity",
+        "consistency"
+      ],
+      "source": "p.17: 'Avoid ambiguity / Simplify decision-making / Provide architectural consistency / Avoid confusion and debate in the future' "
+    },
+    {
+      "id": "ch03-b2-022",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What are patterns in architecture concepts according to the slides?",
+      "options": [
+        "Common design structures that leverage known good patterns and avoid designing from scratch",
+        "Regulatory rules that banks must follow",
+        "Physical servers used for disaster recovery",
+        "Cryptographic hash functions used in blockchain"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 defines patterns as common design structures; they leverage known good patterns, avoid designing from scratch, and avoid rediscovering known flaws and weaknesses.",
+      "difficulty": "easy",
+      "tags": [
+        "patterns",
+        "common design structures",
+        "known good patterns"
+      ],
+      "source": "p.18: 'Common design structures / Leverage known good patterns / Avoid designing from scratch' "
+    },
+    {
+      "id": "ch03-b2-023",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The adapter pipeline pattern on p.18 includes system connectivity, data parsing, data normalization, data validation, data transformation, data encoding, exception handling, and logging/monitoring.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 shows these stages in the adapter pipeline: System Connectivity, Data Parsing, Data Normalization, Data Validation, Data Transformation, Data Encoding, System Connectivity, plus Exception Handling and Logging/Monitoring.",
+      "difficulty": "medium",
+      "tags": [
+        "adapter pipeline",
+        "data validation",
+        "exception handling"
+      ],
+      "source": "p.18: 'Adapter / Data Parsing / Data Normalization / Data Validation / Data Transformation / Data Encoding / Exception Handling / Logging/Monitoring' "
+    },
+    {
+      "id": "ch03-b2-024",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which set correctly matches standards examples in the slides?",
+      "options": [
+        "Presentation: HTML5; Communications: SOAP over HTTP; Data access: SQL",
+        "Presentation: FIX; Communications: BPMN; Data access: proof-of-stake",
+        "Presentation: REST; Communications: blockchain; Data access: escrow",
+        "Presentation: round robin; Communications: adapter; Data access: load balancer"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 gives HTML5 for presentation, SOAP over HTTP for communications, and SQL for data access. Other options mix unrelated terms.",
+      "difficulty": "easy",
+      "tags": [
+        "standards",
+        "HTML5",
+        "SOAP over HTTP",
+        "SQL"
+      ],
+      "source": "p.19: 'Presentation: HTML5 / Communications: SOAP over HTTP / Data access: SQL' "
+    },
+    {
+      "id": "ch03-b2-025",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that standards simplify design decision making.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 says standards specify details of how solutions should be implemented, provide commonality, and standards simplify design decision making.",
+      "difficulty": "easy",
+      "tags": [
+        "standards",
+        "design decisions"
+      ],
+      "source": "p.19: 'Standards simplify design decision making' "
+    },
+    {
+      "id": "ch03-b2-026",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which of the following are key solution architecture considerations that should be addressed up front?",
+      "options": [
+        "Resilience",
+        "Scalability",
+        "Security",
+        "Performance"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.20 lists resilience, scalability, security, and performance as critical key solution architecture considerations to address up front. All four are listed.",
+      "difficulty": "easy",
+      "tags": [
+        "solution architecture considerations",
+        "resilience",
+        "scalability",
+        "security",
+        "performance"
+      ],
+      "source": "p.20: 'Resilience / Scalability / Security / Performance' "
+    },
+    {
+      "id": "ch03-b2-027",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What can happen if problems with resilience, scalability, security, or performance are identified late in the development cycle according to the slides?",
+      "options": [
+        "Redesign and reimplementation, project delays and cost overruns, and unhappy business users and managers",
+        "The project automatically becomes a fintech company",
+        "All nonfunctional concerns disappear",
+        "The architecture roadmap is no longer needed"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.20 says late identification often leads to redesign and reimplementation, project delays and cost overruns, and unhappy business users and managers. Other options are not stated.",
+      "difficulty": "medium",
+      "tags": [
+        "late identification",
+        "redesign",
+        "cost overruns"
+      ],
+      "source": "p.20: 'Redesign and reimplementation / Project delays and cost overruns / Unhappy business users and managers' "
+    },
+    {
+      "id": "ch03-b2-028",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "According to the slides, 99.99% availability corresponds approximately to how much downtime per year?",
+      "options": [
+        "About 52 minutes",
+        "About 5 hours",
+        "About 52 hours",
+        "About 52 days"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.21 gives 99.99% availability as approximately 52 minutes of downtime per year. The other values misstate the slide example.",
+      "difficulty": "medium",
+      "tags": [
+        "resilience",
+        "availability",
+        "downtime"
+      ],
+      "source": "p.21: '99.99% availability / Approximately 52 minutes of downtime per year' "
+    },
+    {
+      "id": "ch03-b2-029",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides list active-passive and active-active as system-level resilience approaches.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.21 under System level resilience lists Active-passive and Active-active. Site-level disaster recovery is listed separately. The statement is correct.",
+      "difficulty": "medium",
+      "tags": [
+        "resilience",
+        "active-passive",
+        "active-active"
+      ],
+      "source": "p.21: 'System level resilience / Active-passive / Active-active' "
+    },
+    {
+      "id": "ch03-b2-030",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What is site-level disaster recovery (DR) in the slides?",
+      "options": [
+        "A site-level resilience approach listed separately from system-level active-passive and active-active",
+        "A static load balancing algorithm",
+        "A type of smart contract escrow",
+        "A standard for presentation using HTML5"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.21 lists Site-level disaster recovery (DR) under resilience, after system-level active-passive and active-active. Other options are unrelated concepts.",
+      "difficulty": "medium",
+      "tags": [
+        "disaster recovery",
+        "site-level",
+        "resilience"
+      ],
+      "source": "p.21: 'Site-level disaster recovery (DR)' "
+    },
+    {
+      "id": "ch03-b2-031",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides define scalability?",
+      "options": [
+        "The ability to increase a solution's capacity to meet greater usage demands",
+        "The ability to keep a system unchanged forever",
+        "The time to complete a single transaction",
+        "The process of recording data modifications as reversals"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.22 defines scalability as the ability to increase a solution's capacity to meet greater usage demands. The other options refer to other concepts such as latency or auditability.",
+      "difficulty": "easy",
+      "tags": [
+        "scalability",
+        "capacity",
+        "usage demands"
+      ],
+      "source": "p.22: 'The ability to increase a solution's capacity to meet greater usage demands' "
+    },
+    {
+      "id": "ch03-b2-032",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which of the following is NOT given as an example of capacity to be increased for scalability?",
+      "options": [
+        "Increased transaction volumes",
+        "Greater numbers of users",
+        "More connections and more locations",
+        "Guaranteed zero downtime"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.22 lists increased transaction volumes, greater numbers of users, more connections, and more locations. Zero downtime is a resilience/availability concern, not a scalability capacity example.",
+      "difficulty": "medium",
+      "tags": [
+        "scalability examples",
+        "transaction volumes",
+        "users",
+        "connections",
+        "locations"
+      ],
+      "source": "p.22: 'Increased transaction volumes / Greater numbers of users / More connections / More locations' "
+    },
+    {
+      "id": "ch03-b2-033",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which scaling approach uses an even more powerful server?",
+      "options": [
+        "Vertical scaling",
+        "Horizontal scaling",
+        "Static load balancing",
+        "Federated geographic distribution"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 shows Vertical Scaling as Server to More Powerful Server to Even More Powerful Server. Horizontal Scaling adds additional servers.",
+      "difficulty": "easy",
+      "tags": [
+        "vertical scaling",
+        "powerful server"
+      ],
+      "source": "p.23: 'Vertical Scaling / More Powerful Server / Even More Powerful Server' "
+    },
+    {
+      "id": "ch03-b2-034",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which scaling approach adds additional servers?",
+      "options": [
+        "Horizontal scaling",
+        "Vertical scaling",
+        "Active-passive resilience",
+        "System of record reconciliation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 shows Horizontal Scaling as Server plus Additional Server, Additional Server, Additional Server. Vertical scaling upgrades to a more powerful server.",
+      "difficulty": "easy",
+      "tags": [
+        "horizontal scaling",
+        "additional servers"
+      ],
+      "source": "p.23: 'Horizontal Scaling / Additional Server / Additional Server' "
+    },
+    {
+      "id": "ch03-b2-035",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides define throughput as a performance requirement?",
+      "options": [
+        "Transactions per time period",
+        "Time to complete a transaction",
+        "A variance threshold such as 90% under 100 milliseconds",
+        "The number of servers in a data center"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 defines throughput as transactions per time period. Latency is time to complete a transaction. A variance threshold is a way performance can be measured.",
+      "difficulty": "medium",
+      "tags": [
+        "performance",
+        "throughput",
+        "transactions"
+      ],
+      "source": "p.24: 'Throughput: transactions per time period' "
+    },
+    {
+      "id": "ch03-b2-036",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides define latency as a performance requirement?",
+      "options": [
+        "Time to complete a transaction",
+        "Transactions per time period",
+        "The number of active-passive servers",
+        "The number of users in a branch"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 defines latency as time to complete a transaction. Throughput is transactions per time period.",
+      "difficulty": "medium",
+      "tags": [
+        "performance",
+        "latency",
+        "transaction time"
+      ],
+      "source": "p.24: 'Latency: time to complete a transaction' "
+    },
+    {
+      "id": "ch03-b2-037",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that performance can be measured as average, maximum allowable, or a variance threshold such as 90% under 100 milliseconds.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 says performance can be measured as Average, Maximum allowable, and A variance threshold (e.g. 90% under 100 milliseconds). The statement matches.",
+      "difficulty": "medium",
+      "tags": [
+        "performance measurement",
+        "average",
+        "variance threshold"
+      ],
+      "source": "p.24: 'Average / Maximum allowable / A variance threshold (e.g. 90% under 100 milliseconds)' "
+    },
+    {
+      "id": "ch03-b2-038",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that poor performance is a common issue for many solution deliveries and should be considered in all stages of the development lifecycle.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 explicitly says poor performance is a common issue for many solution deliveries and should be considered in all stages of the development lifecycle.",
+      "difficulty": "medium",
+      "tags": [
+        "poor performance",
+        "development lifecycle"
+      ],
+      "source": "p.24: 'Poor performance is a common issue / Should be considered in all stages of the development lifecycle' "
+    },
+    {
+      "id": "ch03-b2-039",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides list marking data records as deleted rather than actually deleting them as a common auditability and data integrity approach.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 lists marking data records as deleted rather than actually deleting them as one common approach for maintaining an unalterable record. The statement is correct.",
+      "difficulty": "medium",
+      "tags": [
+        "auditability",
+        "data integrity",
+        "deleted records"
+      ],
+      "source": "p.26: 'Marking data records as deleted rather than actually deleting them' "
+    },
+    {
+      "id": "ch03-b2-040",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What is a 'system of record' according to the slides?",
+      "options": [
+        "A designated master source for specific types of information",
+        "A load balancer that routes service requests",
+        "A blockchain node that mines new blocks",
+        "A diagram showing servers and network hardware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 defines a system of record as designated as the master source for specific types of information. It is used with reconciliation to ensure intersystem data consistency and integrity.",
+      "difficulty": "medium",
+      "tags": [
+        "system of record",
+        "master source",
+        "data integrity"
+      ],
+      "source": "p.26: 'Identifying a system of record that is designated as the master source for specific types of information' "
+    },
+    {
+      "id": "ch03-b2-041",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides define adaptability and maintainability?",
+      "options": [
+        "A solution's ability to be changed and supported after it has been deployed",
+        "A solution's ability to process transactions per time period",
+        "A solution's ability to hide all details from business users",
+        "A solution's ability to eliminate all future technological change"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.27 defines adaptability and maintainability as a solution's ability to be changed and supported after it has been deployed. Business and technological evolution necessitates change.",
+      "difficulty": "easy",
+      "tags": [
+        "adaptability",
+        "maintainability",
+        "deployed solutions"
+      ],
+      "source": "p.27: 'Solutions ability to be changed and supported after they have been deployed' "
+    },
+    {
+      "id": "ch03-b2-042",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What lifecycle sequence is shown on p.27?",
+      "options": [
+        "Develop, Use, Refine, Retire",
+        "Develop, Retire, Use, Refine",
+        "Use, Develop, Retire, Refine",
+        "Refine, Develop, Use, Retire"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.27 shows Develop, Use, Refine, Retire, with a loop from Refine back to Use. The other sequences do not match the diagram.",
+      "difficulty": "medium",
+      "tags": [
+        "lifecycle",
+        "develop",
+        "use",
+        "refine",
+        "retire"
+      ],
+      "source": "p.27: diagram 'Develop / Use / Refine / Retire' "
+    },
+    {
+      "id": "ch03-b2-043",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which statement correctly matches geographic distribution approaches in the slides?",
+      "options": [
+        "Centralized: processing or data managed at a central location; Federated: some functions central and others delegated; Distributed: localities have full autonomy",
+        "Centralized: localities have full autonomy; Federated: no central management; Distributed: one central location",
+        "Centralized: load balancer chooses all requests; Federated: static symbol ranges; Distributed: round robin",
+        "Centralized: blockchain nodes; Federated: smart contracts; Distributed: proof-of-stake"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 defines centralized as processing or data managed and maintained at a central location, federated as some functions managed centrally while others delegated to regional/local implementation, and distributed as localities having full autonomy.",
+      "difficulty": "medium",
+      "tags": [
+        "geographic distribution",
+        "centralized",
+        "federated",
+        "distributed"
+      ],
+      "source": "p.28: 'Centralized / Federated / Distributed / Localities have full autonomy' "
+    },
+    {
+      "id": "ch03-b2-044",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which statement describes static load balancing according to the slides?",
+      "options": [
+        "It segregates distribution requirements across a predefined set of components and is simple to implement but has suboptimal load allocation",
+        "It uses a load balancer to decide which source receives each request based on availability",
+        "It requires bidirectional communication and a round-robin algorithm",
+        "It provides full autonomy to every locality"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.30 defines static load balancing as segregating distribution requirements across a predefined set of components, using symbol name ranges to define service separation; it is simple but suboptimal. Options B and C describe dynamic load balancing.",
+      "difficulty": "medium",
+      "tags": [
+        "static load balancing",
+        "predefined components",
+        "suboptimal allocation"
+      ],
+      "source": "p.30: 'Segregate the distribution requirements across a predefined set of components / Simple to implement / Suboptimal allocation of load' "
+    },
+    {
+      "id": "ch03-b2-045",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the static load balancing diagram on p.31, a service request with symbol TAV is routed to which Distribution Manager?",
+      "options": [
+        "Distribution Manager (S-Z)",
+        "Distribution Manager (A-G)",
+        "Distribution Manager (H-R)",
+        "The Load Balancer"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.31 shows Service Request (Symbol = TAV) pointing to Distribution Manager (S-Z), because TAV falls in the S-Z symbol range. A-G and H-R cover other ranges; there is no Load Balancer in the static diagram.",
+      "difficulty": "hard",
+      "tags": [
+        "static load balancing diagram",
+        "symbol TAV",
+        "S-Z"
+      ],
+      "source": "p.31: diagram 'Service Request (Symbol = TAV)' to 'Distribution Manager (S-Z)' "
+    },
+    {
+      "id": "ch03-b2-046",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which statements about dynamic load balancing are correct according to the slides?",
+      "options": [
+        "A load balancer component intermediates service requests and decides which source to route to",
+        "It requires bidirectional communication and a load allocation algorithm such as round robin",
+        "It may factor in the status or availability of service sources",
+        "It is simpler to implement than static load balancing"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.32 says dynamic load balancing uses a load balancer to intermediate requests and decide routing; it is more complex, requires bidirectional communication and a load allocation algorithm such as round robin, and may factor in status/availability. It is more complex, not simpler, than static.",
+      "difficulty": "medium",
+      "tags": [
+        "dynamic load balancing",
+        "load balancer",
+        "round robin",
+        "availability"
+      ],
+      "source": "p.32: 'A load balancer component intermediates service requests / Requires bidirectional communication / round robin / May factor in status/availability' "
+    },
+    {
+      "id": "ch03-b2-047",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the dynamic load balancing diagram on p.33, what is the role of the Load Balancer?",
+      "options": [
+        "It intermediates the service request and routes it to one of the feed handlers",
+        "It stores the permanent ledger of all transactions",
+        "It defines symbol name ranges for static separation",
+        "It acts as the system of record for customer data"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.33 shows the Subscribing Application sending a Service Request to the Load Balancer, which routes to Feed Handler #1, #2, ... #N. It does not store a ledger, define static ranges, or act as a system of record.",
+      "difficulty": "medium",
+      "tags": [
+        "dynamic load balancing diagram",
+        "load balancer",
+        "feed handlers"
+      ],
+      "source": "p.33: diagram 'Service Request' to 'Load Balancer' to 'Feed Handler #1/#2/#N' "
+    },
+    {
+      "id": "ch03-b2-048",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that monolithic applications tightly couple frontend, backend, and database components and use a single codebase with one language and platform.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.34 defines monolithic applications as tightly coupling frontend, backend, and database components, with a single codebase using one language and platform. The statement matches.",
+      "difficulty": "medium",
+      "tags": [
+        "monolithic architecture",
+        "tight coupling",
+        "single codebase"
+      ],
+      "source": "p.34: 'Monolithic applications tightly couple frontend, backend, and database components / A single codebase uses one language and platform' "
+    },
+    {
+      "id": "ch03-b2-049",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What does the slides say about updates in a monolithic architecture?",
+      "options": [
+        "Entire application redeployment is required, leading to infrequent updates",
+        "Each small function can be deployed independently without redeploying the application",
+        "Updates never require compatibility checks",
+        "Only the database component is redeployed"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.34 says tight coupling complicates maintenance, updates, and scalability of individual components, and entire application redeployment is required, leading to infrequent updates. Independent deployment is a microservices trait.",
+      "difficulty": "medium",
+      "tags": [
+        "monolithic architecture",
+        "redeployment",
+        "infrequent updates"
+      ],
+      "source": "p.34: 'Entire application redeployment is required, leading to infrequent updates' "
+    },
+    {
+      "id": "ch03-b2-050",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which microservice type operates CRUD functions, scales horizontally, and is standalone?",
+      "options": [
+        "Atomic services",
+        "Wrapper services",
+        "Composite services",
+        "Static distribution managers"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.35 says atomic services operate CRUD functions, scale horizontally, and are standalone. Wrapper services expose monolithic functionality but rely on other applications; composite services orchestrate multiple services.",
+      "difficulty": "medium",
+      "tags": [
+        "microservices",
+        "atomic services",
+        "CRUD"
+      ],
+      "source": "p.35: 'Atomic services operate CRUD functions, scale horizontally, and are standalone' "
+    },
+    {
+      "id": "ch03-b2-051",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which service types are described in the microservices architecture model on p.35?",
+      "options": [
+        "Atomic services",
+        "Wrapper services",
+        "Composite services",
+        "Distribution Manager services"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.35 describes atomic, wrapper, and composite services. Distribution Manager is from static load balancing diagrams, not the microservices model.",
+      "difficulty": "medium",
+      "tags": [
+        "microservices",
+        "atomic",
+        "wrapper",
+        "composite"
+      ],
+      "source": "p.35: 'Atomic services / Wrapper services / Composite services' "
+    },
+    {
+      "id": "ch03-b2-052",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What trade-off of SOA microservices is mentioned in the slides?",
+      "options": [
+        "They offer flexibility, scalability, and reuse but add overhead and latency",
+        "They eliminate all latency and overhead",
+        "They prevent independent deployment of small functions",
+        "They require a single codebase and one platform"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.35 says SOA microservices offer flexibility, scalability, and reuse but add overhead and latency. The other options contradict the slide or describe monolithic architecture.",
+      "difficulty": "medium",
+      "tags": [
+        "microservices trade-off",
+        "overhead",
+        "latency"
+      ],
+      "source": "p.35: 'SOA microservices offer flexibility, scalability, and reuse but adds overhead and latency' "
+    },
+    {
+      "id": "ch03-b2-053",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which functions do API gateways provide for enterprise applications according to the slides?",
+      "options": [
+        "Managing service access, load balancing, version control, caching, logging, and monitoring",
+        "Mining new blockchain blocks and reaching consensus",
+        "Holding smart contract value in escrow",
+        "Defining proof-of-stake rewards"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.36 says API gateways manage service access, load balancing, and version control, and provide caching, logging, and monitoring. Blockchain mining, escrow, and proof-of-stake are DLT concepts.",
+      "difficulty": "medium",
+      "tags": [
+        "API gateways",
+        "load balancing",
+        "caching",
+        "monitoring"
+      ],
+      "source": "p.36: 'API gateways manage service access, load balancing, and version control / caching, logging, and monitoring' "
+    },
+    {
+      "id": "ch03-b2-054",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which are drawbacks of API gateways listed in the slides?",
+      "options": [
+        "Added latency",
+        "Complexity",
+        "Maintenance needs",
+        "Guaranteed elimination of all security risks"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.36 lists drawbacks of API gateways as added latency, complexity, and maintenance needs. It does not claim they eliminate all security risks.",
+      "difficulty": "medium",
+      "tags": [
+        "API gateway drawbacks",
+        "latency",
+        "complexity",
+        "maintenance"
+      ],
+      "source": "p.36: 'Drawbacks of API gateways include added latency, complexity, and maintenance needs' "
+    },
+    {
+      "id": "ch03-b2-055",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Which statement describes publish-subscribe communications in the slides?",
+      "options": [
+        "They support event-driven, real-time, asynchronous communication",
+        "They require a single monolithic codebase",
+        "They use only static symbol ranges to route requests",
+        "They eliminate the need for message-oriented middleware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.37 says publish-subscribe messaging supports event-driven, real-time, asynchronous communication. Message-oriented middleware enables event publishing and subscription handling. Other options are unrelated or contradictory.",
+      "difficulty": "medium",
+      "tags": [
+        "publish-subscribe",
+        "event-driven",
+        "asynchronous"
+      ],
+      "source": "p.37: 'Publish-subscribe messaging supports event-driven, real-time, asynchronous communication' "
+    },
+    {
+      "id": "ch03-b2-056",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides state that AMQP enables interoperable publish-subscribe communication with brokers.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.37 says AMQP enables interoperable publish-subscribe communication with brokers. Message queuing ensures delivery; MOM enables event publishing and subscription handling.",
+      "difficulty": "medium",
+      "tags": [
+        "AMQP",
+        "publish-subscribe",
+        "brokers"
+      ],
+      "source": "p.37: 'AMQP enables interoperable publish-subscribe communication with brokers' "
+    },
+    {
+      "id": "ch03-b2-057",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the MOM-based system integration diagram on p.38, what sits inside the Message-oriented Middleware box?",
+      "options": [
+        "Process Orchestration",
+        "A Load Balancer",
+        "A Blockchain Node",
+        "A System of Record"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.38 shows Message-oriented Middleware containing Process Orchestration. Adapters connect source systems to the middleware, which handles communication, routing, filtering, transformation, connectivity, and transformation.",
+      "difficulty": "medium",
+      "tags": [
+        "MOM diagram",
+        "process orchestration",
+        "adapters"
+      ],
+      "source": "p.38: diagram 'Message-oriented Middleware' containing 'Process Orchestration' "
+    },
+    {
+      "id": "ch03-b2-058",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What does the slides say about API granularity?",
+      "options": [
+        "Granularity in APIs affects performance",
+        "Granularity has no effect on performance",
+        "Granularity only affects legal contracts",
+        "Granularity eliminates the need for API gateways"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.39 says API design requires careful selection of exposed methods and granularity in APIs affects performance. It does not say granularity has no effect or eliminates API gateways.",
+      "difficulty": "medium",
+      "tags": [
+        "API design",
+        "granularity",
+        "performance"
+      ],
+      "source": "p.39: 'Granularity in APIs affects performance' "
+    },
+    {
+      "id": "ch03-b2-059",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which statements about API design considerations are correct according to the slides?",
+      "options": [
+        "Wrapper APIs ease integration but require updates if underlying systems change",
+        "Generic service APIs offer reusability but need significant planning and effort",
+        "Balancing flexibility, security, and maintenance is key",
+        "API design should ignore exposed methods and granularity"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.39 says wrapper APIs ease integration but require updates if underlying systems change; generic APIs offer reusability but need planning/effort; balancing flexibility, security, and maintenance is key. It also says API design requires careful selection of exposed methods and granularity matters, so D is wrong.",
+      "difficulty": "medium",
+      "tags": [
+        "API design",
+        "wrapper APIs",
+        "generic APIs",
+        "flexibility",
+        "security"
+      ],
+      "source": "p.39: 'Wrapper APIs ease integration but require updates / Generic service APIs offer reusability / Balancing flexibility, security, and maintenance is key' "
+    },
+    {
+      "id": "ch03-b2-060",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which factors affect cloud usage according to the slides?",
+      "options": [
+        "Enterprise cloud computing strategy",
+        "Purpose and users of the solution",
+        "Dependencies on other internal systems",
+        "Type of information to be stored in the cloud, such as account and/or personally identifiable information"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.40 lists enterprise cloud strategy, purpose/users, dependencies on internal systems, off-the-shelf resources internal or cloud, and type of information such as account/PII. All four options reflect listed factors.",
+      "difficulty": "medium",
+      "tags": [
+        "cloud usage factors",
+        "strategy",
+        "dependencies",
+        "PII"
+      ],
+      "source": "p.40: 'Enterprise cloud computing strategy / Purpose and users / Dependencies on other internal systems / Type of information' "
+    },
+    {
+      "id": "ch03-b2-061",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides compare fintech companies and financial institutions regarding cloud services?",
+      "options": [
+        "Fintech companies typically can leverage cloud services with minimal complications, while financial institutions often face more challenges such as vendor management and internal policies",
+        "Financial institutions always have no cloud challenges, while fintech companies face all regulatory barriers",
+        "Both always face identical challenges with no differences",
+        "Only financial institutions are allowed to use cloud services"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.41 says fintech companies typically can leverage cloud services with minimal complications, while financial institutions often face more challenges such as vendor management processes and internal policies/guidelines.",
+      "difficulty": "medium",
+      "tags": [
+        "cloud services",
+        "fintech",
+        "financial institutions",
+        "vendor management"
+      ],
+      "source": "p.41: 'Fintech companies typically can leverage cloud services with minimal complications / Financial institutions often face more challenges' "
+    },
+    {
+      "id": "ch03-b2-062",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "Why does the slides say it is important to have an enterprise-level cloud strategy?",
+      "options": [
+        "To provide guidance on when and how cloud services should be utilized",
+        "To guarantee every solution is deployed in the public cloud",
+        "To eliminate vendor management processes",
+        "To replace all internal systems immediately"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.41 says it is important to have an enterprise-level cloud strategy to provide guidance on when and how cloud services should be utilized. It does not guarantee public cloud or eliminate vendor management.",
+      "difficulty": "medium",
+      "tags": [
+        "enterprise cloud strategy",
+        "guidance"
+      ],
+      "source": "p.41: 'Important to have an enterprise-level cloud strategy to provide guidance on when and how cloud services should be utilized' "
+    },
+    {
+      "id": "ch03-b2-063",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides define a distributed ledger?",
+      "options": [
+        "It keeps track of ownership and transaction flows between participants and is not managed and maintained by a central authority",
+        "It is a permanent record managed only by a central bank",
+        "It is a static load balancing table based on symbol ranges",
+        "It is a physical diagram of servers and network hardware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.42 defines a distributed ledger as keeping track of ownership and transaction flows between participants and not managed/maintained by a central authority; multiple parties perform recordkeeping/updating on copies in parallel.",
+      "difficulty": "medium",
+      "tags": [
+        "distributed ledger",
+        "ownership",
+        "transaction flows",
+        "central authority"
+      ],
+      "source": "p.42: 'Keeps track of ownership and transaction flows between participants / Not managed and maintained by a central authority' "
+    },
+    {
+      "id": "ch03-b2-064",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides describe a distributed ledger as maintained by multiple parties that perform recordkeeping and updating activities on copies of the ledger in parallel, and as a type of distributed database.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.42 says the distributed ledger is maintained by multiple parties performing recordkeeping and updating on copies in parallel and is a type of distributed database. The statement matches.",
+      "difficulty": "medium",
+      "tags": [
+        "distributed ledger",
+        "multiple parties",
+        "distributed database"
+      ],
+      "source": "p.42: 'Maintained by multiple parties / Copies of the ledger in parallel / A type of distributed database' "
+    },
+    {
+      "id": "ch03-b2-065",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which properties does the slides associate with distributed ledger data structure and management in some applications?",
+      "options": [
+        "Permanent record",
+        "Immutable",
+        "Transparent",
+        "Secure"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.43 says the data structure and management process typically provides a permanent record that is immutable, transparent, and secure. Cryptography is commonly used to secure information and authenticate parties.",
+      "difficulty": "medium",
+      "tags": [
+        "DLT properties",
+        "immutable",
+        "transparent",
+        "secure"
+      ],
+      "source": "p.43: 'Permanent record that is immutable, transparent, and secure' "
+    },
+    {
+      "id": "ch03-b2-066",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which are key components of the Bitcoin blockchain structure and mechanics described in the slides?",
+      "options": [
+        "A network protocol that supports communication between participants",
+        "A network of computers that store and manage transaction data",
+        "A process for managing records based on achieving consensus between participants",
+        "A central authority that owns and maintains the ledger"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.44 lists a network protocol, a network of computers storing/managing transaction data, and a consensus-based record management process. It also says distributed ledgers are not managed by a central authority, so D is wrong.",
+      "difficulty": "medium",
+      "tags": [
+        "Bitcoin blockchain",
+        "network protocol",
+        "consensus",
+        "nodes"
+      ],
+      "source": "p.44: 'A network protocol / A network of computers / A process for managing records based on achieving consensus' "
+    },
+    {
+      "id": "ch03-b2-067",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What is a permissionless blockchain implementation according to the slides?",
+      "options": [
+        "It allows open access to the distributed ledger",
+        "It limits who can participate in the network",
+        "It requires a central authority to approve all records",
+        "It uses static symbol ranges to route requests"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.44 says permissionless blockchain implementations allow open access to the distributed ledger. Permissioned implementations limit who can participate.",
+      "difficulty": "medium",
+      "tags": [
+        "permissionless blockchain",
+        "open access"
+      ],
+      "source": "p.44: 'Permissionless blockchain implementations allow open access to the distributed ledger' "
+    },
+    {
+      "id": "ch03-b2-068",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What is a permissioned blockchain implementation according to the slides?",
+      "options": [
+        "It limits who can participate in the network",
+        "It allows anyone open access to the ledger",
+        "It eliminates the need for consensus",
+        "It requires no nodes"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.44 says permissioned blockchain implementations limit who can participate in the network. Permissionless implementations allow open access.",
+      "difficulty": "medium",
+      "tags": [
+        "permissioned blockchain",
+        "limited participation"
+      ],
+      "source": "p.44: 'Permissioned blockchain implementations limit who can participate in the network' "
+    },
+    {
+      "id": "ch03-b2-069",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "In the blockchain processing sequence, what do nodes validate before a transaction is grouped into a block?",
+      "options": [
+        "The transaction's digital signature and previous recorded transactions to verify that the address transferring funds actually owns them",
+        "The exact physical location of every miner node",
+        "The enterprise cloud strategy",
+        "The API gateway's version control policy"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.45 says nodes validate the transaction's digital signature and review previous transactions recorded by the blockchain to verify that the address transferring funds actually owns them. Other options are unrelated.",
+      "difficulty": "hard",
+      "tags": [
+        "blockchain processing",
+        "digital signature",
+        "ownership verification"
+      ],
+      "source": "p.45: 'Nodes validate the transaction's digital signature and review previous transactions ... verify that the address transferring the funds actually owns them' "
+    },
+    {
+      "id": "ch03-b2-070",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "What do miner nodes do in the blockchain processing sequence according to the slides?",
+      "options": [
+        "Perform computationally intensive verification of the block",
+        "Manage the enterprise service bus",
+        "Define HTML5 presentation standards",
+        "Route service requests using round robin"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.45 says miner nodes perform computationally intensive verification of the block; when they reach consensus that transaction information is valid, the transaction is approved for inclusion in the ledger.",
+      "difficulty": "medium",
+      "tags": [
+        "miner nodes",
+        "block verification",
+        "consensus"
+      ],
+      "source": "p.45: 'Miner nodes will perform computationally intensive verification of the block' "
+    },
+    {
+      "id": "ch03-b2-071",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which statements about blockchain consensus, rewards, and hash functions are correct according to the slides?",
+      "options": [
+        "Nodes that contribute computing resources to validate transactions are rewarded with a small amount of the underlying digital currency",
+        "Two consensus mechanisms used are proof-of-work and proof-of-stake",
+        "Cryptographic hash functions are used to prevent tampering with transaction details",
+        "The consensus mechanism encourages bad actors to enter false information"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.46 says nodes contributing computing resources are rewarded with digital currency; proof-of-work and proof-of-stake are used; cryptographic hash functions prevent tampering. It says consensus helps prevent fraudulent activity by bad actors, so D is wrong.",
+      "difficulty": "medium",
+      "tags": [
+        "consensus",
+        "proof-of-work",
+        "proof-of-stake",
+        "hash functions",
+        "rewards"
+      ],
+      "source": "p.46: 'Rewarded with a small amount of its underlying digital currency / Proof-of-work Proof-of-stake / Cryptographic hash functions ... prevent tampering' "
+    },
+    {
+      "id": "ch03-b2-072",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides list decentralized, trust in the design of the system, immutability, and fully automated as special characteristics of DLT.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.47 lists Decentralized, Trust, Immutability, and Fully automated as special characteristics. Decentralized means no owner and no single point of failure; trust is in design, not central authority.",
+      "difficulty": "medium",
+      "tags": [
+        "DLT special characteristics",
+        "decentralized",
+        "trust",
+        "immutability",
+        "automated"
+      ],
+      "source": "p.47: 'Decentralized / Trust / Immutability / Fully automated' "
+    },
+    {
+      "id": "ch03-b2-073",
+      "chapter": "ch03",
+      "type": "single",
+      "question": "How do the slides describe smart contracts?",
+      "options": [
+        "Computer programs that can execute the terms of an agreement between users of the blockchain network",
+        "Static load balancing tables based on symbol ranges",
+        "Physical diagrams of servers and network hardware",
+        "A system of record for customer information"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.48 describes smart contracts as an offshoot of blockchain technology: computer programs that can execute the terms of an agreement between users of the blockchain network.",
+      "difficulty": "easy",
+      "tags": [
+        "smart contracts",
+        "agreement terms",
+        "blockchain"
+      ],
+      "source": "p.48: 'Computer programs that can execute the terms of an agreement between users of the blockchain network' "
+    },
+    {
+      "id": "ch03-b2-074",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which benefits of smart contracts are listed in the slides?",
+      "options": [
+        "Faster",
+        "Lower cost",
+        "Reduced risk of errors",
+        "Guaranteed legal enforceability in every jurisdiction"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.48 lists benefits as faster, lower cost, and reduced risk of errors. It does not claim guaranteed legal enforceability in every jurisdiction; p.49 instead notes legal/regulatory frameworks may need alteration.",
+      "difficulty": "medium",
+      "tags": [
+        "smart contracts benefits",
+        "faster",
+        "lower cost",
+        "reduced errors"
+      ],
+      "source": "p.48: 'Benefits: faster, lower cost, reduced risk of errors' "
+    },
+    {
+      "id": "ch03-b2-075",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "For which situations does the slides say DLT is a good fit?",
+      "options": [
+        "Multiple writers of information to a shared repository",
+        "Eliminating the need for intermediaries in a transaction process",
+        "Geographically distributed participants",
+        "A single writer using a standalone spreadsheet with no shared repository"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.49 lists multiple writers to a shared repository, eliminating intermediaries, and geographically distributed participants as good fits. A single writer with no shared repository is not listed.",
+      "difficulty": "medium",
+      "tags": [
+        "DLT fit",
+        "multiple writers",
+        "intermediaries",
+        "geographic distribution"
+      ],
+      "source": "p.49: 'Multiple writers of information to a shared repository / Eliminating the need for intermediaries / Geographically distributed participants' "
+    },
+    {
+      "id": "ch03-b2-076",
+      "chapter": "ch03",
+      "type": "tf",
+      "question": "The slides identify the need to replace infrastructure, significant changes to existing processes, and alterations to legal or regulatory frameworks as nontechnical implementation requirements that could hinder DLT.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.49 says nontechnical implementation requirements that could be hinderances also need to be considered, including the need to replace infrastructure, significant changes to existing processes, and alterations to legal or regulatory frameworks.",
+      "difficulty": "hard",
+      "tags": [
+        "DLT implementation",
+        "infrastructure replacement",
+        "process changes",
+        "legal frameworks"
+      ],
+      "source": "p.49: 'The need to replace infrastructure / Significant changes to existing processes / Alterations to legal or regulatory frameworks' "
+    },
+    {
+      "id": "ch03-b2-077",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which are DLT application examples listed in the slides?",
+      "options": [
+        "Digital currencies and payments",
+        "Trade finance",
+        "Property title registry",
+        "Syndicated loans and settlement of securities"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.50 lists digital currencies, payments, trade finance, property title registry, syndicated loans, and settlement of securities as DLT application examples. All four options reflect listed examples.",
+      "difficulty": "easy",
+      "tags": [
+        "DLT applications",
+        "digital currencies",
+        "trade finance",
+        "property title registry",
+        "syndicated loans",
+        "securities settlement"
+      ],
+      "source": "p.50: 'Digital currencies / Payments / Trade finance / Property title registry / Syndicated loans / Settlement of securities' "
+    },
+    {
+      "id": "ch03-b2-078",
+      "chapter": "ch03",
+      "type": "multi",
+      "question": "Which challenges of DLT are listed in the slides?",
+      "options": [
+        "Competing standards and unclear which platforms will be viable long term",
+        "Privacy and security flaws that could undermine applications",
+        "Regulatory and legal uncertainty, especially for heavily regulated entities such as banks",
+        "Guaranteed permanent support for every platform"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.51 lists competing standards, privacy/security concerns, and regulatory/legal uncertainty especially for banks. It says it is unclear which platforms will be viable long term, so D is wrong.",
+      "difficulty": "medium",
+      "tags": [
+        "DLT challenges",
+        "competing standards",
+        "privacy",
+        "security",
+        "regulatory uncertainty"
+      ],
+      "source": "p.51: 'Competing standards / Privacy and security / Regulatory and legal uncertainty' "
+    },
+    {
+      "id": "ch04-b2-001",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "According to the slides, whether IT is a commodity or a strategic asset for a financial institution depends mainly on what?",
+      "options": [
+        "The institution and where its strategic advantage comes from",
+        "Whether the bank uses waterfall or code and fix for every project",
+        "The number of pages in the requirements document",
+        "Whether all vendors are local rather than remote"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 指出 IT 是 commodity（商品）还是 strategic asset（战略资产）取决于 institution（机构）以及其 strategic advantage（战略优势）来自哪里。waterfall（瀑布式）、code and fix（编码并修复）是交付方式；文档页数和供应商地点不是该页判断依据。",
+      "difficulty": "easy",
+      "tags": [
+        "IT commodity",
+        "strategic asset",
+        "strategic advantage"
+      ],
+      "source": "p.2: 'Depends on the institution and where its strategic advantage comes from' "
+    },
+    {
+      "id": "ch04-b2-002",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that in both cases it is critical to ensure that the expected return on IT solution investments is achieved.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 在讨论有些机构增加 technology investment（技术投资）未必带来 material benefits（实质性收益）、有些机构则依赖技术投资决定 relative success（相对成功）之后，明确说 in both cases it is critical to ensure that the expected return on IT solution investments（IT 解决方案投资的预期回报）is achieved。因此该判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "return on IT solution investments",
+        "material benefits",
+        "relative success"
+      ],
+      "source": "p.2: 'expected return on IT solution investments is achieved' "
+    },
+    {
+      "id": "ch04-b2-003",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which example do the slides use to illustrate how quickly a technology firm can roll out changes to its production software environment?",
+      "options": [
+        "Amazon rolls out changes to its production software environment several times a minute",
+        "Google uses only annual releases for all software",
+        "Uber replaces its entire codebase only after a waterfall review",
+        "A bank uses code and fix for every core banking release"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.3 明确说 Amazon is able to roll out changes to their production software environment several times a minute（每分钟多次向生产软件环境发布变更）。Google 和 Uber 在 slides 中是用来说明 technology can be used to create and upset entire industries（创造并颠覆整个行业），不是每年发布或瀑布评审。",
+      "difficulty": "easy",
+      "tags": [
+        "Amazon",
+        "production software environment",
+        "Fintech competition"
+      ],
+      "source": "p.3: 'Amazon is able to roll out changes to their production software environment several times a minute' "
+    },
+    {
+      "id": "ch04-b2-004",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which question is listed in the agile software development case study on p.4?",
+      "options": [
+        "What types of banking applications would be best suited for agile development?",
+        "How many ATMs are located in each branch?",
+        "Which bank has the largest market capitalization?",
+        "How can all vendors be eliminated from solution delivery?"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 的 case study 问题包括哪些 banking applications（银行应用）最适合 agile development（敏捷开发）、sprints（短迭代）的好处、对 stakeholders（利益相关者）的影响、以及 agile 相比 waterfall model（瀑布模型）如何更好支持 innovation（创新）。其他选项不是该页问题。",
+      "difficulty": "easy",
+      "tags": [
+        "agile software development",
+        "case study",
+        "sprints"
+      ],
+      "source": "p.4: 'What types of banking applications would be best suited for agile development?' "
+    },
+    {
+      "id": "ch04-b2-005",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which statement best reflects the slides' view of IT solutions and business value?",
+      "options": [
+        "Technology should be viewed as a means of delivering business value, and ideally processes should determine IT systems",
+        "IT systems should always determine business processes, regardless of business value",
+        "IT solutions should only address technical problems, not operational problems",
+        "Business value is unrelated to IT solution delivery"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 说 IT solutions（IT 解决方案）address business and operational problems（业务和运营问题）、improve efficiencies（提升效率）、enable new business initiatives（支持新业务举措）；technology should be viewed as means of delivering business value（交付业务价值的手段）；ideally, processes should determine IT systems（流程应决定 IT 系统），not the other way around（而不是反过来）。",
+      "difficulty": "easy",
+      "tags": [
+        "IT solutions",
+        "business value",
+        "processes determine IT systems"
+      ],
+      "source": "p.5: 'Technology should be viewed as means of delivering business value / processes should determine IT systems, not the other way around' "
+    },
+    {
+      "id": "ch04-b2-006",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which statements about fulfilling business objectives are correct according to the slides?",
+      "options": [
+        "Solutions implement banks' corporate strategies",
+        "Tactical concerns can draw attention away from strategic considerations",
+        "A solution delivery plan should balance strategic and tactical considerations",
+        "Management does not need to communicate key goals and objectives"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.6 说 solutions implement banks' corporate strategies（公司战略）；tactical concerns（战术性关注点）often can draw attention away from strategic considerations（战略性考虑）；重要的是 create a solution delivery plan（解决方案交付计划）that balances strategic and tactical considerations；management must define and effectively communicate its key goals and objectives（关键目标和目的）。因此 D 错在否定沟通。",
+      "difficulty": "medium",
+      "tags": [
+        "corporate strategies",
+        "tactical concerns",
+        "solution delivery plan"
+      ],
+      "source": "p.6: 'Solutions implement banks corporate strategies / Tactical concerns can draw attention away from strategic considerations / balances strategic and tactical considerations' "
+    },
+    {
+      "id": "ch04-b2-007",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Who is the 30,000-foot view mainly for, and what does it emphasize?",
+      "options": [
+        "Senior management and other stakeholders; it links solution initiatives with business goals and highlights interdependencies",
+        "Line managers and implementers; it specifies detailed design specifications",
+        "Vendors only; it defines contract penalties",
+        "Testers only; it lists all test cases"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 说 The 30,000-foot view（3 万英尺视图）is why and what（为何与做什么），for senior management and other stakeholders（高层管理及其他利益相关者），solutions initiatives are linked with business goals（与业务目标关联），interdependencies are highlighted（依赖关系被突出）。detailed design specifications（详细设计规格）属于 p.10 的 2,000-foot view（2 千英尺视图）。",
+      "difficulty": "medium",
+      "tags": [
+        "30,000-foot view",
+        "senior management",
+        "business goals",
+        "interdependencies"
+      ],
+      "source": "p.7: 'The 30,000-foot view: why and what / For senior management and other stakeholders / linked with business goals / Interdependencies are highlighted' "
+    },
+    {
+      "id": "ch04-b2-008",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which description best matches the 10,000-foot view in the slides?",
+      "options": [
+        "It involves middle management, focuses on the golden path or main flow, and uses high-level process models",
+        "It is only for line managers and contains detailed use-case descriptions",
+        "It shows physical servers and network hardware configuration",
+        "It is a post-project review of what worked well"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 说 The 10,000-foot view（1 万英尺视图）is what and how（做什么与如何做），involves middle management（中层管理），focus on the most likely process flow（最可能的流程），即 golden path（黄金路径）或 main flow（主流程）；high-level process models（高层流程模型）useful。detailed use-case descriptions（详细用例描述）属于 p.10；physical servers（物理服务器）是物理图；post-project review（项目后评审）是 p.27。",
+      "difficulty": "medium",
+      "tags": [
+        "10,000-foot view",
+        "middle management",
+        "golden path",
+        "main flow"
+      ],
+      "source": "p.8: 'The 10,000-foot view: what and how / Involves middle management / golden path or main flow / High level process models' "
+    },
+    {
+      "id": "ch04-b2-009",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "In the fee billing main flow example, which step belongs to the Fee Management System?",
+      "options": [
+        "Retrieve Remittance Fees",
+        "Retrieve Subscription Fees",
+        "Collect Fee Details",
+        "Retrieve Audit Conf. Fees"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.9 的 fee billing process（费用计费流程）图中，Fee Management System（费用管理系统）负责 Collect Fee Details（收集费用明细）、Aggregate Fees（汇总费用）、Apply Bundling Adjustments（应用捆绑调整）、Generate Fee Reports（生成费用报告）。Retrieve Remittance Fees（获取汇款费用）属于 Core Banking System（核心银行系统）；Retrieve Subscription Fees（获取订阅费用）属于 Subscription Services System（订阅服务系统）；Retrieve Audit Conf. Fees（获取审计确认费用）属于 Customer Service System（客户服务系统）。",
+      "difficulty": "hard",
+      "tags": [
+        "fee billing main flow",
+        "Fee Management System",
+        "Collect Fee Details"
+      ],
+      "source": "p.9: diagram 'Fee Management System / Collect Fee Details / Aggregate Fees / Generate Fee Reports' "
+    },
+    {
+      "id": "ch04-b2-010",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which tools are listed for capturing and communicating requirements at the 2,000-foot view?",
+      "options": [
+        "Detailed business process models",
+        "Use-case descriptions",
+        "Design specifications",
+        "Physical network hardware diagrams"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.10 说 2,000-foot view（2 千英尺视图）captures and communicates（捕获并沟通）常用 detailed business process models（详细业务流程模型）、use-case descriptions（用例描述）、design specifications（设计规格）。physical network hardware diagrams（物理网络硬件图）不是该页列出的工具，而更接近 p.11 的 physical diagram（物理图）概念。",
+      "difficulty": "medium",
+      "tags": [
+        "2,000-foot view",
+        "detailed business process models",
+        "use-case descriptions",
+        "design specifications"
+      ],
+      "source": "p.10: 'Detailed business process models / Use-case descriptions / Design specifications' "
+    },
+    {
+      "id": "ch04-b2-011",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which user story snippet illustrates the condition for waiving monthly account service fees in the slides?",
+      "options": [
+        "As a customer, I want monthly account service fees waived when current account assets are over $500,000",
+        "As a customer, I want all fees waived regardless of account assets",
+        "As a customer, I want monthly fees increased when assets are over $500,000",
+        "As a customer, I want fee reports generated by the vendor"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.11 的 detailed user story（详细用户故事）示例写：As a customer, I want monthly account service fees waived（希望月度账户服务费被免除）when current account assets over $500,000（活期账户资产超过 50 万美元）。其他选项把条件、方向或主体改错。",
+      "difficulty": "medium",
+      "tags": [
+        "user story",
+        "monthly account service fees",
+        "current account assets"
+      ],
+      "source": "p.11: 'monthly account service fees waived / current account assets over $500,000' "
+    },
+    {
+      "id": "ch04-b2-012",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Why is defining solution scope and priorities critical in high-level delivery planning?",
+      "options": [
+        "Without a clear scope, the delivery has no clear endpoint or success criteria",
+        "Because scope should never be communicated to stakeholders",
+        "Because total cost of ownership should be ignored",
+        "Because priorities are only relevant after deployment"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.12 说 defining solution scope and priorities（定义解决方案范围和优先级）critical；without a clear scope（没有清晰范围），delivery has no clear endpoint or success criteria（没有明确终点或成功标准）；还需要 consensus（共识）并 clear communication（清晰沟通），并考虑 expected lifetime（预期寿命）和 total cost of ownership（总拥有成本）。",
+      "difficulty": "medium",
+      "tags": [
+        "scope",
+        "priorities",
+        "success criteria",
+        "total cost of ownership"
+      ],
+      "source": "p.12: 'Without a clear scope, the delivery has no clear endpoint or success criteria' "
+    },
+    {
+      "id": "ch04-b2-013",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which of the following are key considerations in high-level delivery planning according to the slides?",
+      "options": [
+        "What existing enterprise platforms can be leveraged to reduce cost and effort and improve quality",
+        "Which legacy systems should be avoided, if possible",
+        "What enterprise platforms not currently in place could be partially implemented as part of the solution delivery effort",
+        "Is the expectation to build or buy the system",
+        "Should the bank avoid all involvement in solution delivery"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.13 列出关键考虑：利用 existing enterprise platforms（现有企业平台）降低成本/工作量并提升质量；avoid legacy systems（避免遗留系统）；部分实施尚未具备的 enterprise platforms（企业平台）；build or buy（自建或购买）；以及 bank intended level of involvement（银行预期参与程度）。E 与原文相反，slides 问的是参与程度，不是完全回避。",
+      "difficulty": "hard",
+      "tags": [
+        "high-level delivery planning",
+        "enterprise platforms",
+        "legacy systems",
+        "build or buy",
+        "bank involvement"
+      ],
+      "source": "p.13: 'What existing enterprise platforms can be leveraged / Which legacy systems should be avoided / build or buy / level of involvement' "
+    },
+    {
+      "id": "ch04-b2-014",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which risks are listed under assessing and managing risks in solution delivery?",
+      "options": [
+        "Scope creep",
+        "Technology risk from new, unproven technology",
+        "Vendor risk that the vendor does not deliver as promised",
+        "Cost control risk where delays or overruns exceed the budget",
+        "Guaranteed vendor delivery as promised"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.14 列出 scope creep（范围蔓延）、technology（新技术/未经验证技术的风险）、vendor（供应商不按承诺交付）、project delivery（项目管理/实施不佳）和 cost control（延迟或超支导致预算被突破）。E 与 vendor risk（供应商风险）相反，不是 listed risk。",
+      "difficulty": "medium",
+      "tags": [
+        "scope creep",
+        "technology risk",
+        "vendor risk",
+        "cost control"
+      ],
+      "source": "p.14: 'Scope creep / Technology / Vendor / Cost control / Delays or overruns cause the budget to be exceeded' "
+    },
+    {
+      "id": "ch04-b2-015",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which of the following is NOT one of the conflicting constraints listed under evaluating trade-offs?",
+      "options": [
+        "Number of features",
+        "Time-to-market",
+        "Quality",
+        "Guaranteed zero cost"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.15 说 evaluating trade-offs（评估权衡）是 balancing between conflicting constraints（平衡冲突约束），列出 number of features（功能数量）、time-to-market（上市时间）、quality（质量）、cost（成本）。Guaranteed zero cost（保证零成本）不是 listed constraint，也不现实。",
+      "difficulty": "easy",
+      "tags": [
+        "trade-offs",
+        "features",
+        "time-to-market",
+        "quality",
+        "cost"
+      ],
+      "source": "p.15: 'Number of features / Time-to-market / Quality / Cost' "
+    },
+    {
+      "id": "ch04-b2-016",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which solution construction approaches are listed in the slides?",
+      "options": [
+        "Buy",
+        "Build",
+        "Assemble",
+        "White-labeled / Software as a Service (SaaS)",
+        "Code and fix"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.16 列出 solution construction approaches（解决方案构建方式）包括 Buy（购买）、Build（自建）、Assemble（组装）、White-labeled / Software as a Service (SaaS)（白标/软件即服务）。Code and fix（编码并修复）是 p.23 的 delivery approach（交付方式），不是该页 construction approach。",
+      "difficulty": "medium",
+      "tags": [
+        "buy",
+        "build",
+        "assemble",
+        "SaaS",
+        "construction approaches"
+      ],
+      "source": "p.16: 'Buy / Build / Assemble / White-labeled / Software as a Service (SaaS)' "
+    },
+    {
+      "id": "ch04-b2-017",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which is a logistical challenge of using external and remote resources for implementation according to the slides?",
+      "options": [
+        "Coordinating between time zones and cultures and having a lack of visibility of progress",
+        "Guaranteed lower quality because external resources are always less skilled",
+        "Elimination of all coordination costs",
+        "Automatic increase in stakeholder interest"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.17 说 external and remote resources（外部与远程资源）often provides cost benefits（成本收益），但也 creates logistical challenges（后勤挑战）：coordinating between time zones and cultures（协调时区与文化）、lack of visibility of progress（缺乏进度可见性）。其他选项不是 slides 原意。",
+      "difficulty": "medium",
+      "tags": [
+        "solution delivery logistics",
+        "external resources",
+        "time zones",
+        "visibility of progress"
+      ],
+      "source": "p.17: 'Coordinating between time zones and cultures / Lack of visibility of progress' "
+    },
+    {
+      "id": "ch04-b2-018",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What is the correct solution conception flow shown in the slides?",
+      "options": [
+        "High-level Needs Analysis → High-level Planning and Arch. Design → Feasibility Analysis → Approval to Move Forward → Solution Instantiation",
+        "High-level Planning and Arch. Design → High-level Needs Analysis → Approval to Move Forward → Feasibility Analysis → Solution Instantiation",
+        "Feasibility Analysis → High-level Needs Analysis → Approval to Move Forward → High-level Planning and Arch. Design → Solution Instantiation",
+        "Approval to Move Forward → High-level Needs Analysis → Feasibility Analysis → High-level Planning and Arch. Design → Solution Instantiation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 图显示 solution conception（解决方案构思）流程为 High-level Needs Analysis（高层需求分析）→ High-level Planning and Arch. Design（高层规划与架构设计）→ Feasibility Analysis（可行性分析）→ Approval to Move Forward（批准推进）→ Solution Instantiation（解决方案实例化）。其他顺序打乱。",
+      "difficulty": "hard",
+      "tags": [
+        "solution conception",
+        "needs analysis",
+        "feasibility analysis",
+        "approval",
+        "solution instantiation"
+      ],
+      "source": "p.18: diagram 'High-level Needs Analysis / High-level Planning and Arch. Design / Feasibility Analysis / Approval to Move Forward / Solution Instantiation' "
+    },
+    {
+      "id": "ch04-b2-019",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What does high-level needs analysis articulate according to the slides?",
+      "options": [
+        "What the solution will be, why it is valuable, and how it fits with the organization's business strategy",
+        "The exact code structure and database schema",
+        "The vendor's internal profit margin",
+        "The final test scripts and deployment checklist"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 说 high-level needs analysis（高层需求分析）articulate（阐明）what the solution will be（解决方案将是什么）、why it is valuable（为何有价值）、how it fits with the organization's business strategy（如何契合组织业务战略）。其他选项属于更后期或外部内容。",
+      "difficulty": "easy",
+      "tags": [
+        "high-level needs analysis",
+        "business strategy",
+        "value"
+      ],
+      "source": "p.19: 'What the solution will be / Why it is valuable / How it fits with the organization's business strategy' "
+    },
+    {
+      "id": "ch04-b2-020",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that high-level planning and design should define the overall solution-delivery timeline and budget.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.20 说 high-level planning and design（高层规划与设计）要给出 high-level sketch（高层草图）of how the solution could be constructed，考虑 current environment and capabilities（当前环境与能力），review building blocks and systems（构建块与系统）available in the market，并 define overall solution-delivery timeline and budget（整体交付时间线和预算）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "high-level planning and design",
+        "timeline",
+        "budget"
+      ],
+      "source": "p.20: 'Define overall solution-delivery timeline and budget' "
+    },
+    {
+      "id": "ch04-b2-021",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which are examples of critical limitations that feasibility analysis reviews in the existing environment?",
+      "options": [
+        "Interfaces are not available to access systems",
+        "Interfaces are available but too expensive to utilize",
+        "Access to a system is dependent on it being upgraded",
+        "Cooperation of a third party is required, such as a vendor or separate business division",
+        "All interfaces are always free and immediately available"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.21 说 feasibility analysis（可行性分析）identifies and validates assumptions（识别并验证假设），并审查 existing environment（现有环境）是否存在 critical limitations（关键限制），例如 interfaces（接口）不可用、接口可用但 too expensive to utilize（使用成本过高）、access dependent on upgrade（访问依赖系统升级）、cooperation of a third party（第三方合作）required。E 与原文相反。",
+      "difficulty": "hard",
+      "tags": [
+        "feasibility analysis",
+        "critical limitations",
+        "interfaces",
+        "third party"
+      ],
+      "source": "p.21: 'Interfaces are not available / too expensive to utilize / dependent on it being upgraded / Cooperation of a third party is required' "
+    },
+    {
+      "id": "ch04-b2-022",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which statement about approval to move forward is correct according to the slides?",
+      "options": [
+        "Signing a letter of intent (LOI) may be sufficient to get work started",
+        "Approval is always decided only by the CIO and a senior business manager, never by committee",
+        "All terms and conditions must always be fully agreed before solution instantiation begins",
+        "Approval never leads to negotiations with external vendors"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.22 说 approval to move forward（批准推进）process varies by organization（因组织而异），可能由 CIO and a senior business manager（首席信息官和高级业务经理）决定，也可能由 committee（委员会）决定；approval gives way to negotiations with external vendors（外部供应商谈判）；terms and conditions（条款和条件）可能持续到 instantiation phase（实例化阶段）；signing a letter of intent (LOI)（签署意向书）may be sufficient to get work started（可能足以启动工作）。",
+      "difficulty": "hard",
+      "tags": [
+        "approval to move forward",
+        "letter of intent",
+        "vendor negotiations",
+        "instantiation"
+      ],
+      "source": "p.22: 'Signing a letter of intent (LOI) may be sufficient to get work started' "
+    },
+    {
+      "id": "ch04-b2-023",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which statement best describes the waterfall delivery approach in the slides?",
+      "options": [
+        "Sequential and easily tracked, but slow to deliver visible results, with misunderstandings showing up late",
+        "Progress is visible throughout and ideas can be adapted during delivery",
+        "It incurs no delays for planning and requirements gathering",
+        "It always eliminates structural flaws by skipping planning"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 waterfall（瀑布式）是 sequential and easily tracked（顺序化且易于跟踪），但 slow to deliver visible results（难以快速交付可见成果），misunderstandings show up late in the delivery process（误解在交付后期才暴露）。B 描述 iterative（迭代式）；C、D 描述 code and fix（编码并修复）的某些特点且表述错误。",
+      "difficulty": "medium",
+      "tags": [
+        "waterfall",
+        "sequential",
+        "visible results",
+        "misunderstandings"
+      ],
+      "source": "p.23: 'Waterfall / Sequential and easily tracked / Slow to deliver visible results / Misunderstandings show up late' "
+    },
+    {
+      "id": "ch04-b2-024",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which is a drawback of the iterative delivery approach listed in the slides?",
+      "options": [
+        "It is less familiar to many project teams and managers and more difficult to estimate total project duration",
+        "Progress is not visible throughout the project",
+        "Ideas cannot be adapted during the delivery process",
+        "It is sequential and easily tracked"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 iterative（迭代式）的优点是 progress is visible throughout（全程可见）、ideas can be adapted（想法可调整）；缺点是 less familiar to many project teams and managers（许多项目团队和管理者不熟悉）以及 more difficult to estimate total project duration（更难估算总项目周期）。A 正确概括了缺点；B、C 与优点相反；D 是 waterfall（瀑布式）的特点。",
+      "difficulty": "medium",
+      "tags": [
+        "iterative",
+        "project duration",
+        "less familiar"
+      ],
+      "source": "p.23: 'Less familiar to many project teams and managers / More difficult to estimate total project duration' "
+    },
+    {
+      "id": "ch04-b2-025",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that code and fix does not incur delays for planning and requirements gathering, but lack of planning can lead to major structural flaws.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 code and fix（编码并修复）does not incur delays for planning and requirements gathering（不会因计划和需求收集而延迟），但 lack of planning can lead to major structural flaws（缺乏计划可能导致重大结构性缺陷）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "code and fix",
+        "planning",
+        "structural flaws"
+      ],
+      "source": "p.23: 'Does not incur delays for planning and requirements gathering / Lack of planning can lead to major structural flaws' "
+    },
+    {
+      "id": "ch04-b2-026",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "In the solution instantiation diagram, which stage directly follows Testing?",
+      "options": [
+        "Deployment",
+        "Project Planning",
+        "Requirements Analysis",
+        "Architecture Design"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 的 solution instantiation（解决方案实例化）图顺序为 Project Planning（项目规划）→ Requirements Analysis（需求分析）与 Architecture Design（架构设计）→ Implementation（实施）→ Testing（测试）→ Deployment（部署）→ Support（支持）与 Review（评审）。Testing 之后直接是 Deployment。",
+      "difficulty": "medium",
+      "tags": [
+        "solution instantiation",
+        "testing",
+        "deployment"
+      ],
+      "source": "p.24: diagram 'Testing' followed by 'Deployment' "
+    },
+    {
+      "id": "ch04-b2-027",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which statement about requirements analysis is correct according to the slides?",
+      "options": [
+        "Inadequate requirements are the second most significant contributing factor to project failure",
+        "Requirements analysis is never important compared with deployment",
+        "Bullet-point functional descriptions are the strongest form of requirements documentation",
+        "Nonfunctional aspects such as performance and compliance are not critical"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.25 说 requirements analysis（需求分析）often the most important part of the project（通常是项目最重要部分）；inadequate requirements（不充分需求）是 the second most significant contributing factor to project failure（项目失败第二大贡献因素）；good documentation（良好文档）是 detailed process models and/or use cases（详细流程模型/用例）；weak（弱）的是 bullet-point functional descriptions（要点式功能描述，又称 user wish lists（用户愿望清单））；还要 capture nonfunctional aspects（非功能方面），例如 performance（性能）和 compliance（合规）。",
+      "difficulty": "medium",
+      "tags": [
+        "requirements analysis",
+        "project failure",
+        "nonfunctional aspects"
+      ],
+      "source": "p.25: 'Inadequate requirements are the second most significant contributing factor to project failure' "
+    },
+    {
+      "id": "ch04-b2-028",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which are good forms of requirements documentation according to the slides?",
+      "options": [
+        "Detailed process models",
+        "Use cases",
+        "Bullet-point functional descriptions (user wish lists)",
+        "Detailed design specifications for every future change"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.25 说 Good（良好）requirements documentation（需求文档）是 detailed process models（详细流程模型）and/or use cases（用例）；Weak（弱）的是 bullet-point functional descriptions（要点式功能描述，a.k.a. user wish lists（又称用户愿望清单））。D 不是该页所列 good documentation 形式。",
+      "difficulty": "hard",
+      "tags": [
+        "requirements documentation",
+        "process models",
+        "use cases",
+        "user wish lists"
+      ],
+      "source": "p.25: 'Good: detailed process models and/or use cases / Weak: bullet-point functional descriptions' "
+    },
+    {
+      "id": "ch04-b2-029",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Why is testing especially important for financial services solutions according to the slides?",
+      "options": [
+        "Failures in production can lead to significant financial losses",
+        "Testing eliminates the need for requirements analysis",
+        "Testing is only useful for code and fix projects",
+        "Testing replaces deployment and support"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 说 testing（测试）对 financial services solutions（金融服务解决方案）important，因为 failures in production（生产环境失败）can lead to significant financial losses（重大财务损失）。testing 不能替代 requirements analysis（需求分析）、deployment（部署）或 support（支持）。",
+      "difficulty": "medium",
+      "tags": [
+        "testing",
+        "production failures",
+        "financial losses"
+      ],
+      "source": "p.26: 'Failures in production can lead to significant financial losses' "
+    },
+    {
+      "id": "ch04-b2-030",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that deployment and support should be considered during requirements and design, and a solution that is hard to administer and maintain is not a successful one.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 说 Deployment and support（部署与支持）should be considered during requirements and design（应在需求与设计阶段考虑）；A solution that is hard to administer and maintain（难以管理和维护的解决方案）is not a successful one（不是成功方案）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "deployment",
+        "support",
+        "administer and maintain"
+      ],
+      "source": "p.26: 'Deployment and support / Should be considered during requirements and design / hard to administer and maintain is not a successful one' "
+    },
+    {
+      "id": "ch04-b2-031",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "What should post-project reviews identify according to the slides?",
+      "options": [
+        "What worked well and should be repeated in future delivery efforts",
+        "What did not work well and should be done differently in future delivery efforts",
+        "What should have been done but was not",
+        "Ways to ignore previous mistakes so they are not discussed"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.27 说 post-project reviews（项目后评审）important to identify what worked well and should be repeated（哪些做得好应重复）、what did not work well and should be done differently（哪些不好应改变）、what should have been done but was not（哪些本应做却未做）；这些应考虑进 future solutions（未来解决方案）并 help avoid repeating previous mistakes（帮助避免重复此前错误）。D 与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "post-project reviews",
+        "best practices",
+        "previous mistakes"
+      ],
+      "source": "p.27: 'What worked well / What did not work well / What should have been done but was not' "
+    },
+    {
+      "id": "ch04-b2-032",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that successful solutions begin by having everyone understand the big picture.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 原文写 Successful solutions begin by having everyone understand the big picture（成功解决方案始于让每个人理解全局）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "big picture",
+        "successful solutions"
+      ],
+      "source": "p.28: 'Successful solutions begin by having everyone understand the big picture' "
+    },
+    {
+      "id": "ch04-b2-033",
+      "chapter": "ch04",
+      "type": "multi",
+      "question": "Which responsibilities are associated with the solution champion in the slides?",
+      "options": [
+        "Convince key stakeholders to support the solution delivery",
+        "Maintain the delivery team's motivation and stakeholders' interests throughout the project",
+        "Drive the project to closure and acceptance",
+        "Assume that the last 10% of the project is always the easiest"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.29 说 critical to have a champion（拥护者/推动者）for the solution，often project manager or business sponsor（项目经理或业务发起人）；must convince key stakeholders（关键利益相关者）to support；maintains delivery team's motivation（团队积极性）and stakeholders' interests（利益相关者兴趣）；drive the project to closure and acceptance（推动收尾与验收）；the last 10% is usually the hardest（最后 10% 通常最难）。D 与原文相反。",
+      "difficulty": "hard",
+      "tags": [
+        "champion",
+        "stakeholders",
+        "closure and acceptance",
+        "last 10%"
+      ],
+      "source": "p.29: 'Convince key stakeholders / Maintains delivery team motivation / Drive the project to closure and acceptance / last 10% is usually the hardest' "
+    },
+    {
+      "id": "ch04-b2-034",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides suggest that for some institutions increasing investment in technology will not yield material benefits.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 明确说 For some, increasing investment in technology will not yield material benefits（对某些机构而言，增加技术投资不会带来实质性收益）；For others, the level of investment in technology will determine their relative success（对另一些机构，技术投资水平决定相对成功）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "technology investment",
+        "material benefits",
+        "relative success"
+      ],
+      "source": "p.2: 'For some, increasing investment in technology will not yield material benefits' "
+    },
+    {
+      "id": "ch04-b2-035",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "Which technology firms do the slides cite as showing how technology can be used to create and upset entire industries?",
+      "options": [
+        "Google and Uber",
+        "Amazon and Visa",
+        "SWIFT and IBM",
+        "Oracle and SAP"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.3 说 Google and Uber（谷歌与优步）have shown how technology can be used create and upset entire industries（创造并颠覆整个行业）。Amazon 的例子在该页用于说明能每分钟多次发布生产软件变更；其他公司组合未在该页这样引用。",
+      "difficulty": "easy",
+      "tags": [
+        "Google",
+        "Uber",
+        "technology competition"
+      ],
+      "source": "p.3: 'Google and Uber have shown how technology can be used create and upset entire industries' "
+    },
+    {
+      "id": "ch04-b2-036",
+      "chapter": "ch04",
+      "type": "tf",
+      "question": "The slides state that ideally processes should determine IT systems, not the other way around.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 原文写 Ideally, processes should determine IT systems, not the other way around（理想情况下，应由流程决定 IT 系统，而不是反过来）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "processes determine IT systems",
+        "business value"
+      ],
+      "source": "p.5: 'Ideally, processes should determine IT systems, not the other way around' "
+    },
+    {
+      "id": "ch04-b2-037",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What warning about tactical concerns is given in the slides?",
+      "options": [
+        "Tactical concerns can draw attention away from strategic considerations",
+        "Tactical concerns always improve strategic alignment",
+        "Strategic considerations should be ignored during delivery planning",
+        "Tactical concerns eliminate the need to communicate goals"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.6 说 Often tactical concerns（战术性关注点）can draw attention away from strategic considerations（战略性考虑），因此 solution delivery plan（解决方案交付计划）应 balance strategic and tactical considerations（平衡战略与战术考虑）。其他选项与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "tactical concerns",
+        "strategic considerations",
+        "delivery planning"
+      ],
+      "source": "p.6: 'Often tactical concerns can draw attention away from strategic considerations' "
+    },
+    {
+      "id": "ch04-b2-038",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What does the 30,000-foot view highlight among solution initiatives?",
+      "options": [
+        "Interdependencies and their linkage with business goals",
+        "Detailed database schemas and code libraries",
+        "Individual test scripts and deployment checklists",
+        "Vendor contract penalty clauses"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 说 30,000-foot view（3 万英尺视图）强调 solution initiatives（解决方案举措）linked with business goals（与业务目标关联），并且 interdependencies（相互依赖关系）are highlighted（被突出）。详细数据库模式、测试脚本和合同罚则不是该层视图内容。",
+      "difficulty": "hard",
+      "tags": [
+        "30,000-foot view",
+        "interdependencies",
+        "business goals"
+      ],
+      "source": "p.7: 'Solutions initiatives are linked with business goals / Interdependencies are highlighted' "
+    },
+    {
+      "id": "ch04-b2-039",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What is solution conception described as in the slides?",
+      "options": [
+        "A filtering mechanism for business ideas that helps ensure projects moving to instantiation will be successful",
+        "A replacement for all requirements analysis after deployment",
+        "A guarantee that every idea will be approved",
+        "A method for skipping feasibility analysis"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 说 solution conception（解决方案构思）is a filtering mechanism for business ideas（业务想法的过滤机制），helps ensure that projects that move forward to the instantiation phase（进入实例化阶段的项目）will be successful。它不是部署后的需求分析替代，也不保证所有想法获批或跳过 feasibility analysis（可行性分析）。",
+      "difficulty": "medium",
+      "tags": [
+        "solution conception",
+        "filtering mechanism",
+        "business ideas",
+        "instantiation"
+      ],
+      "source": "p.18: 'Is a filtering mechanism for business ideas / Helps ensure that projects that move forward to the instantiation phase will be successful' "
+    },
+    {
+      "id": "ch04-b2-040",
+      "chapter": "ch04",
+      "type": "single",
+      "question": "What does the slides say about running a proof of concept exercise in feasibility analysis?",
+      "options": [
+        "It is often prudent to run a proof of concept exercise to demonstrate feasibility",
+        "It should never be used because it replaces all requirements analysis",
+        "It is only useful after deployment",
+        "It guarantees approval by the committee"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.21 说 It is often prudent to run a proof of concept exercise（运行概念验证练习）to demonstrate feasibility（证明可行性）。它不替代 requirements analysis（需求分析），不是部署后使用，也不保证 committee（委员会）批准。",
+      "difficulty": "medium",
+      "tags": [
+        "proof of concept",
+        "feasibility analysis",
+        "demonstrate feasibility"
+      ],
+      "source": "p.21: 'It is often prudent to run a proof of concept exercise to demonstrate feasibility' "
+    },
+    {
+      "id": "ch05-b2-001",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "According to the slides, maintaining IT systems consumes approximately what proportion of banks' IT spending?",
+      "options": [
+        "One-quarter",
+        "One-half",
+        "Three-quarters",
+        "All of it"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "p.2 明确估计 the cost of maintaining IT systems（维护 IT 系统的成本）consumes three-quarters of banks' IT spending（占银行 IT 支出的四分之三）。one-quarter（四分之一）和 one-half（一半）低估；all of it（全部）夸大。",
+      "difficulty": "easy",
+      "tags": [
+        "maintaining IT systems",
+        "IT spending",
+        "keeping the lights on"
+      ],
+      "source": "p.2: 'three-quarters of banks IT spending' "
+    },
+    {
+      "id": "ch05-b2-002",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which statements about banks' existing infrastructure and IT priorities are correct according to the slides?",
+      "options": [
+        "Banks' hardware and software environments are large and complex",
+        "Existing infrastructure and systems dominate the IT landscape of banks",
+        "Keeping the lights on often takes priority over implementation of new systems",
+        "Maintaining IT systems is estimated to consume three-quarters of banks' IT spending"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.2 说硬件和软件环境 large and complex（庞大复杂）；existing infrastructure and systems（现有基础设施和系统）dominate（主导）IT landscape；keeping the lights on（维持系统运行）often takes priority over new systems；并估计维护成本占 banks' IT spending（银行 IT 支出）three-quarters（四分之三）。四项都正确。",
+      "difficulty": "medium",
+      "tags": [
+        "existing infrastructure",
+        "keeping the lights on",
+        "IT spending"
+      ],
+      "source": "p.2: 'large and complex / dominate the IT landscape / Keeping the lights on / three-quarters of banks IT spending' "
+    },
+    {
+      "id": "ch05-b2-003",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Which question is NOT listed in the Royal Bank of Scotland system operation case study on p.3?",
+      "options": [
+        "What steps can banks take to minimize the likelihood of system failures besides implementing IT system resiliency?",
+        "Why might the £750 million investment not have prevented the 2015 incident?",
+        "Is minimizing IT environment changes a practical strategy for limiting risks?",
+        "What is the exact number of employees in every bank's IT helpdesk?"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.3 的 case study 问题包括：除 resiliency（弹性）外如何降低系统故障可能性、如何降低故障影响、为何 £750 million investment（7.5 亿英镑投资）未阻止 2015 incident（事件）、minimizing IT environment changes（最小化 IT 环境变更）是否实际、以及 other internal costs（其他内部成本）。没有问每家银行 IT helpdesk（服务台）的精确员工数。",
+      "difficulty": "easy",
+      "tags": [
+        "RBS case study",
+        "system failures",
+        "IT environment changes"
+      ],
+      "source": "p.3: 'System Operation Woes at Royal Bank of Scotland / Questions' "
+    },
+    {
+      "id": "ch05-b2-004",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which characteristics are associated with IBM-PC compatible compute resources in the slides?",
+      "options": [
+        "Low cost, commodity hardware",
+        "Flexible and open",
+        "Used for most software applications",
+        "Commonly used for core-banking mainframe workloads"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.5 说 IBM-PC compatible（IBM-PC 兼容）是 low cost, commodity hardware（低成本商品化硬件）、flexible and open（灵活开放）、used for most software applications（用于大多数软件应用）。core-banking（核心银行）mainframe workloads（大型机工作负载）对应 mainframes，不是 IBM-PC compatible。",
+      "difficulty": "medium",
+      "tags": [
+        "IBM-PC compatible",
+        "commodity hardware",
+        "software applications"
+      ],
+      "source": "p.5: 'IBM-PC compatible / Low cost, commodity hardware / Flexible and open / Used for most software applications' "
+    },
+    {
+      "id": "ch05-b2-005",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides describe mini-computers such as IBM AS/400 as having limited use.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 在 Mini-computers（小型机）例如 IBM AS/400 下写 Limited use（用途有限）。因此该判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "mini-computers",
+        "IBM AS/400",
+        "limited use"
+      ],
+      "source": "p.5: 'Mini-computers (e.g. IBM AS/400) / Limited use' "
+    },
+    {
+      "id": "ch05-b2-006",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Which statement best describes mainframes according to the slides?",
+      "options": [
+        "Commonly used for core-banking applications, reliable and supporting high volumes, but costly",
+        "Low-cost commodity hardware used for most software applications",
+        "A collection of disk drives that appears as a single shared file system",
+        "The main user interface for thin-client applications"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 说 Mainframes（大型机）commonly used for core-banking applications（核心银行应用），reliable and support high volumes（可靠并支持高容量），but costly（但成本高）。B 是 IBM-PC compatible；C 是 NAS；D 是 web browsers。",
+      "difficulty": "medium",
+      "tags": [
+        "mainframes",
+        "core-banking",
+        "high volumes",
+        "costly"
+      ],
+      "source": "p.5: 'Mainframes / Commonly used for core-banking applications / Reliable and support high volumes, but costly' "
+    },
+    {
+      "id": "ch05-b2-007",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What is Network Attached Storage (NAS) according to the slides?",
+      "options": [
+        "A collection of disk drives that appear as a single shared file system",
+        "A coordinated group of devices that manage multiple disks",
+        "A low-level instruction set baked into hardware",
+        "A component that distributes network requests across multiple servers"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.6 定义 NAS（网络附加存储）为 a collection of disk drives that appear as a single shared file system（一组磁盘驱动器，表现为单一共享文件系统）。B 是 SAN（存储区域网络）；C 是 firmware（固件）；D 是 load balancer（负载均衡器）。",
+      "difficulty": "easy",
+      "tags": [
+        "NAS",
+        "shared file system",
+        "disk drives"
+      ],
+      "source": "p.6: 'Network Attached Storage (NAS) – a collection of disk drives that appear as a single shared file system' "
+    },
+    {
+      "id": "ch05-b2-008",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What is a Storage Area Network (SAN) according to the slides?",
+      "options": [
+        "A coordinated group of devices that manage multiple disks",
+        "A single shared file system made of disk drives",
+        "A tape system used only to archive information",
+        "The main user interface for thin-client applications"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.6 定义 SAN（存储区域网络）为 a coordinated group of devices that manage multiple disks（协调管理多个磁盘的一组设备）。A 描述的是 NAS；C 只描述 tape backup 的一部分；D 是 web browser。",
+      "difficulty": "medium",
+      "tags": [
+        "SAN",
+        "multiple disks",
+        "storage"
+      ],
+      "source": "p.6: 'Storage Area Networks (SANs) – a coordinated group of devices that manage multiple disks' "
+    },
+    {
+      "id": "ch05-b2-009",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "What are tape backup systems used for according to the slides?",
+      "options": [
+        "To back up data that is stored on hard disks",
+        "To archive information",
+        "To manage multiple virtual servers' interactions with hardware",
+        "To distribute network requests across multiple servers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.6 说 tape backup systems（磁带备份系统）used to back up data stored on hard disks（备份硬盘上的数据）and to archive information（归档信息）。C 是 hypervisor（管理程序）；D 是 load balancer（负载均衡器）。",
+      "difficulty": "medium",
+      "tags": [
+        "tape backup",
+        "hard disks",
+        "archive"
+      ],
+      "source": "p.6: 'Tape backup systems – used to back up data that is stored on hard disks and to archive information' "
+    },
+    {
+      "id": "ch05-b2-010",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What is firmware according to the slides?",
+      "options": [
+        "Low-level instructions baked into computer hardware and used to load the operating system",
+        "A collection of disk drives that appears as a shared file system",
+        "The main user interface for thin-client applications",
+        "A coordinated group of devices that manage multiple disks"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 定义 firmware（固件）为 the low-level instructions that are baked into computer hardware（固化在计算机硬件中的低级指令）and used to load the operating system（用于加载操作系统），stored on persistent programmable memory chips on circuit boards（存储在电路板上的持久可编程存储芯片）。",
+      "difficulty": "easy",
+      "tags": [
+        "firmware",
+        "low-level instructions",
+        "operating system"
+      ],
+      "source": "p.7: 'The low-level instructions that are baked into computer hardware and used to load the operating system' "
+    },
+    {
+      "id": "ch05-b2-011",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What is the role of a hypervisor according to the slides?",
+      "options": [
+        "It is the operating system that manages and coordinates different virtual servers' interactions with the hardware",
+        "It stores data on tape backup systems",
+        "It receives HTTP requests and returns HTML content",
+        "It restricts the flow of network traffic between devices"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 说 hypervisor（管理程序/虚拟机监视器）is the operating system that manages and coordinates the different virtual servers' interactions with the hardware（管理和协调不同虚拟服务器与硬件交互的操作系统）。B 是 tape backup；C 是 web server；D 是 firewall。",
+      "difficulty": "medium",
+      "tags": [
+        "hypervisor",
+        "virtual servers",
+        "hardware interactions"
+      ],
+      "source": "p.8: 'The hypervisor is the operating system that manages and coordinates the different virtual servers interactions with the hardware' "
+    },
+    {
+      "id": "ch05-b2-012",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that each virtual server is an operating system that shares the physical server's resources with other operating system instances running on the same physical server.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 原文写 Each virtual server is an operating system（每个虚拟服务器是一个操作系统）that shares the physical server's resources（共享物理服务器资源）with other operating system instances running on the same physical server（同一物理服务器上的其他操作系统实例）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "virtual server",
+        "operating system",
+        "shared resources"
+      ],
+      "source": "p.8: 'Each virtual server is an operating system that shares the physical server's resources' "
+    },
+    {
+      "id": "ch05-b2-013",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The p.9 diagram indicates that each virtual machine running within the hypervisor is the equivalent of a standalone server operating system.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 图下文字明确写 Each virtual machine running within the hypervisor is the equivalent of a standalone server operating system（在管理程序内运行的每个虚拟机等同于一个独立服务器操作系统）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "virtual machine",
+        "standalone server operating system",
+        "hypervisor"
+      ],
+      "source": "p.9: 'Each virtual machine running within the hypervisor is the equivalent of a standalone server operating system' "
+    },
+    {
+      "id": "ch05-b2-014",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which resources does an operating system manage access to according to the slides?",
+      "options": [
+        "Microprocessor and memory",
+        "Disk drives",
+        "Displays",
+        "Network interfaces"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.10 说 operating systems（操作系统）manages software applications' access to the microprocessor, memory, disk drives, displays, and network interfaces（管理软件应用对微处理器、内存、磁盘驱动器、显示器和网络接口的访问）。四项都在原文列表中。",
+      "difficulty": "medium",
+      "tags": [
+        "operating systems",
+        "microprocessor",
+        "memory",
+        "disk drives",
+        "network interfaces"
+      ],
+      "source": "p.10: 'Manages software applications access to the microprocessor, memory, disk drives, displays, and network interfaces' "
+    },
+    {
+      "id": "ch05-b2-015",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Which operating system pairing is correct according to the slides?",
+      "options": [
+        "Linux and Microsoft Windows on commodity server and workstation hardware; z/OS on mainframe hardware",
+        "z/OS on commodity server hardware; Linux on mainframe hardware only",
+        "Microsoft Windows only on mainframes; Linux only on tape backup systems",
+        "IBM AS/400 on web browsers; z/OS on NAS appliances"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.10 说 common operating systems（常见操作系统）包括 Linux and Microsoft Windows（Linux 与微软 Windows）on commodity server and workstation hardware（商品化服务器和工作站硬件），以及 z/OS on mainframe hardware（大型机硬件）。其他配对与原文不符。",
+      "difficulty": "medium",
+      "tags": [
+        "Linux",
+        "Microsoft Windows",
+        "z/OS",
+        "mainframe"
+      ],
+      "source": "p.10: 'Linux and Microsoft Windows on commodity server and workstation hardware / z/OS on mainframe hardware' "
+    },
+    {
+      "id": "ch05-b2-016",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which statements about drivers are correct according to the slides?",
+      "options": [
+        "Drivers provide a common way for the operating system to access network interfaces",
+        "Drivers provide access to peripherals such as printers and scanners",
+        "Some drivers may be loaded directly by software applications to access databases and middleware components",
+        "Drivers are the main user interface for thin-client applications"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.11 说 drivers（驱动程序）provide a common way for the OS（操作系统）to access network interfaces（网络接口）、peripherals（外围设备，如 printers and scanners（打印机和扫描仪））、other resources；some drivers may be loaded directly by software applications（软件应用直接加载）to access databases（数据库）和 middleware components（中间件组件）。D 是 web browsers 的描述。",
+      "difficulty": "medium",
+      "tags": [
+        "drivers",
+        "network interfaces",
+        "peripherals",
+        "databases",
+        "middleware"
+      ],
+      "source": "p.11: 'Provide a common way for the operating system to access network interfaces / peripherals / Some drivers may be loaded directly by software applications' "
+    },
+    {
+      "id": "ch05-b2-017",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which statements about relational databases (RDBs) are correct according to the slides?",
+      "options": [
+        "They are the primary means by which software applications store and manipulate information",
+        "Commercial and open-source RDBs are available",
+        "Storing application data in an RDB provides centralized persistent storage",
+        "RDBs can be used for information management and reporting purposes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.12 说 Relational databases (RDBs)（关系型数据库）是软件应用 store and manipulate information（存储和操作信息）的 primary means（主要手段）；commercial and open-source（商业和开源）RDBs 可用；RDB 存储提供 centralized persistent storage（集中持久化存储）；也可用于 information management and reporting（信息管理与报表）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "RDB",
+        "persistent storage",
+        "reporting"
+      ],
+      "source": "p.12: 'Relational databases (RDBs) / centralized persistent storage / information management and reporting purposes' "
+    },
+    {
+      "id": "ch05-b2-018",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Where is business logic implemented in tiered software applications according to the slides?",
+      "options": [
+        "Application servers",
+        "Tape backup systems",
+        "Firewalls",
+        "Web browsers only"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.13 说 Application servers（应用服务器）是 where business logic is implemented in tiered software applications（分层软件应用中实现业务逻辑的地方）；它们也是 runtime engines（运行时引擎）execute programming language instructions（执行编程语言指令）。",
+      "difficulty": "easy",
+      "tags": [
+        "application servers",
+        "business logic",
+        "tiered applications"
+      ],
+      "source": "p.13: 'Application servers / Where business logic is implemented in tiered software applications' "
+    },
+    {
+      "id": "ch05-b2-019",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Why does centralizing business logic in the application server reduce maintenance effort according to the slides?",
+      "options": [
+        "It centralizes where the business logic is kept rather than implementing it in the database or application display logic",
+        "It eliminates the need for any operating system",
+        "It automatically encrypts all network traffic",
+        "It replaces all external interfaces with APIs"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.13 说 storing the business logic in the application server centralizes where it is kept（集中保存业务逻辑），opposed to implementing in the database or the application display logic（而不是在数据库或应用显示逻辑中实现），thus reduces maintenance effort（减少维护工作）。其他选项不是该页原因。",
+      "difficulty": "medium",
+      "tags": [
+        "business logic centralization",
+        "maintenance effort",
+        "application server"
+      ],
+      "source": "p.13: 'Centralizes where it is kept / Opposed to implementing in the database or the application display logic / Reduces maintenance effort' "
+    },
+    {
+      "id": "ch05-b2-020",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which functions are associated with web servers in the slides?",
+      "options": [
+        "Receive HTTP requests and return HTML content",
+        "Deliver static, predefined web page content",
+        "Deliver dynamic, programmatically generated content",
+        "Create encrypted communication sessions between networks"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.14 说 web servers（Web 服务器）receive HTTP requests（接收 HTTP 请求）and return HTML content（返回 HTML 内容），deliver static, predefined web page content（静态预定义网页内容）and dynamic, programmatically generated content（动态程序生成内容）。D 是 VPN（虚拟专用网络）的功能。",
+      "difficulty": "medium",
+      "tags": [
+        "web servers",
+        "HTTP requests",
+        "HTML content",
+        "static and dynamic content"
+      ],
+      "source": "p.14: 'Receive HTTP requests and return HTML content / static, predefined web page content / dynamic, programmatically generated content' "
+    },
+    {
+      "id": "ch05-b2-021",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What do scripts running on the web server often do according to the slides?",
+      "options": [
+        "Make requests to an application server to retrieve information or perform calculations",
+        "Manage virtual servers' interactions with hardware",
+        "Restrict network traffic between devices",
+        "Back up hard disk data to tape"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.14 说 scripts（脚本）running on the web server（在 Web 服务器上运行）provide functions for dynamically generating HTML（动态生成 HTML），其 output dependent on parameters received as part of the request（输出取决于请求参数），并且 scripts will often make requests to an application server（常向应用服务器发起请求）to retrieve information or perform calculations（获取信息或执行计算）。",
+      "difficulty": "medium",
+      "tags": [
+        "web server scripts",
+        "application server",
+        "HTML generation"
+      ],
+      "source": "p.14: 'Scripts will often make requests to an application server to retrieve information or perform calculations' "
+    },
+    {
+      "id": "ch05-b2-022",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "How does the slides describe middleware?",
+      "options": [
+        "The communication components that glue all the other components together",
+        "The low-level instructions baked into hardware",
+        "A collection of disk drives that appears as a shared file system",
+        "The main user interface for thin-client applications"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.15 定义 middleware（中间件）为 the communication components that glue all the other components together（把所有其他组件粘合起来的通信组件）。B 是 firmware；C 是 NAS；D 是 web browser。",
+      "difficulty": "easy",
+      "tags": [
+        "middleware",
+        "communication components",
+        "glue"
+      ],
+      "source": "p.15: 'The communication components that glue all the other components together' "
+    },
+    {
+      "id": "ch05-b2-023",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which features are associated with Java Message Service (JMS) in the slides?",
+      "options": [
+        "Message queuing",
+        "Point-to-point delivery",
+        "Publish-subscribe delivery",
+        "Creating encrypted VPN sessions"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.15 说 Java Message Service (JMS)（Java 消息服务）provides more advanced features（更高级功能）：message queuing（消息队列）、point-to-point and publish-subscribe delivery（点对点与发布-订阅交付）。D 是 VPN 的功能。",
+      "difficulty": "medium",
+      "tags": [
+        "JMS",
+        "message queuing",
+        "point-to-point",
+        "publish-subscribe"
+      ],
+      "source": "p.15: 'Java Message Service (JMS) / message queuing / point-to-point and publish-subscribe delivery' "
+    },
+    {
+      "id": "ch05-b2-024",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that web browsers are the main user interface for thin-client applications, and that HTML version five enabled more complex applications to be developed and run in web browsers.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.16 说 Web browsers（Web 浏览器）are the main user interface for thin-client applications（瘦客户端应用的主要用户界面）；HTML version five（HTML5）enabled more complex applications（支持更复杂应用）to be developed and run in web browsers。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "web browsers",
+        "thin-client",
+        "HTML5"
+      ],
+      "source": "p.16: 'The main user interface for thin-client applications / HTML version five enabled more complex applications' "
+    },
+    {
+      "id": "ch05-b2-025",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which risks are associated with external interfaces and APIs according to the slides?",
+      "options": [
+        "They add another layer of complexity and introduce additional change-related risk",
+        "The behavior of third-party interfaces may change, causing software applications to break or behave differently",
+        "A vendor or third party may stop supporting an interface version currently being used by an application",
+        "They eliminate all dependencies on third-party service providers"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.17 说 external interfaces and APIs（外部接口和 API）add another layer of complexity（增加一层复杂性）and introduce additional change-related risk（引入额外变更相关风险）；third-party interfaces（第三方接口）behavior may change（行为可能变化），causing applications to break or behave differently（导致应用故障或行为不同）；vendor or third party may stop supporting an interface version（供应商或第三方可能停止支持某接口版本）。D 与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "external interfaces",
+        "APIs",
+        "third-party risk",
+        "interface version"
+      ],
+      "source": "p.17: 'Another layer of complexity / behavior of third-party interfaces may change / vendor or third party may stop supporting an interface version' "
+    },
+    {
+      "id": "ch05-b2-026",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Which network communication component restricts the flow of network traffic between devices connected to the network?",
+      "options": [
+        "Firewall",
+        "Router",
+        "Load balancer",
+        "VPN"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 说 firewalls（防火墙）restrict the flow of network traffic（限制网络流量）between devices connected to the network。Router（路由器）links LANs and routes traffic（连接局域网并路由流量）；load balancer（负载均衡器）distributes network requests（分发网络请求）；VPN（虚拟专用网络）creates encrypted communication sessions（创建加密通信会话）。",
+      "difficulty": "easy",
+      "tags": [
+        "firewall",
+        "network traffic",
+        "security"
+      ],
+      "source": "p.18: 'Firewalls – restrict the flow of network traffic between devices connected to the network' "
+    },
+    {
+      "id": "ch05-b2-027",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What do Automated Response Units (ARUs) do according to the slides?",
+      "options": [
+        "Handle customers' service requests in place of or prior to interactions with agents",
+        "Link together LANs and route network traffic between them",
+        "Automatically dial phone numbers and route connected calls to agents",
+        "Create encrypted communication sessions between computers or networks"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 说 Automated response units (ARUs)（自动响应单元）handle customers' service requests（处理客户服务请求）in place of or prior to interactions with agents（代替或先于与坐席互动）。B 是 router；C 是 predictive dialer；D 是 VPN。",
+      "difficulty": "medium",
+      "tags": [
+        "ARU",
+        "customer service requests",
+        "agents"
+      ],
+      "source": "p.19: 'Automated response units (ARUs) – handle customers service requests in place of or prior to interactions with agents' "
+    },
+    {
+      "id": "ch05-b2-028",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What does a predictive dialer do according to the slides?",
+      "options": [
+        "Automatically dials phone numbers and, if a connection is made, routes the call to an agent",
+        "Restricts the flow of network traffic between devices",
+        "Receives HTTP requests and returns HTML content",
+        "Manages multiple virtual servers' interactions with hardware"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 说 predictive dialer（预测式拨号器）automatically dials phone numbers（自动拨打电话号码）；if a connection is made（若接通），will route the call to an agent（将呼叫路由给坐席）。其他选项分别是 firewall、web server、hypervisor。",
+      "difficulty": "medium",
+      "tags": [
+        "predictive dialer",
+        "phone numbers",
+        "agent routing"
+      ],
+      "source": "p.19: 'Predictive dialer – automatically dials phone numbers; if a connection is made, will route the call to an agent' "
+    },
+    {
+      "id": "ch05-b2-029",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that leased lines provide dedicated links between different locations, and MPLS networks provide connectivity between multiple sites.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.20 说 Leased lines（租用线路）provide dedicated links between different locations（不同地点之间的专用链路）；Multiprotocol label switching (MPLS) networks（多协议标签交换网络）provide connectivity between multiple sites（多站点连接）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "leased lines",
+        "MPLS",
+        "external connectivity"
+      ],
+      "source": "p.20: 'Leased lines provide dedicated links between different locations / MPLS networks provide connectivity between multiple sites' "
+    },
+    {
+      "id": "ch05-b2-030",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which areas does the operational framework address according to the slides?",
+      "options": [
+        "Competence, control, and consistency",
+        "Capacity and cost",
+        "Agility and customer focus",
+        "Guaranteed elimination of all operational risk"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.22 说 operational framework（运营框架）aligns IT capabilities and services（IT 能力与服务）with overall business strategy（整体业务战略），addresses competence, control, consistency, capacity, cost, agility, and customer focus（能力、控制、一致性、容量、成本、敏捷性和客户关注）。它要求评估 likelihood and impact of operational risks（运营风险的可能性与影响）并排序，而不是保证消除所有风险。",
+      "difficulty": "medium",
+      "tags": [
+        "operational framework",
+        "competence",
+        "capacity",
+        "agility",
+        "customer focus"
+      ],
+      "source": "p.22: 'Addresses competence, control, consistency, capacity, cost, agility, and customer focus' "
+    },
+    {
+      "id": "ch05-b2-031",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What should be done with operational risks under the operational framework according to the slides?",
+      "options": [
+        "Evaluate their likelihood and impact, then prioritize accordingly",
+        "Ignore them if they are difficult to measure",
+        "Eliminate all of them before any system is deployed",
+        "Delegate all of them to external vendors"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.22 说 The likelihood and impact of operational risks（运营风险的可能性和影响）should be evaluated（应被评估），and then prioritized accordingly（并据此排序）。slides 没有说忽略、部署前全部消除或全部外包。",
+      "difficulty": "medium",
+      "tags": [
+        "operational risks",
+        "likelihood",
+        "impact",
+        "prioritization"
+      ],
+      "source": "p.22: 'The likelihood and impact of operational risks should be evaluated, and then prioritized accordingly' "
+    },
+    {
+      "id": "ch05-b2-032",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What does IT asset management involve according to the slides?",
+      "options": [
+        "Tracking what hardware is connected to the network and what software is running on that hardware",
+        "Evaluating changes' potential effects and controlling their implementation",
+        "Restricting network traffic between devices",
+        "Automatically dialing phone numbers and routing calls"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 IT Asset management（IT 资产管理）是 tracking what hardware is connected to the network and what software is running on that hardware（跟踪网络连接的硬件及其上运行的软件）。B 是 IT environment change management（IT 环境变更管理）；C 是 firewall；D 是 predictive dialer。",
+      "difficulty": "easy",
+      "tags": [
+        "IT asset management",
+        "hardware",
+        "software"
+      ],
+      "source": "p.24: 'IT Asset management – tracking what hardware is connected to the network and what software is running on that hardware' "
+    },
+    {
+      "id": "ch05-b2-033",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What is IT environment change management according to the slides?",
+      "options": [
+        "Evaluating changes' potential effects and controlling their implementation",
+        "Tracking hardware connected to the network and software running on it",
+        "Creating encrypted communication sessions between computers",
+        "Handling customer service requests before agents"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 IT environment change management（IT 环境变更管理）is evaluating changes' potential effects（评估变更潜在影响）and controlling their implementation（控制其实现）。B 是 IT asset management；C 是 VPN；D 是 ARU。",
+      "difficulty": "medium",
+      "tags": [
+        "change management",
+        "potential effects",
+        "implementation control"
+      ],
+      "source": "p.24: 'IT environment change management – evaluating changes potential effects and controlling their implementation' "
+    },
+    {
+      "id": "ch05-b2-034",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that system updates and upgrades are critical for information security but can cause working systems to break.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 System updates and upgrades（系统更新与升级）are critical for information security（对信息安全至关重要），but can cause working systems to break（但可能导致正在运行的系统故障）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "system updates",
+        "system upgrades",
+        "information security"
+      ],
+      "source": "p.24: 'System updates and upgrades - critical for information security, but can cause working systems to break' "
+    },
+    {
+      "id": "ch05-b2-035",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Which matching of resilience terms is correct according to the slides?",
+      "options": [
+        "High availability (HA): component-level failures; Disaster recovery (DR): major system- or site-level failures; Business continuity plans (BCP): operational process ensuring resilience under failure conditions",
+        "High availability (HA): site-level failures only; Disaster recovery (DR): component-level failures; Business continuity plans (BCP): hardware procurement",
+        "High availability (HA): encrypted VPN sessions; Disaster recovery (DR): IT asset tracking; Business continuity plans (BCP): predictive dialing",
+        "High availability (HA): tape backup; Disaster recovery (DR): firmware loading; Business continuity plans (BCP): HTML generation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.25 定义 High availability (HA)（高可用性）for component-level failures（组件级故障）；Disaster recovery (DR)（灾难恢复）for major system- or site-level failures（重大系统级或站点级故障）；Business continuity plans (BCP)（业务连续性计划）as operational process that help ensure resilience under failure conditions（确保故障条件下弹性的运营流程）。",
+      "difficulty": "hard",
+      "tags": [
+        "high availability",
+        "disaster recovery",
+        "business continuity plans"
+      ],
+      "source": "p.25: 'High availability (HA) – component-level failures / Disaster recovery (DR) – major system- or site-level failures / Business continuity plans (BCP)' "
+    },
+    {
+      "id": "ch05-b2-036",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides describe DR testing as a critical but major undertaking.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.25 原文写 DR testing is a critical, but major undertaking（灾难恢复测试是关键但重大的工作）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "DR testing",
+        "disaster recovery",
+        "critical undertaking"
+      ],
+      "source": "p.25: 'DR testing is a critical, but major undertaking' "
+    },
+    {
+      "id": "ch05-b2-037",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "Why is cross-training important for IT operations personnel according to the slides?",
+      "options": [
+        "To ensure services can be provided when key individuals are unavailable",
+        "To eliminate the need for helpdesk software",
+        "To replace all external interfaces with APIs",
+        "To guarantee that no operational risk remains"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 说 IT operations personnel（IT 运营人员）需要 wide range of skills and knowledge（广泛技能与知识），must be distributed across many people（分布到许多人）；cross-training（交叉培训）important to ensure services can be provided when key individuals are unavailable（关键人员不可用时仍能提供服务）。",
+      "difficulty": "medium",
+      "tags": [
+        "cross-training",
+        "IT operations personnel",
+        "key individuals"
+      ],
+      "source": "p.26: 'Cross-training is important to ensure services can be provided when key individuals are unavailable' "
+    },
+    {
+      "id": "ch05-b2-038",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that helpdesk and task management software help support and track day-to-day activities.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 原文写 Helpdesk and task management software（服务台与任务管理软件）are help support and track day-to-day activities（帮助支持和跟踪日常活动）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "helpdesk",
+        "task management",
+        "day-to-day activities"
+      ],
+      "source": "p.26: 'Helpdesk and task management software are help support and track day-to-day activities' "
+    },
+    {
+      "id": "ch05-b2-039",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which statements about outsourced and cloud platforms are correct according to the slides?",
+      "options": [
+        "Fintech companies are more likely to leverage outsourced and cloud-based platforms",
+        "Banks are rapidly moving towards using cloud environments",
+        "Outsourcing IT system management is not uncommon",
+        "IT environment complexity hinders migration to cloud environments and outsourcing"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.27 说 Fintech companies（金融科技公司）more likely to leverage outsourced and cloud-based platforms（更可能利用外包和云平台）；banks（银行）are rapidly moving towards using cloud environments（正快速转向云环境）；outsourcing IT system management（外包 IT 系统管理）is not uncommon（并不少见）；IT environment complexity（IT 环境复杂性）hinders migration（阻碍迁移）to cloud and outsourcing。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "outsourcing",
+        "cloud platforms",
+        "fintech",
+        "banks",
+        "migration"
+      ],
+      "source": "p.27: 'Fintech companies more likely / Banks rapidly moving / Outsourcing not uncommon / IT environment complexity hinders migration' "
+    },
+    {
+      "id": "ch05-b2-040",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What hinders migration to cloud environments and outsourcing according to the slides?",
+      "options": [
+        "IT environment complexity",
+        "The absence of any existing infrastructure",
+        "The use of helpdesk software",
+        "The presence of cross-training programs"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.27 说 IT environment complexity（IT 环境复杂性）hinders migration（阻碍迁移）to cloud environments and outsourcing（云环境和外包）。其他选项不是该页所述阻碍因素。",
+      "difficulty": "medium",
+      "tags": [
+        "IT environment complexity",
+        "cloud migration",
+        "outsourcing"
+      ],
+      "source": "p.27: 'IT environment complexity hinders migration to cloud environments and outsourcing' "
+    },
+    {
+      "id": "ch05-b2-041",
+      "chapter": "ch05",
+      "type": "multi",
+      "question": "Which statements about containerization are correct according to the slides?",
+      "options": [
+        "It provides lightweight virtualization for isolated application environments",
+        "Containers are ideal for scaling microservices",
+        "Base images define OS, runtime, and configurations for container creation",
+        "Orchestration tools automate scaling, load balancing, and recovery"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.28 说 Containerization（容器化）provides lightweight virtualization（轻量级虚拟化）for isolated application environments（隔离应用环境）；containers ideal for scaling microservices（适合扩展微服务）；base images（基础镜像）define OS, runtime, and configurations（定义操作系统、运行时和配置）；orchestration tools（编排工具）automate scaling, load balancing, and recovery（自动化扩展、负载均衡和恢复）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "containerization",
+        "microservices",
+        "base images",
+        "orchestration"
+      ],
+      "source": "p.28: 'lightweight virtualization / ideal for scaling microservices / Base images / Orchestration tools' "
+    },
+    {
+      "id": "ch05-b2-042",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What do base images do in containerization according to the slides?",
+      "options": [
+        "Define OS, runtime, and configurations for container creation",
+        "Automatically dial phone numbers and route calls",
+        "Restrict network traffic between devices",
+        "Provide dedicated links between different locations"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 说 Base images（基础镜像）define OS, runtime, and configurations for container creation（为容器创建定义操作系统、运行时和配置）。其他选项分别是 predictive dialer、firewall、leased lines。",
+      "difficulty": "medium",
+      "tags": [
+        "base images",
+        "OS",
+        "runtime",
+        "configurations"
+      ],
+      "source": "p.28: 'Base images define OS, runtime, and configurations for container creation' "
+    },
+    {
+      "id": "ch05-b2-043",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What do orchestration tools automate in containerization according to the slides?",
+      "options": [
+        "Scaling, load balancing, and recovery",
+        "Firmware loading and tape archiving",
+        "Phone dialing and agent routing",
+        "Business logic implementation in application servers"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 说 Orchestration tools（编排工具）automate scaling, load balancing, and recovery（自动化扩展、负载均衡和恢复）。B 混合 firmware/tape；C 是 telecom；D 是 application server 内容。",
+      "difficulty": "medium",
+      "tags": [
+        "orchestration tools",
+        "scaling",
+        "load balancing",
+        "recovery"
+      ],
+      "source": "p.28: 'Orchestration tools automate scaling, load balancing, and recovery' "
+    },
+    {
+      "id": "ch05-b2-044",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What do rolling updates ensure in containerization according to the slides?",
+      "options": [
+        "Microservices are updated without downtime",
+        "All containers are stopped before any update",
+        "Firmware is rewritten on every circuit board",
+        "Tape backups are archived daily"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 说 Rolling updates（滚动更新）ensure microservices are updated without downtime（确保微服务更新时不中断服务）。其他选项不是 rolling updates 的作用。",
+      "difficulty": "medium",
+      "tags": [
+        "rolling updates",
+        "microservices",
+        "downtime"
+      ],
+      "source": "p.28: 'Rolling updates ensure microservices are updated without downtime' "
+    },
+    {
+      "id": "ch05-b2-045",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that containerization supports DevOps with automated testing and deployment via Infrastructure as Code.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 原文写 Containerization supports DevOps（支持 DevOps）with automated testing and deployment（自动化测试与部署）via Infrastructure as Code（通过基础设施即代码）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "DevOps",
+        "Infrastructure as Code",
+        "automated testing",
+        "deployment"
+      ],
+      "source": "p.28: 'Containerization supports DevOps with automated testing and deployment via Infrastructure as Code' "
+    },
+    {
+      "id": "ch05-b2-046",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What does DevOps integrate according to the slides?",
+      "options": [
+        "Development, QA, and operations for efficient software delivery",
+        "Hardware, firmware, and tape backup",
+        "Routers, firewalls, and VPNs",
+        "ARUs, predictive dialers, and phone switches"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 说 DevOps（开发运维一体化）integrates development, QA, and operations（整合开发、质量保证和运营）for efficient software delivery（实现高效软件交付）。其他选项是基础设施组件组合，不是 DevOps 的整合范围。",
+      "difficulty": "easy",
+      "tags": [
+        "DevOps",
+        "development",
+        "QA",
+        "operations"
+      ],
+      "source": "p.29: 'DevOps integrates development, QA, and operations for efficient software delivery' "
+    },
+    {
+      "id": "ch05-b2-047",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "From which approaches does DevOps evolve according to the slides?",
+      "options": [
+        "Agile and Lean, sometimes incorporating security as DevSecOps",
+        "Waterfall and code and fix only",
+        "NAS and SAN",
+        "MPLS and leased lines"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 说 DevOps evolves from Agile and Lean（从敏捷和精益演变而来），sometimes incorporating security as DevSecOps（有时纳入安全形成 DevSecOps）。其他选项与 DevOps 的起源无关。",
+      "difficulty": "medium",
+      "tags": [
+        "DevOps",
+        "Agile",
+        "Lean",
+        "DevSecOps"
+      ],
+      "source": "p.29: 'It evolves from Agile and Lean, sometimes incorporating security as DevSecOps' "
+    },
+    {
+      "id": "ch05-b2-048",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What role does automation play in DevOps according to the slides?",
+      "options": [
+        "It supports testing, integration, and deployment to ensure continuous delivery",
+        "It replaces all developers with predictive dialers",
+        "It eliminates the need for visibility into progress",
+        "It prevents developers from being responsible for code quality"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 说 Automation（自动化）supports testing, integration, and deployment（支持测试、集成和部署）to ensure continuous delivery（确保持续交付）。其他选项与原文相反或无依据。",
+      "difficulty": "medium",
+      "tags": [
+        "DevOps automation",
+        "testing",
+        "integration",
+        "continuous delivery"
+      ],
+      "source": "p.29: 'Automation supports testing, integration, and deployment to ensure continuous delivery' "
+    },
+    {
+      "id": "ch05-b2-049",
+      "chapter": "ch05",
+      "type": "tf",
+      "question": "The slides state that in DevOps processes developers are more responsible for code quality.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 原文写 Developers are more responsible for code quality in DevOps processes（在 DevOps 流程中，开发者对代码质量承担更多责任）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "DevOps",
+        "developers",
+        "code quality"
+      ],
+      "source": "p.29: 'Developers are more responsible for code quality in DevOps processes' "
+    },
+    {
+      "id": "ch05-b2-050",
+      "chapter": "ch05",
+      "type": "single",
+      "question": "What does the DevOps focus on visibility do according to the slides?",
+      "options": [
+        "It tracks progress and resolves bottlenecks quickly",
+        "It hides progress to avoid stakeholder involvement",
+        "It replaces all operational risk evaluation",
+        "It ensures that firmware never changes"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 说 Focus on visibility（对可见性的关注）tracks progress（跟踪进度）and resolves bottlenecks quickly（快速解决瓶颈）。其他选项与原文相反或无依据。",
+      "difficulty": "medium",
+      "tags": [
+        "DevOps visibility",
+        "progress",
+        "bottlenecks"
+      ],
+      "source": "p.29: 'Focus on visibility tracks progress and resolves bottlenecks quickly' "
+    }
+  ]
+};
