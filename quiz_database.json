@@ -5852,6 +5852,2653 @@
         "bottlenecks"
       ],
       "source": "p.29: 'Focus on visibility tracks progress and resolves bottlenecks quickly' "
+    },
+    {
+      "id": "ch07-b2-001",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which valuable services do banks provide according to the slides?",
+      "options": [
+        "Pooling depositors' funds",
+        "Making funds available to companies and individuals",
+        "Facilitating payments and settlements",
+        "Eliminating all competition from Fintech"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.2 说 banks（银行）pooling depositors' funds（汇集存款人资金）、making them available to companies and individuals（提供给公司和个人）、facilitate payments and settlements（便利支付与结算）。Fintech competition（金融科技竞争）对银行有重大影响，但银行不能消除所有竞争，D 错。",
+      "difficulty": "easy",
+      "tags": [
+        "banks",
+        "depositors' funds",
+        "payments and settlements"
+      ],
+      "source": "p.2: 'Pooling depositors funds / Making them available / Facilitate payments and settlements' "
+    },
+    {
+      "id": "ch07-b2-002",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which case study question appears on p.3?",
+      "options": [
+        "Why would banks want to set up separate innovation centers rather than have just a research and development function within the main IT organization?",
+        "How many branches does every bank operate?",
+        "Which bank has the largest ATM network?",
+        "How can all banks eliminate vendor management?"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.3 的 BNY Mellon case study（案例研究）问题包括为何设立 separate innovation centers（独立创新中心）而不是只在 main IT organization（主 IT 组织）内设 research and development function（研发职能），以及 service owners（服务负责人）、continuous delivery（持续交付）、spur technology innovation（推动技术创新）。其他选项不是该页问题。",
+      "difficulty": "easy",
+      "tags": [
+        "BNY Mellon case study",
+        "innovation centers",
+        "continuous delivery"
+      ],
+      "source": "p.3: 'Why would banks want to set up separate innovation centers' "
+    },
+    {
+      "id": "ch07-b2-003",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "According to the p.4 table, which formula correctly represents net income?",
+      "options": [
+        "Net interest income + noninterest income - operating expenses",
+        "Net interest income + operating expenses - noninterest income",
+        "Noninterest income - net interest income + operating expenses",
+        "Operating expenses + noninterest income + net interest income"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 表上方公式写 Net income = net interest income + noninterest income - operating expenses（净利润 = 净利息收入 + 非利息收入 - 运营费用）。其他公式改变符号或加减关系，错误。",
+      "difficulty": "easy",
+      "tags": [
+        "net income",
+        "net interest income",
+        "noninterest income",
+        "operating expenses"
+      ],
+      "source": "p.4: 'Net income = net interest income + noninterest income - operating expenses' "
+    },
+    {
+      "id": "ch07-b2-004",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which are listed as sources of operating expenses in the p.4 table?",
+      "options": [
+        "Salaries and bonuses",
+        "Facilities costs",
+        "Technology costs",
+        "Operating losses"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.4 表中 Operating expenses（运营费用）的 Sources（来源）包括 Salaries and bonuses（薪金与奖金）、Facilities costs（设施成本）、Technology costs（技术成本）、Operating losses（运营损失）。四项均列出。",
+      "difficulty": "medium",
+      "tags": [
+        "operating expenses",
+        "salaries",
+        "facilities",
+        "technology costs",
+        "operating losses"
+      ],
+      "source": "p.4: table 'Operating expenses / Salaries and bonuses / Facilities costs / Technology costs / Operating losses' "
+    },
+    {
+      "id": "ch07-b2-005",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "According to the p.4 table, which business driver is associated with net interest income?",
+      "options": [
+        "Lending criteria",
+        "Transaction volumes",
+        "Headcount",
+        "Fraud"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 表将 Net interest income（净利息收入）的 Business Drivers（业务驱动因素）列为 lending criteria（贷款标准）、pricing strategy（定价策略）、number of customers（客户数量）、loan amount（贷款金额）。Transaction volumes（交易量）属于 noninterest income（非利息收入）；headcount（人数）和 fraud（欺诈）属于 operating expenses（运营费用）。",
+      "difficulty": "hard",
+      "tags": [
+        "net interest income",
+        "business drivers",
+        "lending criteria"
+      ],
+      "source": "p.4: table 'Net interest income / Lending criteria / Pricing strategy / Number of customers / Loan amount' "
+    },
+    {
+      "id": "ch07-b2-006",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "How does the slides describe small banks' customer focus?",
+      "options": [
+        "They may focus on only a single line of business and primarily serve one subgroup of customers",
+        "They provide almost all categories of banking services and cater to almost all customer segments",
+        "They always focus only on institutional banking customers",
+        "They always have multiple lines of business and serve consumers and corporations"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 说 small banks（小银行）may focus on only a single line of business（可能只专注于单一业务线），例如 deposit taking and lending（吸收存款与放贷）或 credit card issuance（信用卡发行），primarily serve only one subgroup of customers（主要只服务一个客户子群），例如 nonaffluent retail customers（非富裕零售客户）。B 描述 large banks；C、D 不是小银行描述。",
+      "difficulty": "medium",
+      "tags": [
+        "small banks",
+        "single line of business",
+        "customer subgroup"
+      ],
+      "source": "p.5: 'Small banks may / Focus on only a single line of business / Primarily serve only one subgroup of customers' "
+    },
+    {
+      "id": "ch07-b2-007",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which statement about large banks is correct according to the slides?",
+      "options": [
+        "They provide almost all categories of banking services and cater to almost all customer segments",
+        "They focus only on deposit taking and lending for nonaffluent retail customers",
+        "They typically have only one line of business",
+        "They serve only small- and medium-sized enterprises"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 说 Large banks（大型银行）provide almost all categories of banking services（提供几乎所有类别的银行服务），例如 FX dealing（外汇交易）和 investment banking（投资银行），cater to almost all customer segments（服务几乎所有客户细分）。其他选项描述小银行或过于狭窄。",
+      "difficulty": "medium",
+      "tags": [
+        "large banks",
+        "all banking services",
+        "customer segments"
+      ],
+      "source": "p.5: 'Large banks / Provide almost all categories of banking services / Cater to almost all customer segments' "
+    },
+    {
+      "id": "ch07-b2-008",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which differences between servicing retail and corporate customers are listed in the slides?",
+      "options": [
+        "Number of customers",
+        "Assets per customer",
+        "Customer information availability",
+        "Customer revenue diversification"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.6 列出 retail and corporate customers（零售与公司客户）服务差异：number of customers（客户数量）、assets per customer（每客户资产）、customer information availability（客户信息可得性）、customer revenue diversification（客户收入多元化）、number and types of products and services required（所需产品服务数量与类型）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "retail customers",
+        "corporate customers",
+        "customer differences"
+      ],
+      "source": "p.6: 'Number of customers / Assets per customer / Customer information availability / Customer revenue diversification' "
+    },
+    {
+      "id": "ch07-b2-009",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is the order of the consumer banking customer pyramid from top to bottom in the slides?",
+      "options": [
+        "Wealthy, High Net Worth, Mass Affluent, Nonaffluent",
+        "Nonaffluent, Mass Affluent, High Net Worth, Wealthy",
+        "Mass Affluent, Nonaffluent, Wealthy, High Net Worth",
+        "High Net Worth, Wealthy, Nonaffluent, Mass Affluent"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 的 consumer banking customers（消费银行客户）金字塔从上到下为 Wealthy（富裕）、High Net Worth（高净值）、Mass Affluent（大众富裕）、Nonaffluent（非富裕）。其他顺序错误。",
+      "difficulty": "medium",
+      "tags": [
+        "consumer pyramid",
+        "wealthy",
+        "high net worth",
+        "mass affluent",
+        "nonaffluent"
+      ],
+      "source": "p.7: diagram 'Wealthy / High Net Worth / Mass Affluent / Nonaffluent' "
+    },
+    {
+      "id": "ch07-b2-010",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which consumer segment is described as the largest in terms of numbers of customers but with limited deposits and significant lending opportunities?",
+      "options": [
+        "Nonaffluent",
+        "Mass affluent",
+        "High net worth",
+        "Wealthy"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 说 Nonaffluent（非富裕）是 largest segment in terms of numbers of customers（按客户数量最大），limited deposits（存款有限），provide significant lending opportunities（提供重要贷款机会）。Mass affluent（大众富裕）强调低成本存款和较低风险；High net worth（高净值）强调关系驱动与财富保值。",
+      "difficulty": "medium",
+      "tags": [
+        "nonaffluent",
+        "largest segment",
+        "lending opportunities"
+      ],
+      "source": "p.9: 'Nonaffluent / Largest segment in terms of numbers of customers / Limited deposits / significant lending opportunities' "
+    },
+    {
+      "id": "ch07-b2-011",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about mass affluent customers are correct according to the slides?",
+      "options": [
+        "Their deposits provide a low-cost source of funding",
+        "Their loans present less risk",
+        "They have diverse banking needs",
+        "Wealth preservation and growth are their only key concerns"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.9 说 Mass affluent（大众富裕）的 deposits provide a low-cost source of funding（低成本资金来源），loans present less risk（贷款风险较低），diverse banking needs（多样化银行需求）。Wealth preservation and growth（财富保值与增长）是 High net worth（高净值）的关键关注，不是 mass affluent 的“唯一”关注。",
+      "difficulty": "medium",
+      "tags": [
+        "mass affluent",
+        "low-cost funding",
+        "less risk",
+        "diverse needs"
+      ],
+      "source": "p.9: 'Mass affluent / Deposits provide a low-cost source of funding / Loans present less risk / Diverse banking needs' "
+    },
+    {
+      "id": "ch07-b2-012",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which concerns are associated with high net worth customers in the slides?",
+      "options": [
+        "Wealth preservation and growth, taxes, estate planning, and privacy",
+        "Only low-cost deposit funding and lending opportunities",
+        "Only payroll processing and trade finance",
+        "Only automatic saving tools and money management"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 说 High net worth（高净值）customers are relationship driven（关系驱动），wealth preservation and growth of funds（财富保值与增长）are key concerns，taxes, estate planning, and privacy（税务、遗产规划和隐私）are also considerations。B 更接近 mass affluent/nonaffluent；C 是 corporate medium；D 是 neobank 功能。",
+      "difficulty": "medium",
+      "tags": [
+        "high net worth",
+        "wealth preservation",
+        "taxes",
+        "estate planning",
+        "privacy"
+      ],
+      "source": "p.9: 'High net worth / Relationship driven / Wealth preservation and growth / Taxes, estate planning, and privacy' "
+    },
+    {
+      "id": "ch07-b2-013",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which statement about private banking and wealth management is correct according to the slides?",
+      "options": [
+        "They involve a relatively small number of customers and often specialized institutions, with account management possibly extending beyond an individual to business or familial structures",
+        "They serve the largest number of retail customers with only basic deposit products",
+        "They never require integrated access to investment products",
+        "They are limited to small businesses with payroll outsourcing needs"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.10 说 private banking and wealth management（私人银行与财富管理）有 relatively small number of customers（相对少量客户），often catered to by specialized institutions（常由专业机构服务），account management may extend beyond an individual（账户管理可能超出个人）到 business structures（企业结构）和 familial structures（家族结构），require integrated access to a wide range of investment products（需要整合访问广泛投资产品）。",
+      "difficulty": "medium",
+      "tags": [
+        "private banking",
+        "wealth management",
+        "business structures",
+        "investment products"
+      ],
+      "source": "p.10: 'Relatively small number of customers / specialized institutions / Account management may extend beyond an individual / integrated access to a wide range of investment products' "
+    },
+    {
+      "id": "ch07-b2-014",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is the order of the corporate and institutional banking customer pyramid from top to bottom in the slides?",
+      "options": [
+        "Institutional, Multinational Corporations, Large Corporations, Small- and Medium-sized Enterprises",
+        "Small- and Medium-sized Enterprises, Large Corporations, Multinational Corporations, Institutional",
+        "Large Corporations, Institutional, Small- and Medium-sized Enterprises, Multinational Corporations",
+        "Multinational Corporations, Institutional, Large Corporations, Small- and Medium-sized Enterprises"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.11 的 corporate and institutional banking customers（公司及机构银行客户）金字塔从上到下为 Institutional（机构）、Multinational Corporations（跨国公司）、Large Corporations（大型公司）、Small- and Medium-sized Enterprises（中小企业）。其他顺序错误。",
+      "difficulty": "medium",
+      "tags": [
+        "corporate pyramid",
+        "institutional",
+        "multinational corporations",
+        "large corporations",
+        "SMEs"
+      ],
+      "source": "p.11: diagram 'Institutional / Multinational Corporations / Large Corporations / Small- and Medium-sized Enterprises' "
+    },
+    {
+      "id": "ch07-b2-015",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which characteristics are associated with small businesses as corporate customers in the slides?",
+      "options": [
+        "Many and diverse in their nature",
+        "Relatively few banking options",
+        "Some have large volumes of cash transactions",
+        "Typically have complex corporate structures and large in-house treasuries"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.12 说 small businesses（小企业）many and diverse in their nature（数量多且性质多样），have relatively few banking options（银行选择相对少），some have large volumes of cash transactions（部分有大量现金交易）。D 描述 MNCs（跨国公司）。",
+      "difficulty": "medium",
+      "tags": [
+        "small businesses",
+        "few banking options",
+        "cash transactions"
+      ],
+      "source": "p.12: 'Small businesses / Many and diverse / relatively few banking options / large volumes of cash transactions' "
+    },
+    {
+      "id": "ch07-b2-016",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which services may medium-sized enterprises require according to the slides?",
+      "options": [
+        "International dealings requiring FX and trade finance services, and possibly outsourced finance activities such as payroll processing",
+        "Only basic deposit accounts with no international needs",
+        "Only investment banking underwriting and M&A advisory",
+        "Only automatic saving tools and money management"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.12 说 Medium-sized enterprises（中型企业）have more diverse banking needs（更多样银行需求），may have international dealings（可能有国际业务），requiring FX（外汇）和 trade finance services（贸易融资服务），may outsource some finance activities（可能外包部分财务活动），例如 payroll processing（薪资处理）。",
+      "difficulty": "medium",
+      "tags": [
+        "medium-sized enterprises",
+        "FX",
+        "trade finance",
+        "payroll processing"
+      ],
+      "source": "p.12: 'Medium-sized enterprises / international dealings / FX and trade finance services / payroll processing' "
+    },
+    {
+      "id": "ch07-b2-017",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about large corporations and MNCs are correct according to the slides?",
+      "options": [
+        "Large corporations have fewer but high transaction volumes and may require banks to integrate with their business processes and IT systems",
+        "Large corporations often have relationships with multiple banks",
+        "MNCs commonly have complex corporate structures",
+        "MNCs commonly have large in-house treasuries that manage corporate liquidity, FX risk, and return on liquid capital"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.13 说 Large corporations（大型公司）fewer but high transaction volumes（数量较少但交易量大），may require banks to integrate with business processes and IT systems（可能要求银行与其流程和 IT 系统集成），often relationships with multiple banks（常与多家银行有关系）。MNCs（跨国公司）commonly have complex corporate structures（复杂公司结构），large in-house treasuries（大型内部资金部）管理 corporate liquidity（公司流动性）、foreign exchange risk（外汇风险）、return on liquid capital（流动资本回报）。四项均正确。",
+      "difficulty": "hard",
+      "tags": [
+        "large corporations",
+        "MNCs",
+        "in-house treasuries",
+        "FX risk"
+      ],
+      "source": "p.13: 'Fewer but high transaction volumes / integrate with their business processes and IT systems / Complex corporate structures / Large in-house treasuries' "
+    },
+    {
+      "id": "ch07-b2-018",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which needs are typical for institutional banking customers according to the slides?",
+      "options": [
+        "Investment, financing, remittances, and risk management",
+        "Lower costs for products and services and higher levels of service",
+        "Less regulatory protection",
+        "Security underwriting, brokerage, and merger and acquisition advisory for investment banking customers"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.14 说 institutional banking customers（机构银行客户）包括 financial firms and large MNCs（金融公司和大型跨国公司），typical needs（典型需求）是 investment, financing, remittances, risk management（投资、融资、汇款、风险管理）；expect lower costs and higher service（期望更低成本与更高服务）；have less regulatory protection（监管保护较少）；investment banking customers（投资银行客户）需要 security underwriting（证券承销）、brokerage（经纪）、M&A advisory（并购咨询）。",
+      "difficulty": "hard",
+      "tags": [
+        "institutional banking",
+        "investment banking",
+        "regulatory protection"
+      ],
+      "source": "p.14: 'Investment, financing, remittances, risk management / lower costs / higher levels of service / less regulatory protection / Security underwriting / Brokerage / Merger and acquisition advisory' "
+    },
+    {
+      "id": "ch07-b2-019",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which customers favor digital banking according to the slides?",
+      "options": [
+        "Millennials, small business owners, and freelancers",
+        "Only institutional investors",
+        "Only high net worth private banking clients",
+        "Only large multinational corporations"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.15 说 Digital banks（数字银行）serve customers without branch services（无分支服务），offering lower costs（更低成本）；Millennials, small business owners, and freelancers（千禧一代、小企业主和自由职业者）favor digital banking。其他选项不是该页所列主要青睐群体。",
+      "difficulty": "easy",
+      "tags": [
+        "digital banks",
+        "millennials",
+        "small business owners",
+        "freelancers"
+      ],
+      "source": "p.15: 'Millennials, small business owners, and freelancers favor digital banking' "
+    },
+    {
+      "id": "ch07-b2-020",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which statement about neobanks is correct according to the slides?",
+      "options": [
+        "They lack banking licenses and partner with banks for funds, operating online-only with lower fees and better rates",
+        "They always hold full banking licenses and operate physical branches",
+        "They focus only on institutional investment banking",
+        "They eliminate all dependence on partner banks"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.16 说 Neobanks（新型银行/数字银行）lack banking licenses（缺乏银行牌照）and partner with banks for funds（与银行合作获取资金）；operate online-only（仅在线运营），offering lower fees and better rates（更低费用和更好利率）。D 与原文相反：dependence on partner banks creates risks（依赖合作银行带来风险）。",
+      "difficulty": "medium",
+      "tags": [
+        "neobanks",
+        "banking licenses",
+        "partner banks",
+        "online-only"
+      ],
+      "source": "p.16: 'Lack banking licenses and partner with banks for funds / Operate online-only / lower fees and better rates' "
+    },
+    {
+      "id": "ch07-b2-021",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which features do neobanks provide according to the slides?",
+      "options": [
+        "Focus on underserved segments like freelancers with unique banking needs",
+        "Money management tools",
+        "Automatic saving tools",
+        "Full deposit insurance without any partner bank"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.16 说 neobanks（新型银行）focus on underserved segments（服务不足细分）like freelancers（自由职业者）with unique banking needs；provide additional features（额外功能）like money management（资金管理）and automatic saving tools（自动储蓄工具）。slides 没有说它们无需合作银行即可提供全额存款保险。",
+      "difficulty": "medium",
+      "tags": [
+        "neobanks",
+        "freelancers",
+        "money management",
+        "automatic saving"
+      ],
+      "source": "p.16: 'Focus on underserved segments like freelancers / money management / automatic saving tools' "
+    },
+    {
+      "id": "ch07-b2-022",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about cryptobanks are correct according to the slides?",
+      "options": [
+        "They facilitate real-time crypto payments for institutional investors",
+        "Crypto market volatility makes this business model unstable",
+        "Many banks avoid cryptocurrencies due to reputational and regulatory risks",
+        "They may act as custodians for crypto assets and stablecoins"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.17 说 Cryptobanks（加密银行）facilitate real-time crypto payments（实时加密支付）for institutional investors（机构投资者）；crypto market volatility（加密市场波动）makes business model unstable（使商业模式不稳定）；many banks avoid cryptocurrencies（许多银行回避加密货币）due to reputational and regulatory risks（声誉和监管风险）；may act as custodians（托管人）for crypto assets and stablecoins（加密资产和稳定币）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "cryptobanks",
+        "crypto payments",
+        "volatility",
+        "custodians",
+        "stablecoins"
+      ],
+      "source": "p.17: 'real-time crypto payments / volatility makes this business model unstable / reputational and regulatory risks / custodians for crypto assets and stablecoins' "
+    },
+    {
+      "id": "ch07-b2-023",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is Fintech according to the slides?",
+      "options": [
+        "Applying new technologies to financial services problems or existing technologies in new ways",
+        "A type of bank that only holds physical branches",
+        "A regulatory framework for settlement holidays",
+        "A method for calculating net interest income"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.18 定义 Fintech（金融科技）为 applying new technologies to financial services problems（将新技术应用于金融服务问题）or existing technologies in new ways（或以新方式使用现有技术）。其 Venn 图由 Financial Services（金融服务）、Technology（技术）、Innovation（创新）交集组成。",
+      "difficulty": "easy",
+      "tags": [
+        "Fintech",
+        "new technologies",
+        "existing technologies",
+        "innovation"
+      ],
+      "source": "p.18: 'Fintech applies new technologies to financial services problems existing technologies in new ways' "
+    },
+    {
+      "id": "ch07-b2-024",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about Fintech innovation are correct according to the slides?",
+      "options": [
+        "Fintech outpaces banks with simpler models and fewer constraints",
+        "Two main categories are technology providers and financial services providers",
+        "Fintech partners or competes with banks in payments and lending",
+        "Lower costs attract customers and enhance financial inclusion globally"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.19 说 Fintech（金融科技）outpaces banks（超越银行）with simpler models and fewer constraints（更简单模式和更少约束）；two main categories（两大类别）是 technology providers（技术提供商）和 financial services providers（金融服务提供商）；partners or competes with banks（与银行合作或竞争）in payments and lending（支付与借贷）；lower costs（更低成本）attract customers（吸引客户）and enhance financial inclusion globally（促进全球金融普惠）。",
+      "difficulty": "medium",
+      "tags": [
+        "Fintech innovation",
+        "technology providers",
+        "financial services providers",
+        "financial inclusion"
+      ],
+      "source": "p.19: 'simpler models and fewer constraints / technology providers financial services providers / partners or competes / financial inclusion' "
+    },
+    {
+      "id": "ch07-b2-025",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What do super apps integrate according to the slides?",
+      "options": [
+        "Financial services with e-commerce and lifestyle needs",
+        "Only settlement holiday calendars",
+        "Only mainframe operating systems",
+        "Only private banking account structures"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 说 Super apps（超级应用）integrate financial services（整合金融服务）with e-commerce and lifestyle needs（与电子商务和生活方式需求）。其他选项不是该页内容。",
+      "difficulty": "easy",
+      "tags": [
+        "super apps",
+        "e-commerce",
+        "lifestyle needs"
+      ],
+      "source": "p.19: 'Super apps integrate financial services with e-commerce and lifestyle needs' "
+    },
+    {
+      "id": "ch07-b2-026",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which Fintech challenges and strategies are described in the slides?",
+      "options": [
+        "Customers tolerate Fintech's flaws but expect banks to be stable",
+        "Fintechs pivot quickly, free from heavy regulations and bureaucracy",
+        "Young innovators prefer Fintech's dynamic, less-structured environments",
+        "Regulatory sandboxes support Fintech innovation with oversight flexibility"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.20 说 customers tolerate Fintech's flaws（容忍金融科技缺陷）but expect banks to be stable（但期望银行稳定）；Fintechs pivot quickly（快速转型），free from heavy regulations and bureaucracy（不受繁重监管和官僚体制束缚）；young innovators prefer dynamic, less-structured environments（年轻创新者偏好动态、较少结构环境）；regulatory sandboxes（监管沙盒）support innovation with oversight flexibility（灵活监管）。",
+      "difficulty": "medium",
+      "tags": [
+        "Fintech challenges",
+        "regulatory sandboxes",
+        "bureaucracy",
+        "young innovators"
+      ],
+      "source": "p.20: 'Customers tolerate Fintech flaws / pivot quickly / Regulatory sandboxes' "
+    },
+    {
+      "id": "ch07-b2-027",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which strategy can banks use to compete or innovate with Fintech according to the slides?",
+      "options": [
+        "Compete, acquire, or collaborate with Fintech for innovation",
+        "Only ignore Fintech and avoid all collaboration",
+        "Only eliminate regulatory sandboxes",
+        "Only stop serving younger users"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.20 最后说 Banks can compete, acquire, or collaborate with Fintech（竞争、收购或合作）for innovation（创新）。其他选项与原文相反或无依据。",
+      "difficulty": "easy",
+      "tags": [
+        "banks",
+        "Fintech strategy",
+        "compete",
+        "acquire",
+        "collaborate"
+      ],
+      "source": "p.20: 'Banks can compete, acquire, or collaborate with Fintech for innovation' "
+    },
+    {
+      "id": "ch07-b2-028",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which opportunities for banks are listed in the slides?",
+      "options": [
+        "Transition from being bank-centric to being customer-centric",
+        "Expansion into new markets",
+        "Addressing the needs of underserved market segments such as the unbanked and underbanked",
+        "Leverage IT and mobile solutions to tap into new markets"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.21 列出 opportunities for banks（银行机会）：从 bank-centric（银行中心）转向 customer-centric（客户中心）；expansion into new markets（扩张新市场）；address needs of underserved segments（服务不足细分需求），如 unbanked（无银行账户）和 underbanked（银行服务不足）及特定 geographic regions（地理区域）；leverage IT and mobile solutions（利用 IT 与移动方案）进入新市场。",
+      "difficulty": "medium",
+      "tags": [
+        "bank opportunities",
+        "customer-centric",
+        "unbanked",
+        "underbanked",
+        "mobile solutions"
+      ],
+      "source": "p.21: 'bank-centric to customer-centric / Expansion into new markets / unbanked and underbanked / Leverage IT and mobile solutions' "
+    },
+    {
+      "id": "ch07-b2-029",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which challenges are banks facing according to the slides?",
+      "options": [
+        "Fintechs and tech firms use platforms to attract bank customers",
+        "Undifferentiated products challenge banks to retain and attract younger users",
+        "Profit margins shrink as competition pressures pricing and scaling limits",
+        "Innovation requires upfront investment and faces slow internal processes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.22 列出 banks' challenges（银行挑战）：Fintechs and tech firms（金融科技与科技公司）use platforms（使用平台）吸引银行客户；undifferentiated products（无差异化产品）挑战保留和吸引 younger users（年轻用户）；profit margins shrink（利润率收缩）因 competition pressures pricing and scaling limits（竞争压力定价和规模限制）；innovation requires upfront investment（创新需要前期投资）并面临 slow internal processes（缓慢内部流程）；还有 attract and retain employees with innovative mindsets（吸引保留有创新思维员工）。",
+      "difficulty": "medium",
+      "tags": [
+        "bank challenges",
+        "platforms",
+        "undifferentiated products",
+        "profit margins",
+        "innovation investment"
+      ],
+      "source": "p.22: 'platforms to attract bank customers / Undifferentiated products / Profit margins shrink / Innovation requires upfront investment' "
+    },
+    {
+      "id": "ch07-b2-030",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is the transaction and service lifecycle according to the slides?",
+      "options": [
+        "A framework for examining the start-to-finish activities involved in transactions",
+        "A formula for calculating operating expenses",
+        "A type of neobank that lacks a banking license",
+        "A regulatory sandbox for Fintech innovation"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 transaction and service lifecycle（交易与服务生命周期）is a framework for examining the start-to-finish activities involved in transactions（审视交易从开始到结束活动的框架）；individuals and IT systems（个人和 IT 系统）often only address a small part（通常只处理一小部分）；all parts are important, interrelated（所有部分重要且相互关联）。",
+      "difficulty": "easy",
+      "tags": [
+        "transaction and service lifecycle",
+        "start-to-finish",
+        "interrelated"
+      ],
+      "source": "p.23: 'A framework for examining the start-to-finish activities involved in transactions' "
+    },
+    {
+      "id": "ch07-b2-031",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is the correct order of the transaction and service lifecycle stages in the slides?",
+      "options": [
+        "Design and Setup, Engage Customer, Capture Order, Fulfill, Maintain, Review",
+        "Engage Customer, Design and Setup, Capture Order, Fulfill, Review, Maintain",
+        "Capture Order, Fulfill, Design and Setup, Engage Customer, Maintain, Review",
+        "Design and Setup, Capture Order, Engage Customer, Maintain, Fulfill, Review"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 图示顺序为 Design and Setup（设计与设置）→ Engage Customer（吸引客户）→ Capture Order（捕获订单）→ Fulfill（履行）→ Maintain（维护）→ Review（评审）。其他顺序错误。",
+      "difficulty": "medium",
+      "tags": [
+        "lifecycle stages",
+        "design and setup",
+        "engage customer",
+        "capture order",
+        "fulfill",
+        "maintain",
+        "review"
+      ],
+      "source": "p.23: diagram 'Design and Setup / Engage Customer / Capture Order / Fulfill / Maintain / Review' "
+    },
+    {
+      "id": "ch07-b2-032",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What happens in the Design and Setup stage according to the slides?",
+      "options": [
+        "Construction of banking products and processes and setup and configuration of supporting IT systems",
+        "Marketing and selling products and services to customers",
+        "Acquisition of customer order details and agreement to legally execute the transaction",
+        "Evaluation of the effectiveness and profitability of products and services"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 Design and setup（设计与设置）包括 construction of banking products and processes（构建银行产品与流程），setup and configuration of supporting IT systems（支持 IT 系统的设置与配置）。B 是 Engage customer（吸引客户）；C 是 Capture order（捕获订单）；D 是 Review（评审）。",
+      "difficulty": "medium",
+      "tags": [
+        "design and setup",
+        "product construction",
+        "IT configuration"
+      ],
+      "source": "p.24: 'Construction of banking products and processes / Setup and configuration of supporting IT systems' "
+    },
+    {
+      "id": "ch07-b2-033",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What does the Engage Customer stage involve according to the slides?",
+      "options": [
+        "Marketing and selling products and services to customers",
+        "Transaction confirmation, accounting, disbursement, and remittance",
+        "Activities that support long-lived products such as mortgages",
+        "Construction of banking products and processes"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 Engage customer（吸引客户）是 marketing and selling products and services to customers（向客户营销和销售产品服务）。B 是 Fulfill（履行）；C 是 Maintain（维护）；D 是 Design and setup（设计与设置）。",
+      "difficulty": "easy",
+      "tags": [
+        "engage customer",
+        "marketing",
+        "selling"
+      ],
+      "source": "p.24: 'Engage customer / Marketing and selling products and services to customers' "
+    },
+    {
+      "id": "ch07-b2-034",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "What does the Capture Order stage involve according to the slides?",
+      "options": [
+        "Acquisition of customer order details",
+        "Agreement to legally execute the transaction",
+        "Transaction confirmation and accounting",
+        "Disbursement and remittance"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.25 说 Capture order（捕获订单）包括 acquisition of customer order details（获取客户订单细节）和 agreement to legally execute the transaction（同意合法执行交易）。Transaction confirmation, accounting, disbursement, remittance（交易确认、会计、支付、汇款）属于 Fulfill transaction（履行交易）。",
+      "difficulty": "medium",
+      "tags": [
+        "capture order",
+        "order details",
+        "legal agreement"
+      ],
+      "source": "p.25: 'Capture order / Acquisition of customer order details / Agreement to legally execute the transaction' "
+    },
+    {
+      "id": "ch07-b2-035",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which activities belong to the Fulfill transaction stage according to the slides?",
+      "options": [
+        "Transaction confirmation, accounting, disbursement, and remittance",
+        "Marketing and selling products and services",
+        "Construction of banking products and processes",
+        "Evaluation of product profitability"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.25 说 Fulfill transaction（履行交易）包括 transaction confirmation（交易确认）、accounting（会计）、disbursement（支付/放款）、remittance（汇款）。其他选项分别属于 Engage customer、Design and setup、Review。",
+      "difficulty": "medium",
+      "tags": [
+        "fulfill transaction",
+        "confirmation",
+        "accounting",
+        "disbursement",
+        "remittance"
+      ],
+      "source": "p.25: 'Fulfill transaction / Transaction confirmation, accounting, disbursement, and remittance' "
+    },
+    {
+      "id": "ch07-b2-036",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What does the Maintain transaction stage support according to the slides?",
+      "options": [
+        "Long-lived products and services such as mortgages",
+        "Only short-lived payment instructions",
+        "Only legal agreement to execute a transaction",
+        "Only marketing campaigns"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 说 Maintain transaction（维护交易）是 activities that support long-lived products and services（支持长期产品和服务），例如 mortgages（抵押贷款）。其他选项不是该阶段定义。",
+      "difficulty": "easy",
+      "tags": [
+        "maintain transaction",
+        "long-lived products",
+        "mortgages"
+      ],
+      "source": "p.26: 'Maintain transaction / Activities that support long-lived products and services / e.g. mortgages' "
+    },
+    {
+      "id": "ch07-b2-037",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What does the Review stage do according to the slides?",
+      "options": [
+        "Evaluates the effectiveness and profitability of products and services and feeds back into design and setup",
+        "Captures customer order details and legal agreement",
+        "Configures supporting IT systems",
+        "Facilitates real-time crypto payments for institutional investors"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.26 说 Review（评审）evaluate the effectiveness and profitability of products and services（评估产品服务有效性和盈利性），feeds back into the design and setup stage（反馈到设计与设置阶段）。B 是 Capture order；C 是 Design and setup；D 是 cryptobanks。",
+      "difficulty": "medium",
+      "tags": [
+        "review stage",
+        "effectiveness",
+        "profitability",
+        "feedback"
+      ],
+      "source": "p.26: 'Review / Evaluate the effectiveness and profitability / Feeds back into the design and setup stage' "
+    },
+    {
+      "id": "ch07-b2-038",
+      "chapter": "ch07",
+      "type": "tf",
+      "question": "The slides use settlement holiday calendars as an example of reference data that is an integral part of solutions.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 说 Reference data（参考数据）is an integral part of solutions（解决方案的组成部分），example: settlement holiday calendars（结算假日日历）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "reference data",
+        "settlement holiday calendars"
+      ],
+      "source": "p.28: 'Reference data is an integral part of solutions / Example: settlement holiday calendars' "
+    },
+    {
+      "id": "ch07-b2-039",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Why does providing financial product advice present an opportunity for banks according to the slides?",
+      "options": [
+        "It can improve customer relationship and loyalty",
+        "The bank can serve as a trusted third party",
+        "It leverages banks' specialized knowledge",
+        "It eliminates all responsibility for providing appropriate advice"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.29 说 providing financial product advice（提供金融产品建议）是 major opportunity（重大机会），can improve customer relationship and loyalty（改善客户关系与忠诚度），bank can serve as a trusted third party（可信第三方），leverages banks' specialized knowledge（利用银行专业知识）。但它 leads to more responsibility（带来更多责任），不是消除责任，D 错。",
+      "difficulty": "medium",
+      "tags": [
+        "financial product advice",
+        "customer loyalty",
+        "trusted third party",
+        "specialized knowledge"
+      ],
+      "source": "p.29: 'improve customer relationship and loyalty / trusted third party / specialized knowledge / Leads to more responsibility' "
+    },
+    {
+      "id": "ch07-b2-040",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which factors may lead relationship managers to recommend inappropriate products according to the slides?",
+      "options": [
+        "Poorly designed incentives",
+        "Inadequate knowledge of the products offered",
+        "Inadequate knowledge of customer needs and preferences",
+        "Guaranteed objective advice from all relationship managers"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.30 说 relationship managers（关系经理）may have poorly designed incentives（设计不良的激励）that lead them to recommend inappropriate products（推荐不适当产品），inadequate knowledge of products（产品知识不足），inadequate knowledge of customer needs and preferences（客户需求偏好知识不足）。D 与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "bad advice",
+        "relationship managers",
+        "incentives",
+        "product knowledge",
+        "customer needs"
+      ],
+      "source": "p.30: 'Poorly designed incentives / Inadequate knowledge of the products / Inadequate knowledge of the customer needs and preferences' "
+    },
+    {
+      "id": "ch07-b2-041",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What does the customer need from financial product advice according to the stakeholder needs on p.31?",
+      "options": [
+        "Objective and accurate advice",
+        "A long-term relationship rewarded for promoting specific products",
+        "Selling financial products while avoiding risks",
+        "Ensuring customers are treated fairly by regulation only"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.31 说 Customer（客户）needs to receive objective and accurate advice（获得客观准确建议）。Financial consultant（金融顾问）希望建立 long-term relationship（长期关系）且可能因 promoting specific products（推广特定产品）获奖励；Bank management（银行管理层）希望 sell financial products（销售金融产品）并 avoid risks（避免风险）；Regulator（监管者）确保 customers treated fairly（公平对待）。",
+      "difficulty": "medium",
+      "tags": [
+        "stakeholder needs",
+        "customer",
+        "objective advice",
+        "accurate advice"
+      ],
+      "source": "p.31: 'Customer / Receive objective and accurate advice' "
+    },
+    {
+      "id": "ch07-b2-042",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What is the regulator's concern in financial product advice according to the slides?",
+      "options": [
+        "Ensure that customers are treated fairly and are not taken advantage of",
+        "Sell as many financial products as possible",
+        "Maximize relationship managers' incentives",
+        "Reduce all customer information availability"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.31 说 Regulator（监管者）need to ensure that customers are treated fairly（确保客户被公平对待）and are not taken advantage of（不被占便宜）。其他选项与监管者目标相反或无关。",
+      "difficulty": "easy",
+      "tags": [
+        "regulator",
+        "fair treatment",
+        "financial product advice"
+      ],
+      "source": "p.31: 'Regulator / Ensure that customers are treated fairly and are not taken advantage of' "
+    },
+    {
+      "id": "ch07-b2-043",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "In the elementary financial product advice process diagram, which step is performed by the customer before Purchase Product?",
+      "options": [
+        "Provide Current Information",
+        "Retrieve Customer Information",
+        "Evaluate Customer's Risk Profile",
+        "Process Order"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.32 图中 Customer（客户）流程为 Request Advice（请求建议）→ Provide Current Information（提供当前信息）→ Purchase Product（购买产品）。Retrieve Customer Information（获取客户信息）、Evaluate Customer's Risk Profile（评估客户风险画像）、Process Order（处理订单）属于 Bank Financial Consultant（银行金融顾问）泳道。",
+      "difficulty": "hard",
+      "tags": [
+        "elementary process diagram",
+        "customer steps",
+        "provide current information"
+      ],
+      "source": "p.32: diagram 'Customer / Request Advice / Provide Current Information / Purchase Product' "
+    },
+    {
+      "id": "ch07-b2-044",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which steps are performed by the bank financial consultant in the elementary process diagram?",
+      "options": [
+        "Retrieve Customer Information",
+        "Evaluate Customer's Risk Profile",
+        "Identify Appropriate Products",
+        "Explain Product Features and Process Order"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.32 图中 Bank Financial Consultant（银行金融顾问）步骤包括 Retrieve Customer Information（获取客户信息）、Evaluate Customer's Risk Profile（评估客户风险画像）、Identify Appropriate Products（识别适当产品）、Explain Product Features（解释产品特征）、Process Order（处理订单）。四项均列出。",
+      "difficulty": "hard",
+      "tags": [
+        "elementary process diagram",
+        "financial consultant",
+        "risk profile",
+        "appropriate products"
+      ],
+      "source": "p.32: diagram 'Retrieve Customer Information / Evaluate Customer Risk Profile / Identify Appropriate Products / Explain Product Features / Process Order' "
+    },
+    {
+      "id": "ch07-b2-045",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which potential improvements to the financial product advice process are listed in the slides?",
+      "options": [
+        "Capture more information about the customer and interactions with the bank",
+        "Use information in a more structured way to provide more process-driven and consistent advice",
+        "Create a separate compliance function",
+        "Rely more on individuals and less on process"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.33 说 potential improvements（潜在改进）包括 capture more information（获取更多客户及互动信息），utilize information in a more structured way（更结构化利用信息）以提供 more process driven, less dependent on individuals（更流程驱动、减少依赖个人）、more consistent, repeatable results（更一致可重复结果）；create a separate compliance function（设立独立合规职能）ensure advisory process executed as intended（确保咨询流程按预期执行）。D 与原文相反。",
+      "difficulty": "medium",
+      "tags": [
+        "process improvements",
+        "structured advice",
+        "compliance function"
+      ],
+      "source": "p.33: 'Capture more information / more process driven / more consistent / separate compliance function' "
+    },
+    {
+      "id": "ch07-b2-046",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "Which implementation option for improved financial product advice is described as not practical in the slides?",
+      "options": [
+        "Paper driven approach",
+        "Central database for information storage",
+        "Business process management system to semi-automate the process",
+        "Separate compliance function"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.35 说 Solution implementation options（解决方案实施选项）中，Paper driven approach（纸面驱动方式）not practical for the improved process（对改进流程不实际）。Central database（中央数据库）帮助 information sharing（信息共享）；BPMS（业务流程管理系统）semi-automate（半自动化）并 provide audit trail（审计轨迹）。",
+      "difficulty": "medium",
+      "tags": [
+        "implementation options",
+        "paper driven",
+        "central database",
+        "BPMS"
+      ],
+      "source": "p.35: 'Paper driven approach / Not practical for the improved process' "
+    },
+    {
+      "id": "ch07-b2-047",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "What benefits does using a business process management system provide for financial product advice according to the slides?",
+      "options": [
+        "Helps ensure the correct process steps are followed",
+        "Provides an audit trail of the steps that were taken",
+        "Semi-automates the process",
+        "Eliminates the need for any customer information"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.35 说 Use business process management system（使用业务流程管理系统）to semi-automate the process（半自动化流程），helps ensure correct process steps are followed（确保遵循正确流程步骤），provides an audit trail（提供审计轨迹）of steps taken。D 与 capture customer information 的需求相反。",
+      "difficulty": "medium",
+      "tags": [
+        "BPMS",
+        "correct process steps",
+        "audit trail",
+        "semi-automate"
+      ],
+      "source": "p.35: 'semi-automate / correct process steps / audit trail' "
+    },
+    {
+      "id": "ch07-b2-048",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about Open Banking implementation are correct according to the slides?",
+      "options": [
+        "Some countries mandate Open APIs while others encourage them",
+        "The UK and EU require standard APIs",
+        "Singapore promotes optional platforms",
+        "The U.S. lacks mandates, so banks decide on customer data access individually"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.36 说 Open APIs（开放 API）allow third-party access（允许第三方访问）to banking data and services；implementation varies（实施各异），some countries mandate（一些国家强制），others encourage（另一些鼓励）；UK and EU（英国和欧盟）require standard APIs（要求标准 API）；Singapore（新加坡）promotes optional platforms（推广可选平台）；U.S. lacks mandates（美国缺乏强制要求），banks decide customer data access individually（银行自行决定客户数据访问）。",
+      "difficulty": "hard",
+      "tags": [
+        "Open Banking",
+        "Open APIs",
+        "UK EU",
+        "Singapore",
+        "U.S."
+      ],
+      "source": "p.36: 'some countries mandate / others encourage / UK and EU require standard APIs / Singapore promotes optional platforms / U.S. lacks mandates' "
+    },
+    {
+      "id": "ch07-b2-049",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "What strategies can banks use in response to Open Banking according to the slides?",
+      "options": [
+        "Comply minimally, collaborate, expand APIs, or offer Banking-as-a-Service",
+        "Only refuse all third-party access",
+        "Only eliminate all APIs",
+        "Only mandate customer data sharing in every country"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.36 说 Banks can comply minimally（最低限度合规）、collaborate（合作）、expand APIs（扩展 API）或 offer Banking-as-a-Service（提供银行即服务）。其他选项不是该页策略。",
+      "difficulty": "medium",
+      "tags": [
+        "Open Banking strategies",
+        "comply minimally",
+        "collaborate",
+        "Banking-as-a-Service"
+      ],
+      "source": "p.36: 'Banks can comply minimally, collaborate, expand APIs, or offer Banking-as-a-Service' "
+    },
+    {
+      "id": "ch07-b2-050",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which statements about Banking-as-a-Service (BaaS) are correct according to the slides?",
+      "options": [
+        "BaaS uses third parties to deliver banks' financial services",
+        "It expands reach beyond the bank's existing customer base",
+        "Third parties innovate and create unique value for customers",
+        "It enables embedded finance through nonfinancial online platforms"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.37 说 BaaS（银行即服务）uses third parties（利用第三方）to deliver banks' financial services（交付银行金融服务）；expands reach beyond existing customer base（扩展至现有客户群之外）；third parties innovate and create unique value（第三方创新并创造独特价值）；enables embedded finance（嵌入式金融）through nonfinancial online platforms（通过非金融在线平台）。",
+      "difficulty": "medium",
+      "tags": [
+        "BaaS",
+        "third parties",
+        "embedded finance",
+        "nonfinancial platforms"
+      ],
+      "source": "p.37: 'BaaS uses third parties / Expands reach / Third parties innovate / embedded finance through nonfinancial online platforms' "
+    },
+    {
+      "id": "ch07-b2-051",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "In the BaaS architecture diagram, which component connects the Fintech App used by external users to BaaS?",
+      "options": [
+        "Open APIs",
+        "Branch App",
+        "Enterprise Service Bus directly",
+        "Core Banking System adapter"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.38 图中 Fintech App（金融科技应用，Third Party 第三方）通过 Open APIs（开放 API）连接到 BaaS 区域；Branch App（分行应用）和 Mobile Banking App（移动银行应用）通过 API 连接到 Business Process Management System（业务流程管理系统）。",
+      "difficulty": "medium",
+      "tags": [
+        "BaaS architecture",
+        "Open APIs",
+        "Fintech App"
+      ],
+      "source": "p.38: diagram 'Fintech App. / Open APIs / BaaS' "
+    },
+    {
+      "id": "ch07-b2-052",
+      "chapter": "ch07",
+      "type": "single",
+      "question": "In the BaaS architecture diagram, what does the Enterprise Service Bus contain?",
+      "options": [
+        "Process Orchestration Platform",
+        "A Branch App",
+        "Open APIs only",
+        "A Fintech App"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.38 图显示 Enterprise Service Bus（企业服务总线）包含 Process Orchestration Platform（流程编排平台），并通过 API 与上层 BPMS/Open APIs 及下层 adapters（适配器）连接。",
+      "difficulty": "medium",
+      "tags": [
+        "BaaS architecture",
+        "Enterprise Service Bus",
+        "process orchestration"
+      ],
+      "source": "p.38: diagram 'Enterprise Service Bus / Process Orchestration Platform' "
+    },
+    {
+      "id": "ch07-b2-053",
+      "chapter": "ch07",
+      "type": "multi",
+      "question": "Which BaaS considerations are listed in the slides?",
+      "options": [
+        "PI wrappers must conform to external standards and security measures",
+        "Banks without SOA face greater challenges in creating Open APIs",
+        "Open APIs may increase costs and risk overload and data breaches",
+        "Sharing APIs risks disintermediation and weakening customer relationships"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.39 说 PI wrappers（可能指 API wrappers，接口包装器）must conform to external standards and security measures（符合外部标准和安全措施）；banks without SOA（没有面向服务架构的银行）face greater challenges（面临更大挑战）creating Open APIs；Open APIs may increase costs and risk overload and data breaches（增加成本、过载和数据泄露风险）；sharing APIs risks disintermediation（去中介化）and weakening customer relationships（削弱客户关系）。四项均列出。",
+      "difficulty": "hard",
+      "tags": [
+        "BaaS considerations",
+        "SOA",
+        "Open APIs",
+        "disintermediation",
+        "data breaches"
+      ],
+      "source": "p.39: 'PI wrappers must conform to external standards and security measures / Banks without SOA / risk overload and data breaches / disintermediation' "
+    },
+    {
+      "id": "ch11-b2-001",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which statement about trade-related banking transactions is correct according to the slides?",
+      "options": [
+        "They are still largely driven by paper documents and manual processes",
+        "They have become fully paperless because dematerialization has succeeded completely",
+        "They no longer involve banks",
+        "They are driven only by blockchain and no paper documents remain"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 说 trade-related banking transactions（贸易相关银行交易）still are largely driven by paper documents（仍主要由纸质文件驱动），attempts to dematerialize（去材料化）have had limited success（成功有限），still very much driven by manual processes（仍高度依赖人工流程）。blockchain（区块链）只是 renewed interest（重新引发兴趣），并非已经完全没有纸质文件。",
+      "difficulty": "easy",
+      "tags": [
+        "trade finance",
+        "paper documents",
+        "manual processes"
+      ],
+      "source": "p.2: 'still are largely driven by paper documents / limited success / manual processes' "
+    },
+    {
+      "id": "ch11-b2-002",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that new technologies such as blockchain have renewed interest in leveraging technology to improve trade finance.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.2 原文写 New technologies (i.e. blockchain) have renewed interest in leveraging technology to improve the trade finance（区块链等新技术重新引发利用技术改进贸易融资的兴趣）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "blockchain",
+        "trade finance",
+        "new technologies"
+      ],
+      "source": "p.2: 'New technologies (i.e. blockchain) have renewed interest' "
+    },
+    {
+      "id": "ch11-b2-003",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "In the p.3 bar chart on digital channel or digital process utilization, which item has the highest percentage?",
+      "options": [
+        "Digital (or paperless) documents for filing/transmission",
+        "Electronic/digital signature platforms",
+        "Fintech platforms offering digital trade finance solutions",
+        "Intermediation with trade-related financing providers like banks"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.3 条形图显示 Banks 的 Digital (or paperless) documents for filing/transmission（用于提交/传输的数字或无纸化文件）最长，约四成以上；electronic/digital signature platforms（电子/数字签名平台）次之；fintech platforms（金融科技平台）和 businesses 的 intermediation（中介化）较低。",
+      "difficulty": "medium",
+      "tags": [
+        "digital utilization",
+        "paperless documents",
+        "bar chart"
+      ],
+      "source": "p.3: bar chart 'Digital (or paperless) documents for filing/transmission' highest\" "
+    },
+    {
+      "id": "ch11-b2-004",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which items appear in the p.3 digital channel or digital process utilization chart?",
+      "options": [
+        "Digital (or paperless) documents for filing/transmission",
+        "Electronic/digital signature platforms",
+        "Fintech platforms offering digital trade finance solutions",
+        "Intermediation with trade-related financing providers like banks"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.3 图列出 Banks 的 digital/paperless documents（数字/无纸化文件）、electronic/digital signature platforms（电子/数字签名平台）、fintech platforms offering digital trade finance solutions（提供数字贸易融资方案的金融科技平台），以及 Businesses 的 intermediation with trade-related financing providers（与贸易相关融资提供者的中介化）和 digitization of key business documents（关键业务文件数字化）。",
+      "difficulty": "medium",
+      "tags": [
+        "digital utilization chart",
+        "fintech platforms",
+        "intermediation"
+      ],
+      "source": "p.3: bar chart items\" "
+    },
+    {
+      "id": "ch11-b2-005",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which case study question is listed for The Struggle to Dematerialize Shipping Documents?",
+      "options": [
+        "What incentives or assurances might Bolero have used regarding the legality of paperless transfer of title?",
+        "How many trade documents does every bank process daily?",
+        "Which bank has the largest number of correspondent banks?",
+        "How can all countries eliminate paper documents immediately?"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.4 的 case study 问题包括 Bolero 如何用 incentives or assurances（激励或保证）解决 banks 对 paperless transfer of title（无纸化所有权转移）legality（合法性）的担忧，以及为何使用/迁移 SWIFT 基础设施、持续寻找新业务方法、bill-of-lading dematerialization（提单去材料化）实施策略。其他选项不是该页问题。",
+      "difficulty": "easy",
+      "tags": [
+        "Bolero case study",
+        "paperless transfer of title",
+        "bill of lading"
+      ],
+      "source": "p.4: 'legality of paperless transfer of title' "
+    },
+    {
+      "id": "ch11-b2-006",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "In the simple trade payment scenario diagram, what flows from the importer's bank to the exporter's bank?",
+      "options": [
+        "Payment",
+        "Goods",
+        "Trade documents only",
+        "Bill of lading only"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.5 图显示 Importer's Bank（进口商银行）通过 Payment（付款）箭头向 Exporter's Bank（出口商银行）付款；Goods（货物）通过 Carrier（承运人）流动；Trade Documents（贸易文件）在 Importer 与 Exporter 之间用虚线表示。",
+      "difficulty": "easy",
+      "tags": [
+        "simple trade payment",
+        "importer's bank",
+        "exporter's bank",
+        "payment"
+      ],
+      "source": "p.5: diagram 'Importer's Bank / Payment / Exporter's Bank' "
+    },
+    {
+      "id": "ch11-b2-007",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which of the following are common trade documents that banks must handle according to the slides?",
+      "options": [
+        "Commercial invoice",
+        "Packing list",
+        "Certificate of origin",
+        "Bill of lading"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.6 列出 common trade documentation（常见贸易文件）：commercial invoice（商业发票）、packing list（装箱单）、certificate of inspection（检验证书）、certificate of origin（原产地证书）、insurance certificate/policy（保险凭证/保单）、bill of lading（提单）、bill of exchange（汇票）、promissory note（本票）。四项均属于列表。",
+      "difficulty": "easy",
+      "tags": [
+        "trade documentation",
+        "commercial invoice",
+        "packing list",
+        "bill of lading"
+      ],
+      "source": "p.6: 'Commercial invoice / Packing list / Certificate of origin / Bill of lading' "
+    },
+    {
+      "id": "ch11-b2-008",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which of the following is NOT listed as common trade documentation that banks must handle?",
+      "options": [
+        "Promissory note",
+        "Bill of exchange",
+        "Certificate of inspection",
+        "Trade Finance Registry"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "p.6 列出 promissory note（本票）、bill of exchange（汇票）、certificate of inspection（检验证书）等。Trade Finance Registry（贸易融资登记处）是 p.37 的 fraud prevention（欺诈防范）工具，不是该页贸易文件。",
+      "difficulty": "medium",
+      "tags": [
+        "trade documentation",
+        "promissory note",
+        "Trade Finance Registry"
+      ],
+      "source": "p.6: list includes promissory note, bill of exchange, certificate of inspection; p.37 Trade Finance Registries\" "
+    },
+    {
+      "id": "ch11-b2-009",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which risks does the buyer/importer face according to the slides?",
+      "options": [
+        "Goods are not delivered",
+        "Goods are not delivered on schedule",
+        "Goods are of inferior quality",
+        "Importer delays payment to the exporter"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.7 说 Buyer/importer（买方/进口商）risks loss if goods purchased are not delivered（未交付）、not delivered on schedule（未按时交付）、of inferior quality（质量低劣）。Importer delays payment（进口商延迟付款）是 seller/exporter（卖方/出口商）的风险。",
+      "difficulty": "medium",
+      "tags": [
+        "importer risks",
+        "delivery schedule",
+        "inferior quality"
+      ],
+      "source": "p.7: 'Buyer/importer risks loss if the goods purchased are Not delivered Not delivered on schedule Of inferior quality' "
+    },
+    {
+      "id": "ch11-b2-010",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which risk does the seller/exporter face according to the slides?",
+      "options": [
+        "The importer does not pay as promised or delays payment",
+        "The goods are not delivered on schedule",
+        "The goods are of inferior quality",
+        "The carrier damages the goods in transit only"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 说 Seller/exporter（卖方/出口商）faces risk of loss if the importer does not pay for the goods as promised（未按承诺付款）or delays payment（延迟付款）。Goods not delivered/on schedule/inferior quality 是 buyer/importer 的风险。",
+      "difficulty": "easy",
+      "tags": [
+        "exporter risks",
+        "importer nonpayment",
+        "payment delay"
+      ],
+      "source": "p.7: 'Seller/exporter faces the risk of loss if the importer Does not pay for the goods as promised Delays payment' "
+    },
+    {
+      "id": "ch11-b2-011",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that both buyer and seller face risks related to the damage or loss of goods in transit.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.7 最后一句说 Both face risks related to the damage or loss of goods in transit（双方都面临货物运输途中损坏或丢失的风险）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "goods in transit",
+        "damage or loss",
+        "shared risk"
+      ],
+      "source": "p.7: 'Both face risks related to the damage or loss of goods in transit' "
+    },
+    {
+      "id": "ch11-b2-012",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which payment arrangement is safest for the exporter according to the p.8 risk spectrum?",
+      "options": [
+        "Cash-in-Advance",
+        "Letters of Credit",
+        "Documentary Collections",
+        "Open Account"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 图上方 Exporter's Risk（出口商风险）箭头从 Most Secure（最安全）到 Highest Risk（最高风险）；Cash-in-Advance（预付现金）位于最安全端，Open Account（赊销/开立账户）位于最高风险端。",
+      "difficulty": "easy",
+      "tags": [
+        "cash-in-advance",
+        "exporter risk",
+        "risk spectrum"
+      ],
+      "source": "p.8: diagram 'Most Secure ... Cash-in-Advance ... Open Account ... Highest Risk' "
+    },
+    {
+      "id": "ch11-b2-013",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which payment arrangement is safest for the importer according to the p.8 risk spectrum?",
+      "options": [
+        "Open Account",
+        "Cash-in-Advance",
+        "Letters of Credit",
+        "Documentary Collections"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.8 图下方 Importer's Risk（进口商风险）箭头从 Highest Risk（最高风险）在左到 Most Secure（最安全）在右；Open Account（赊销/开立账户）在最右端，因此对 importer 最安全；Cash-in-Advance 对 importer 风险最高。",
+      "difficulty": "medium",
+      "tags": [
+        "open account",
+        "importer risk",
+        "risk spectrum"
+      ],
+      "source": "p.8: diagram 'Importer's Risk ... Most Secure ... Open Account' "
+    },
+    {
+      "id": "ch11-b2-014",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which payment arrangements sit between cash-in-advance and open account on the p.8 risk spectrum?",
+      "options": [
+        "Letters of Credit",
+        "Documentary Collections",
+        "Cash-in-Advance",
+        "Open Account"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.8 图从左到右为 Cash-in-Advance（预付现金）、Letters of Credit（信用证）、Documentary Collections（跟单托收）、Open Account（赊销/开立账户）。因此位于两端之间的中间选项是 Letters of Credit 和 Documentary Collections。",
+      "difficulty": "medium",
+      "tags": [
+        "letters of credit",
+        "documentary collections",
+        "risk spectrum"
+      ],
+      "source": "p.8: diagram 'Cash-in-Advance / Letters of Credit / Documentary Collections / Open Account' "
+    },
+    {
+      "id": "ch11-b2-015",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "For which arrangements are payment services the primary service used according to the slides?",
+      "options": [
+        "Cash-in-advance and open account arrangements",
+        "Only letters of credit and documentary collections",
+        "Only export factoring and term bill discounting",
+        "Only financial supply chain management"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 说 Payment services（支付服务）are the primary service used for cash-in-advance and open account arrangements（预付现金和赊销安排的主要服务）。Invoices and bills of exchange（发票和汇票）presented by exporter and accepted by importer 启动 payment process（支付流程）。",
+      "difficulty": "medium",
+      "tags": [
+        "payment services",
+        "cash-in-advance",
+        "open account"
+      ],
+      "source": "p.9: 'Payment services / primary service used for cash-in-advance and open account arrangements' "
+    },
+    {
+      "id": "ch11-b2-016",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that telegraphic transfers are the primary means of effecting international payments.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.9 原文写 Telegraphic transfers（电汇）are the primary means of effecting international payments（进行国际支付的主要方式）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "telegraphic transfers",
+        "international payments"
+      ],
+      "source": "p.9: 'Telegraphic transfers are the primary means of effecting international payments' "
+    },
+    {
+      "id": "ch11-b2-017",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which are benefits of documentary collections for the exporter according to the slides?",
+      "options": [
+        "The exporter retains control over the goods up to the point when the importer agrees to payment",
+        "It reduces counterparty payment risk",
+        "The importer can examine trade documents in advance of payment",
+        "It eliminates all risk that the importer refuses to pay"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.11 说 documentary collections（跟单托收）对 exporter（出口商）的好处是 retains control over the goods（保留货物控制权）up to the point when importer agrees to payment（直到进口商同意付款），reduces counterparty payment risk（降低交易对手付款风险）。Importer able to examine trade documents in advance（进口商可提前检查贸易文件）是对 importer 的好处。D 与 p.12 的 concern（进口商可能拒付）相反。",
+      "difficulty": "medium",
+      "tags": [
+        "documentary collections",
+        "exporter benefits",
+        "counterparty risk"
+      ],
+      "source": "p.11: 'Exporter / Retains control over the goods / Reduces counterparty payment risk / Importer / examine the trade documents in advance' "
+    },
+    {
+      "id": "ch11-b2-018",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What is the exporter's concern with documentary collections according to the slides?",
+      "options": [
+        "The importer may refuse to pay when presented with the trade documents",
+        "The importer can examine documents in advance",
+        "The exporter retains control over the goods until payment agreement",
+        "The importer's bank always guarantees payment"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.12 说 documentary collections 的 concerns（担忧）中，Exporter（出口商）担心 importer may refuse to pay when presented with the trade documents（进口商在收到贸易文件时可能拒付）。B、C 是 p.11 的 benefits（好处）；D 不准确，L/C 才涉及 bank guarantee（银行保证）。",
+      "difficulty": "medium",
+      "tags": [
+        "documentary collections concerns",
+        "importer refusal",
+        "trade documents"
+      ],
+      "source": "p.12: 'Exporter / Importer may refuse to pay when presented with the trade documents' "
+    },
+    {
+      "id": "ch11-b2-019",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What is the importer's concern with documentary collections according to the slides?",
+      "options": [
+        "Goods may not be delivered as expected after the payment obligation has been made",
+        "The exporter retains control over the goods until payment agreement",
+        "The importer can examine trade documents in advance",
+        "The importer's bank always guarantees delivery"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.12 说 Importer（进口商）担心 goods may not be delivered as expected（货物可能未按预期交付）after the payment obligation has been made（在承担付款义务之后）。B、C 是 benefits；D 不是该页内容。",
+      "difficulty": "medium",
+      "tags": [
+        "documentary collections concerns",
+        "importer risk",
+        "delivery"
+      ],
+      "source": "p.12: 'Importer / Goods may not be delivered as expected after the payment obligation has been made' "
+    },
+    {
+      "id": "ch11-b2-020",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "In the letter of credit flow diagram, what does the importer send to the importer's bank?",
+      "options": [
+        "Request for Letter of Credit",
+        "Letter of Credit directly to the exporter",
+        "Goods via carrier only",
+        "Payment directly to the exporter"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.13 图显示 Importer（进口商）向 Importer's Bank（进口商银行）发送 Request for Letter of Credit（信用证申请）；Importer's Bank 再向 Exporter's Bank（出口商银行）发送 Letter of Credit；Exporter's Bank 向 Exporter（出口商）发送 Letter of Credit。",
+      "difficulty": "medium",
+      "tags": [
+        "letter of credit flow",
+        "request for L/C",
+        "importer's bank"
+      ],
+      "source": "p.13: diagram 'Request for Letter of Credit / Importer's Bank' "
+    },
+    {
+      "id": "ch11-b2-021",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which benefits of irrevocable documentary credits are listed for the exporter?",
+      "options": [
+        "Provides a bank guarantee that the exporter will be paid as long as L/C requirements are met",
+        "The L/C can be used to secure preshipment finance",
+        "It gives a fixed date by which the exporter must ship to comply with L/C terms",
+        "It can secure longer terms of credit for a term bill of exchange"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "p.15 说 irrevocable documentary credits（不可撤销跟单信用证）对 Exporter（出口商）的好处：Provides a bank guarantee（银行保证）that exporter will be paid（出口商将获付款）as long as L/C requirements are met（只要满足信用证要求）；L/C can be used to secure preshipment finance（可用于获得装运前融资）。C、D 是 slides 中列给 Importer（进口商）的好处。",
+      "difficulty": "hard",
+      "tags": [
+        "irrevocable L/C",
+        "exporter benefits",
+        "preshipment finance"
+      ],
+      "source": "p.15: 'Exporter / Provides a bank guarantee / secure preshipment finance / Importer / fixed date / longer terms of credit' "
+    },
+    {
+      "id": "ch11-b2-022",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What is a key concern about L/C payment according to the slides?",
+      "options": [
+        "Payment is linked only to presentation of required documentation, not delivery or condition of goods",
+        "Payment is linked only to the actual condition of goods on delivery",
+        "Payment is always made before documents are presented",
+        "Payment is guaranteed by the carrier"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.16 说 Payment of the L/C（信用证付款）is linked only to the presentation of the required documentation（仅与提交所需文件相关），It is not dependent on the delivery of the goods or their condition when delivered（不取决于货物交付或交付时状况）。third-party inspection（第三方检验）可作为条件缓解。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C concerns",
+        "documentation",
+        "goods delivery"
+      ],
+      "source": "p.16: 'Payment of the L/C is linked only to the presentation of the required documentation / not dependent on the delivery of the goods' "
+    },
+    {
+      "id": "ch11-b2-023",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which L/C concerns are listed in the slides?",
+      "options": [
+        "Third-party inspection can be required as a condition of the L/C",
+        "The importer must have a line of credit or sufficient funds deposited as security",
+        "The cost of an L/C is higher than documentary collections",
+        "The cost depends on the importer's credit rating"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.16 列出 concerns（担忧）：third-party inspection（第三方检验）can be required as condition（可作为条件）；To obtain an L/C（获得信用证），importer must have a line of credit（授信额度）or sufficient funds deposited as security（足够资金作为担保）；cost of an L/C（信用证成本）higher than documentary collections（高于跟单托收）；cost depends on importer's credit rating（取决于进口商信用评级）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C concerns",
+        "third-party inspection",
+        "credit rating"
+      ],
+      "source": "p.16: 'Third-party inspection / line of credit / sufficient funds deposited / Cost of an L/C is higher' "
+    },
+    {
+      "id": "ch11-b2-024",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which assets may liens be placed on for working capital finance security according to the slides?",
+      "options": [
+        "Equipment",
+        "Raw materials",
+        "Inventory",
+        "Accounts receivable"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.17 说 working capital finance（营运资金融资）for security（作为担保），liens（留置权）may be placed on customers' equipment（设备）、raw materials（原材料）、inventory（库存）、accounts receivable（应收账款）。四项均列出。",
+      "difficulty": "medium",
+      "tags": [
+        "working capital finance",
+        "liens",
+        "inventory",
+        "accounts receivable"
+      ],
+      "source": "p.17: 'liens may be placed on customers Equipment Raw materials Inventory Accounts receivable' "
+    },
+    {
+      "id": "ch11-b2-025",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "How is working capital finance provided according to the slides?",
+      "options": [
+        "As short-term loans and revolving credit lines",
+        "Only as cash-in-advance payments",
+        "Only as irrevocable letters of credit",
+        "Only as export factoring without recourse"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.17 说 working capital finance（营运资金融资）provided as short-term loans（短期贷款）and revolving credit lines（循环信贷额度）。它通常 dependent on proof of customer's need（证明客户需要），commonly used with cash-in-advance or open account（常与预付现金或赊销安排一起使用），但提供方式不是只有 cash-in-advance 或 L/C。",
+      "difficulty": "easy",
+      "tags": [
+        "working capital finance",
+        "short-term loans",
+        "revolving credit lines"
+      ],
+      "source": "p.17: 'Provided as Short-term loans Revolving credit lines' "
+    },
+    {
+      "id": "ch11-b2-026",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which statements about term bill discounting are correct according to the slides?",
+      "options": [
+        "A term bill is a bill of exchange payable only after a fixed period of time",
+        "It represents a security that can be sold at a discount to raise funds immediately",
+        "Payment of term bills can be linked to L/Cs and drawn against the exporter's bank rather than the exporter",
+        "It carries considerably less credit risk and is attractive as a money market instrument"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.18 说 term bill（远期汇票）是 bill of exchange（汇票）payable only after a fixed period（固定期限后付款）；represents a security（代表一种证券）sold at a discount to raise funds immediately（贴现出售以立即筹资）；payment can be linked to L/Cs（可与信用证关联）and drawn against exporter's bank（向出口商银行开立）rather than exporter；carries considerably less credit risk（信用风险低得多）and attractive as money market instruments（作为货币市场工具有吸引力）。四项均正确。",
+      "difficulty": "hard",
+      "tags": [
+        "term bill discounting",
+        "bill of exchange",
+        "money market instruments"
+      ],
+      "source": "p.18: 'payable only after a fixed period / sold at a discount / linked to L/Cs / drawn against the exporter's bank / less credit risk' "
+    },
+    {
+      "id": "ch11-b2-027",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What is the main drawback of term bill discounting according to the slides?",
+      "options": [
+        "Discounting diminishes the profitability of the trade transaction",
+        "The importer never receives trade credit",
+        "The exporter never receives immediate payment",
+        "It eliminates all credit risk for the exporter"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.19 说 term bill discounting（远期汇票贴现）的 drawback（缺点）是 discounting diminishes the profitability of the trade transaction（贴现降低贸易交易盈利能力）。其 benefits 包括 importer receives a period of trade credit（进口商获得一段贸易信用）和 exporter receives immediate payment（出口商立即收款）。",
+      "difficulty": "medium",
+      "tags": [
+        "term bill discounting drawback",
+        "profitability",
+        "trade credit"
+      ],
+      "source": "p.19: 'Discounting diminishes the profitability of the trade transaction' "
+    },
+    {
+      "id": "ch11-b2-028",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which statements about export factoring are correct according to the slides?",
+      "options": [
+        "It is used by exporters who have difficulty securing bank lines of credit, such as small and medium enterprises",
+        "The factor pays cash for the exporter's future invoice payments or accounts receivable",
+        "If without recourse, the factor assumes the risk that the importer does not pay",
+        "It reduces exporter's counterparty credit risk and avoids adding debt to the exporter's balance sheet"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.20-21 说 export factoring（出口保理）用于 difficulty securing bank lines of credit（难以获得银行授信）的 exporters，例如 SMEs（中小企业）；factor（保理商）pays cash for future invoice payments or accounts receivable（为未来发票付款或应收账款支付现金）；if without recourse（无追索权），factor assumes risk importer does not pay（保理商承担进口商不付款风险）；reduces exporter's counterparty credit risk（降低出口商交易对手信用风险）and avoids adding debt to balance sheet（避免在资产负债表增加债务）。四项均正确。",
+      "difficulty": "hard",
+      "tags": [
+        "export factoring",
+        "without recourse",
+        "SMEs",
+        "balance sheet"
+      ],
+      "source": "p.20-21: 'difficulty securing bank lines of credit / factor pays cash / without recourse / avoids adding debt' "
+    },
+    {
+      "id": "ch11-b2-029",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which parties are involved in Financial Supply Chain Management according to the slides?",
+      "options": [
+        "Buyer (Anchor)",
+        "Vendor",
+        "Financial institution",
+        "Carrier acting as customs authority"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.22 说 Financial Supply Chain Management（金融供应链管理）parties involved（涉及方）是 buyer (Anchor)（买方/锚企业）、vendor（供应商）、financial institution（金融机构）。Carrier acting as customs authority（承运人充当海关机构）不是该页列出方。",
+      "difficulty": "medium",
+      "tags": [
+        "financial supply chain management",
+        "anchor buyer",
+        "vendor",
+        "financial institution"
+      ],
+      "source": "p.22: 'Parties involved: buyer (Anchor), vendor, and financial institution' "
+    },
+    {
+      "id": "ch11-b2-030",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "Which statement about standardization in trade finance is correct according to the slides?",
+      "options": [
+        "Trade finance rules are standardized, but trade documents are not",
+        "Trade documents are standardized, but trade finance rules are not",
+        "Both trade finance rules and trade documents are fully standardized across all countries",
+        "SWIFT messaging has made legal frameworks identical worldwide"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.23 说 Trade finance rules are standardized（贸易融资规则已标准化），trade documents are not（但贸易文件没有）；Differences in legal frameworks（法律框架差异）from country to country have made standardization efforts difficult；Use of SWIFT messaging has helped（SWIFT 报文使用有帮助），但未使法律框架完全相同。",
+      "difficulty": "medium",
+      "tags": [
+        "standardization",
+        "trade documents",
+        "SWIFT messaging"
+      ],
+      "source": "p.23: 'Trade finance rules are standardized, trade documents are not / SWIFT messaging has helped' "
+    },
+    {
+      "id": "ch11-b2-031",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which business opportunities in trade finance are listed in the slides?",
+      "options": [
+        "Transition to open account arrangements to avoid costs and overheads of issuing L/Cs",
+        "Open account arrangements are good for large corporations that import from a large number of suppliers",
+        "White-labeling trade services to other banking institutions",
+        "Eliminating all legal framework differences by using paper documents only"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.23 列出 opportunities（机会）：transition to open account arrangements（转向赊销安排）avoid costs and overheads of issuing L/Cs（避免开立信用证的成本和间接费用）；good for large corporations（适合大型公司）importing from large number of suppliers（从大量供应商进口）；white-labeling trade services to other banking institutions（向其他银行机构白标贸易服务）。D 与 slides 所说 legal framework differences 使 standardization 困难相反。",
+      "difficulty": "medium",
+      "tags": [
+        "open account",
+        "white-labeling",
+        "trade finance opportunities"
+      ],
+      "source": "p.23: 'Transition to open account arrangements / avoid costs and overheads of issuing L/Cs / White-labeling trade services' "
+    },
+    {
+      "id": "ch11-b2-032",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which business challenges in processing L/Cs are listed in the slides?",
+      "options": [
+        "Processing L/Cs is often still very manual and requires specialized skills and expertise",
+        "Potential for mistakes that lead to losses",
+        "Many terms may be maintained in free-form text fields in electronic messages and must be parsed and interpreted by people",
+        "Paper copies of trade documents must still be maintained"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.24 说 Processing L/Cs（处理信用证）often still very manual（仍高度人工），requires specialized skills and expertise（需要专业技能），potential for mistakes that lead to losses（可能导致损失）；many terms may be maintained in free-form text fields（自由文本字段）in electronic messages（电子报文）and must be parsed and interpreted by people（需人工解析和解释）；paper copies of trade documents（纸质贸易文件副本）must still be maintained（仍须保留）。四项均正确。",
+      "difficulty": "hard",
+      "tags": [
+        "L/C processing challenges",
+        "manual processing",
+        "free-form text",
+        "paper copies"
+      ],
+      "source": "p.24: 'often still very manual / specialized skills / free-form text fields / Paper copies' "
+    },
+    {
+      "id": "ch11-b2-033",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that some countries do not legally recognize electronic transactions, so paper copies of trade documents must still be maintained.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.24 说 Paper copies of trade documents must still be maintained（纸质贸易文件仍须保留），because Some countries do not legally recognize electronic transactions（一些国家不法律承认电子交易）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "electronic transactions",
+        "paper copies",
+        "legal recognition"
+      ],
+      "source": "p.24: 'Some countries do not legally recognize electronic transactions' "
+    },
+    {
+      "id": "ch11-b2-034",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What must the importer's bank do in the case of nonpayment according to the slides?",
+      "options": [
+        "Retain the goods and try to sell them to recover funds",
+        "Immediately destroy the goods",
+        "Always recover the full amount regardless of goods type",
+        "Transfer the goods to the exporter without any recovery effort"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.25 说 In the case of nonpayment（不付款情形），Importer's bank（进口商银行）retains goods（保留货物）and must try to sell them to recover funds（尝试出售以回收资金）；Recovery rates vary based on type of goods（回收率因货物类型而异）。",
+      "difficulty": "medium",
+      "tags": [
+        "nonpayment",
+        "importer's bank",
+        "recovery rates"
+      ],
+      "source": "p.25: 'Importer's bank retains goods and must try to sell them to recover funds / Recovery rates vary' "
+    },
+    {
+      "id": "ch11-b2-035",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which fraud-related points are listed in the slides?",
+      "options": [
+        "Many scams related to forged L/Cs",
+        "Banks may require questionable importers to deposit funds rather than providing credit",
+        "Trade Finance Registries help prevent duplicate financing fraud",
+        "Recovery rates vary based on type of goods"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.25 说 Avoiding fraud（防范欺诈）：many scams related to forged L/Cs（与伪造信用证相关的骗局），banks may require questionable importers to deposit funds rather than providing credit（可能要求可疑进口商存入资金而非提供信贷）。p.37 说 Trade Finance Registries（贸易融资登记处）help prevent duplicate financing fraud（防止重复融资欺诈）。D 是 p.25 非付款回收的内容，不是 fraud 点。",
+      "difficulty": "hard",
+      "tags": [
+        "fraud prevention",
+        "forged L/Cs",
+        "Trade Finance Registries",
+        "duplicate financing"
+      ],
+      "source": "p.25: 'forged L/Cs / deposit funds rather than providing credit'; p.37: 'Trade Finance Registries help banks prevent duplicate financing fraud' "
+    },
+    {
+      "id": "ch11-b2-036",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which activities belong to the L/C lifecycle Design and Setup stage according to the slides?",
+      "options": [
+        "Define the types of L/Cs that will be offered",
+        "Define variations that will be supported within each type",
+        "Create fee structures and align with cost of channel operation",
+        "Link delivery channels with trade finance IT systems"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.26 说 L/C lifecycle Design and Setup（信用证生命周期设计与设置）包括 define types of L/Cs offered（定义提供的信用证类型）、variations supported within each type（每种类型支持的变化）、create fee structures（创建费用结构）并 align with cost of channel operation（与渠道运营成本一致）、link delivery channels with trade finance IT systems（将交付渠道与贸易融资 IT 系统连接）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C lifecycle",
+        "design and setup",
+        "fee structures",
+        "delivery channels"
+      ],
+      "source": "p.26: 'Define the types of L/Cs / Variations / Create fee structures / Link delivery channels' "
+    },
+    {
+      "id": "ch11-b2-037",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which checks are performed in the L/C lifecycle Engage Customer stage according to the slides?",
+      "options": [
+        "Anti-money laundering (AML) checks",
+        "Know your customer (KYC) checks",
+        "Vet the correspondent bank for political corruption or illicit activities",
+        "Guarantee that all applicants are non-customers"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.27 说 Engage Customer（吸引客户）阶段 perform AML checks（反洗钱检查）、KYC checks（了解你的客户检查）、Vet the correspondent bank（审查代理行）not associated with political corruption or illicit activities（不与政治腐败或非法活动相关）。Applicants for L/Cs are usually already the bank's customers（申请人通常是现有客户），也可能为非经常客户开立 one-time L/Cs（一次性信用证），D 错。",
+      "difficulty": "medium",
+      "tags": [
+        "engage customer",
+        "AML",
+        "KYC",
+        "correspondent bank"
+      ],
+      "source": "p.27: 'AML checks / KYC checks / Vet the correspondent bank / one-time L/Cs' "
+    },
+    {
+      "id": "ch11-b2-038",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What must be verified about ports in the L/C Capture Order stage according to the slides?",
+      "options": [
+        "The port of delivery and transit ports are not in countries blacklisted for AML",
+        "The port of delivery is always in the exporter's country",
+        "The transit ports are always in the importer's country",
+        "The port of delivery has the lowest freight cost"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.28 说 Capture Order（捕获订单）阶段要 Verify port of delivery（核实交付港）and transit ports（转运港）are not in countries that have been blacklisted for AML（未被列入反洗钱黑名单的国家）。其他选项不是该页要求。",
+      "difficulty": "medium",
+      "tags": [
+        "capture order",
+        "port verification",
+        "AML blacklist"
+      ],
+      "source": "p.28: 'Verify port of delivery and the transit ports are not in countries that have been blacklisted for AML' "
+    },
+    {
+      "id": "ch11-b2-039",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which details are captured in the L/C Capture Order stage according to the slides?",
+      "options": [
+        "Beneficiary name and address; applicant name and address",
+        "Currency and amount; expiry date",
+        "Delivery mode such as registered mail, courier, or SWIFT/Telex",
+        "Payable on sight or for term and term length"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.28 列出 Capture Order details（捕获订单细节）：beneficiary name and address（受益人姓名地址）、applicant name and address（申请人姓名地址）、currency and amount（币种和金额）、expiry date（到期日）、delivery mode（交付方式）如 registered mail, courier, or SWIFT/Telex；payable on sight or for term and term length（即期或远期及期限）；documents required（所需文件）等。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "capture order details",
+        "beneficiary",
+        "expiry date",
+        "delivery mode"
+      ],
+      "source": "p.28: 'Beneficiary name and address / Currency and amount / Expiry date / Delivery mode / Payable on sight or for term' "
+    },
+    {
+      "id": "ch11-b2-040",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What is the correct sequence of the L/C Fulfill transaction sub-steps shown in the slides?",
+      "options": [
+        "Open L/C → Amend L/C → Distribute Payment(s) → Close L/C",
+        "Open L/C → Close L/C → Amend L/C → Distribute Payment(s)",
+        "Amend L/C → Open L/C → Distribute Payment(s) → Close L/C",
+        "Distribute Payment(s) → Open L/C → Amend L/C → Close L/C"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.29 图显示 Fulfill transaction（履行交易）顺序为 Open L/C（开立信用证）→ Amend L/C（修改信用证）→ Distribute Payment(s)（分配付款）→ Close L/C（关闭信用证），且 Amend 和 Distribute 有循环箭头表示可重复。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C fulfill transaction",
+        "open L/C",
+        "amend L/C",
+        "close L/C"
+      ],
+      "source": "p.29: diagram 'Open L/C / Amend L/C / Distribute Payment(s) / Close L/C' "
+    },
+    {
+      "id": "ch11-b2-041",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which amendments may be made to an L/C in the Fulfill transaction stage according to the slides?",
+      "options": [
+        "Extend the expiry or latest shipping date",
+        "Adjust the amount of the L/C",
+        "Modify the trade documentation requirements",
+        "Change the beneficiary's details"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.29 说 Amendments（修改）may extend expiry or latest shipping date（延长到期日或最迟装运日）、adjust the amount of the L/C（调整信用证金额）、modify trade documentation requirements（修改贸易文件要求）、change beneficiary's details（更改受益人信息）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C amendments",
+        "expiry date",
+        "beneficiary details"
+      ],
+      "source": "p.29: 'Extend the expiry or latest shipping date / Adjust the amount / Modify the trade documentation requirements / Change the beneficiary details' "
+    },
+    {
+      "id": "ch11-b2-042",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that in Maintain transaction, credit lines are reviewed annually for stable customers and more frequently for those under financial stress.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.30 说 Maintain transaction（维护交易）review customers' credit lines（审查客户授信额度），annually for stable customers（稳定客户每年一次），more frequently for those under financial stress（财务压力客户更频繁）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "maintain transaction",
+        "credit lines",
+        "financial stress"
+      ],
+      "source": "p.30: 'Annually for stable customers / More frequently for those under financial stress' "
+    },
+    {
+      "id": "ch11-b2-043",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What does the L/C lifecycle Review stage determine according to the slides?",
+      "options": [
+        "Product and customer profitability and which customers may benefit from other trade services such as working capital financing",
+        "Only the exact shipping date of the goods",
+        "Only the port of discharge for AML blacklist checks",
+        "Only the correspondent bank's political affiliations"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.31 说 Review（评审）阶段 determine product and customer profitability（确定产品和客户盈利性），evaluate which customers will benefit from other trade services（评估哪些客户会受益于其他贸易服务），例如 working capital financing（营运资金融资）。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C review",
+        "profitability",
+        "working capital financing"
+      ],
+      "source": "p.31: 'Determine the product and customer profitability / other trade services / working capital financing' "
+    },
+    {
+      "id": "ch11-b2-044",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "What may result from ineffective verification of L/C trade documentation according to the slides?",
+      "options": [
+        "Erroneously delaying payment to the exporter may lead to a penalty interest claim by the beneficiary",
+        "Erroneously making payment before all L/C terms are fulfilled may lead to non-fulfillment of goods delivery",
+        "Processing mistakes may cause reputational damage and loss of business",
+        "All verification errors are harmless because L/C payment only depends on documents"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.32 说 effective verification（有效核实）crucial（至关重要）；erroneously delaying payment（错误延迟付款）可能 lead to penalty interest claim（罚息索赔）by beneficiary（受益人）；erroneously making payment before all terms fulfilled（条款未全部满足前错误付款）可能 lead to non-fulfillment of goods delivery（货物交付未履行）；processing mistakes（处理错误）also cause reputational damage and loss of business（声誉损害和业务损失）。D 与这些风险相反。",
+      "difficulty": "hard",
+      "tags": [
+        "transaction fulfillment",
+        "verification errors",
+        "penalty interest",
+        "reputational damage"
+      ],
+      "source": "p.32: 'penalty interest claim / non-fulfillment of the goods delivery / reputational damage and loss of business' "
+    },
+    {
+      "id": "ch11-b2-045",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which documentation checks for L/Cs are listed in the slides?",
+      "options": [
+        "Documents presented relate to the L/C",
+        "Documentation is presented before expiry date",
+        "Original L/C and amendment documents are presented",
+        "Endorsements, transfers, or assignments are presented"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.33 列出 typical documentation checks（典型文件检查）：documents presented relate to the L/C（提交文件与信用证相关）、documentation presented before expiry date（到期日前提交）、original L/C and amendment documents presented（提交正本信用证和修改文件）、endorsements transfers assignments presented（提交背书、转让或让与）、documents comply with accepted amendments（文件符合已接受修改）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C documentation checks",
+        "expiry date",
+        "original L/C",
+        "endorsements"
+      ],
+      "source": "p.33: 'Documents presented relate to the L/C / before expiry date / Original L/C and amendment documents / Endorsements, transfers, or assignments' "
+    },
+    {
+      "id": "ch11-b2-046",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "What must the L/C include and comply with according to the slides?",
+      "options": [
+        "A reference and compliance with relevant UCP",
+        "Only a free-form text description with no reference",
+        "Only the importer's credit rating",
+        "Only the carrier's insurance certificate"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.33 说 Must ensure that L/C includes reference（包含参考号）and is compliant with relevant UCP（符合相关 UCP，跟单信用证统一惯例）。其他选项不是该页要求。",
+      "difficulty": "medium",
+      "tags": [
+        "L/C reference",
+        "UCP",
+        "compliance"
+      ],
+      "source": "p.33: 'Must ensure that L/C includes reference and is compliant with relevant UCP' "
+    },
+    {
+      "id": "ch11-b2-047",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which statements about centralized processing in geographic distribution are correct according to the slides?",
+      "options": [
+        "It is more efficient in terms of resources",
+        "It complicates document management logistics",
+        "Transportation of physical documents to remote processing centers can cause delays",
+        "Using scanned images with BPM can help accelerate remote processing and enable processing before documents arrive"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.34 说 Centralized processing（集中处理）more efficient in terms of resources（资源效率更高）；complicates document management logistics（使文件管理物流复杂化）；transportation of physical documents（运输纸质文件）to remote processing centers can cause delays（可能造成延迟）；using scanned images with BPM（使用扫描图像与 BPM）can help accelerate remote processing（加速远程处理）and enables processing to begin before documents arrive（文件到达前开始处理）。四项均正确。",
+      "difficulty": "hard",
+      "tags": [
+        "centralized processing",
+        "document logistics",
+        "scanned images",
+        "BPM"
+      ],
+      "source": "p.34: 'More efficient in terms of resources / complicates document management logistics / scanned images with BPM' "
+    },
+    {
+      "id": "ch11-b2-048",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which systems are shown integrating with the Trade Finance System in the p.35 diagram?",
+      "options": [
+        "Electronic Banking Channels",
+        "Imaging and Workflow System",
+        "Customer Information (CIF)",
+        "FX Rates and Global Credit Limits"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.35 图显示 Trade Finance System（贸易融资系统）integrates with（集成）Electronic Banking Channels（电子银行渠道）、Imaging and Workflow System（影像与工作流系统）、Customer Information (CIF)（客户信息）、FX Rates（汇率）、Global Credit Limits（全球信用额度）、MIS（管理信息系统）、Compliance/OFAC（合规/OFAC）、Core Banking System（核心银行系统）、SWIFT Gateway（SWIFT 网关）、General Ledger（总账）。四项均在图中。",
+      "difficulty": "medium",
+      "tags": [
+        "trade finance IT system",
+        "integration",
+        "CIF",
+        "FX rates"
+      ],
+      "source": "p.35: diagram 'Electronic Banking Channels / Imaging and Workflow System / Customer Information (CIF) / FX Rates / Global Credit Limits' "
+    },
+    {
+      "id": "ch11-b2-049",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The p.35 trade finance IT system diagram shows integration with Compliance/OFAC and a SWIFT Gateway.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.35 图右侧有 Compliance/OFAC（合规/OFAC），下方有 SWIFT Gateway（SWIFT 网关），均与 Trade Finance System（贸易融资系统）双向连接。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "compliance",
+        "OFAC",
+        "SWIFT gateway",
+        "trade finance IT system"
+      ],
+      "source": "p.35: diagram 'Compliance / OFAC' and 'SWIFT Gateway' "
+    },
+    {
+      "id": "ch11-b2-050",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which are common configurations for geographically centralized or distributed trade finance IT systems according to the slides?",
+      "options": [
+        "Fully centralized: a single trade finance IT system instance processes transactions for all international operations",
+        "Centralized multi-instance: multiple instances run in parallel, one for each country served, all in one physical location",
+        "Distributed multi-instance: multiple instances run in parallel and each instance is physically located within the country it serves",
+        "No-instance: no trade finance IT system is used at any location"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.36 列出 common configurations（常见配置）：Fully centralized（完全集中）single instance（单一实例）for all international operations（所有国际业务）；Centralized multi-instance（集中多实例）multiple instances parallel（多个实例并行），one for each country served（每个服务国家一个），all in one physical location（都在一个物理地点）；Distributed multi-instance（分布式多实例）multiple instances parallel and each physically located within country served（每个实例位于所服务国家）。D 不是列出配置。",
+      "difficulty": "hard",
+      "tags": [
+        "trade finance IT configurations",
+        "fully centralized",
+        "centralized multi-instance",
+        "distributed multi-instance"
+      ],
+      "source": "p.36: 'Fully centralized / Centralized multi-instance / Distributed multi-instance' "
+    },
+    {
+      "id": "ch11-b2-051",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that in a distributed multi-instance configuration, each trade finance IT system instance is physically located within the country that it serves.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.36 说 Distributed multi-instance（分布式多实例）中 multiple instances run in parallel（多个实例并行），and each instance is physically located within the country that it serves（每个实例物理上位于所服务国家）。因此判断正确。",
+      "difficulty": "medium",
+      "tags": [
+        "distributed multi-instance",
+        "physical location",
+        "country served"
+      ],
+      "source": "p.36: 'each instance is physically located within the country that it serves' "
+    },
+    {
+      "id": "ch11-b2-052",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which fraud prevention measures are listed in the slides?",
+      "options": [
+        "Trade Finance Registries help banks prevent duplicate financing fraud",
+        "AI helps detect fraud by analyzing patterns and inconsistencies between documents",
+        "SGTraDex enables secure sharing of supply chain information",
+        "Using only forged L/Cs to speed up processing"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "p.37 说 Trade Finance Registries（贸易融资登记处）help banks prevent duplicate financing fraud（防止重复融资欺诈）；AI（人工智能）helps detect fraud（检测欺诈）by analyzing patterns and inconsistencies between documents（分析文件间模式和矛盾）；SGTraDex enables secure sharing of supply chain information（安全共享供应链信息）。D 是欺诈行为，不是防范措施。",
+      "difficulty": "medium",
+      "tags": [
+        "fraud prevention",
+        "Trade Finance Registries",
+        "AI",
+        "SGTraDex"
+      ],
+      "source": "p.37: 'Trade Finance Registries / AI helps detect fraud / SGTraDex' "
+    },
+    {
+      "id": "ch11-b2-053",
+      "chapter": "ch11",
+      "type": "single",
+      "question": "How does duplicate financing occur in trade finance fraud according to the slides?",
+      "options": [
+        "Through cloned bills of lading",
+        "Through using original L/Cs only once",
+        "Through sharing supply chain information via SGTraDex",
+        "Through annual credit line reviews"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.37 说 Duplicate financing（重复融资）occurs through cloned bills of lading（通过克隆/伪造提单）。Trade Finance Registries（贸易融资登记处）可帮助 prevent duplicate financing fraud（防止重复融资欺诈）。",
+      "difficulty": "medium",
+      "tags": [
+        "duplicate financing",
+        "cloned bills of lading",
+        "fraud"
+      ],
+      "source": "p.37: 'Duplicate financing occurs through cloned bills of lading' "
+    },
+    {
+      "id": "ch11-b2-054",
+      "chapter": "ch11",
+      "type": "multi",
+      "question": "Which statements about fintech in trade finance are correct according to the slides?",
+      "options": [
+        "Fintech companies provide automated supply chain finance platforms",
+        "Fintech platforms help connect SMEs with more financing sources",
+        "Digital platforms streamline trade documentation and payment processes",
+        "Banks partner with Fintech companies to reach global markets"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "p.38 说 Fintech companies（金融科技公司）provide automated supply chain finance platforms（自动化供应链金融平台）；Fintech platforms help connect SMEs（中小企业）with more financing sources（更多融资来源）；digital platforms streamline trade documentation and payment processes（简化贸易文件与支付流程）；banks partner with Fintech companies（与金融科技公司合作）to reach global markets（进入全球市场）。四项均正确。",
+      "difficulty": "medium",
+      "tags": [
+        "fintech",
+        "supply chain finance",
+        "SMEs",
+        "digital platforms"
+      ],
+      "source": "p.38: 'automated supply chain finance platforms / connect SMEs / streamline trade documentation / partner with Fintech companies' "
+    },
+    {
+      "id": "ch11-b2-055",
+      "chapter": "ch11",
+      "type": "tf",
+      "question": "The slides state that blockchain technology enables real-time supply chain data synchronization.",
+      "options": [
+        "正确",
+        "错误"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "p.38 最后一句写 Blockchain technology enables real-time supply chain data synchronization（区块链技术实现实时供应链数据同步）。因此判断正确。",
+      "difficulty": "easy",
+      "tags": [
+        "blockchain",
+        "supply chain data",
+        "real-time synchronization"
+      ],
+      "source": "p.38: 'Blockchain technology enables real-time supply chain data synchronization' "
     }
   ]
 }
